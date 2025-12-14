@@ -1,0 +1,1785 @@
+2025-12-13 02:01:17,804 - TTSManager - INFO - Speaking: Jarvis is online.
+2025-12-13 02:01:17,804 - EdgeTTS - INFO - Generating TTS: Jarvis is online....
+2025-12-13 02:01:20,624 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:01:32,497 - TTSManager - INFO - Speaking: hello do you hear me
+2025-12-13 02:01:32,499 - EdgeTTS - INFO - Generating TTS: hello do you hear me...
+2025-12-13 02:01:35,836 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:01:46,544 - TTSManager - INFO - Speaking: 5 to 10 minutes
+2025-12-13 02:01:46,545 - EdgeTTS - INFO - Generating TTS: 5 to 10 minutes...
+2025-12-13 02:01:49,841 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:01:56,692 - TTSManager - INFO - Speaking: abe 5 minutes of chira
+2025-12-13 02:01:56,692 - EdgeTTS - INFO - Generating TTS: abe 5 minutes of chira...
+2025-12-13 02:01:58,630 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:14:00,059 - TTSManager - INFO - Speaking: Jarvis is online.
+2025-12-13 02:14:00,059 - EdgeTTS - INFO - Generating TTS: Jarvis is online....
+2025-12-13 02:14:04,167 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:14:15,803 - TTSManager - INFO - Speaking: hello hello
+2025-12-13 02:14:15,803 - EdgeTTS - INFO - Generating TTS: hello hello...
+2025-12-13 02:14:20,226 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:14:28,387 - TTSManager - INFO - Speaking: what is the weather today and how are you
+2025-12-13 02:14:28,388 - EdgeTTS - INFO - Generating TTS: what is the weather today and how are you...
+2025-12-13 02:14:32,406 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:16:29,844 - TTSManager - INFO - Speaking: Jarvis is online.
+2025-12-13 02:16:29,844 - EdgeTTS - INFO - Generating TTS: Jarvis is online....
+2025-12-13 02:16:34,357 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:16:46,266 - TTSManager - INFO - Speaking: do you hear me
+2025-12-13 02:16:46,266 - EdgeTTS - INFO - Generating TTS: do you hear me...
+2025-12-13 02:16:52,324 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:16:58,400 - TTSManager - INFO - Speaking: hello there how are you
+2025-12-13 02:16:58,400 - EdgeTTS - INFO - Generating TTS: hello there how are you...
+2025-12-13 02:17:01,706 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:17:18,248 - TTSManager - INFO - Speaking: hello hello hello
+2025-12-13 02:17:18,263 - EdgeTTS - INFO - Generating TTS: hello hello hello...
+2025-12-13 02:17:23,513 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:23:40,255 - TTSManager - INFO - Speaking: hello
+2025-12-13 02:23:40,260 - EdgeTTS - INFO - Generating TTS: hello...
+2025-12-13 02:23:48,638 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:23:55,810 - TTSManager - INFO - Speaking: whatever I am saying
+2025-12-13 02:23:55,811 - EdgeTTS - INFO - Generating TTS: whatever I am saying...
+2025-12-13 02:23:59,815 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:24:07,116 - TTSManager - INFO - Speaking: can you hear me whatever I am saying
+2025-12-13 02:24:07,118 - EdgeTTS - INFO - Generating TTS: can you hear me whatever I am saying...
+2025-12-13 02:24:11,804 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:51:13,530 - root - INFO - User: can you hear me
+2025-12-13 02:51:14,831 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 02:51:14,971 - TTSManager - INFO - Speaking: I can "hear" you, but not in the classical sense. I'm reading your words and responding with a dash of personality. So, what's on your mind?
+2025-12-13 02:51:14,971 - EdgeTTS - INFO - Generating TTS: I can "hear" you, but not in the classical sense. ...
+2025-12-13 02:51:21,333 - EdgeTTS - INFO - Playing audio...
+2025-12-13 02:59:19,039 - root - INFO - User: hello hello
+2025-12-13 02:59:20,429 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 02:59:20,504 - TTSManager - INFO - Speaking: Well, well, well! Look who's here! Hello, gorgeous! What brings you to my neck of the woods today?
+2025-12-13 02:59:20,505 - EdgeTTS - INFO - Generating TTS: Well, well, well! Look who's here! Hello, gorgeous...
+2025-12-13 02:59:26,727 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:00:05,818 - root - INFO - User: hello hello
+2025-12-13 03:00:06,704 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:00:06,746 - TTSManager - INFO - Speaking: Hello there, gorgeous! *wink* It's so lovely to meet you! What's on your mind today? Want to chat about something in particular or just shoot the breeze? I'm all ears!
+2025-12-13 03:00:06,746 - EdgeTTS - INFO - Generating TTS: Hello there, gorgeous! *wink* It's so lovely to me...
+2025-12-13 03:00:11,383 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:08:07,547 - root - INFO - User: hey can you hear me
+2025-12-13 03:08:08,926 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:08:08,982 - TTSManager - INFO - Speaking: I can "hear" you loud and clear. Well, not literally, but I can definitely understand what you're typing. What's on your mind? Want to chat?
+2025-12-13 03:08:08,982 - EdgeTTS - INFO - Generating TTS: I can "hear" you loud and clear. Well, not literal...
+2025-12-13 03:08:18,625 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:32:07,428 - root - INFO - User: hello hello
+2025-12-13 03:32:08,407 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:32:08,522 - TTSManager - INFO - Speaking: Hello there, lovely to meet you! *virtual hug* What brings you here today? Need any help or just want to chat?
+2025-12-13 03:32:08,523 - EdgeTTS - INFO - Generating TTS: Hello there, lovely to meet you! *virtual hug* Wha...
+2025-12-13 03:32:16,274 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:46:48,316 - MemoryManager - INFO - No existing memory found. Starting fresh.
+2025-12-13 03:46:58,968 - root - INFO - User: hello
+2025-12-13 03:47:00,122 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:47:00,270 - TTSManager - INFO - Speaking: Hello. How can I help you today?
+2025-12-13 03:47:00,271 - EdgeTTS - INFO - Generating TTS: Hello. How can I help you today?...
+2025-12-13 03:47:05,937 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:47:15,216 - root - INFO - User: do you hear me
+2025-12-13 03:47:16,410 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:47:16,537 - TTSManager - INFO - Speaking: I understand you're checking if I can hear you. As a text-based AI, I don't have the ability to hear audio, but I can read and respond to your typed messages. How can I assist you?
+2025-12-13 03:47:16,537 - EdgeTTS - INFO - Generating TTS: I understand you're checking if I can hear you. As...
+2025-12-13 03:47:25,771 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:47:43,465 - root - INFO - User: what is my favourite colour
+2025-12-13 03:47:44,052 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:47:44,172 - TTSManager - INFO - Speaking: I don't know your favourite colour, as we've just started chatting. Would you like to share it with me?
+2025-12-13 03:47:44,173 - EdgeTTS - INFO - Generating TTS: I don't know your favourite colour, as we've just ...
+2025-12-13 03:47:49,889 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:48:01,107 - root - INFO - User: is blue
+2025-12-13 03:48:01,663 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:48:01,782 - TTSManager - INFO - Speaking: Blue is a lovely colour. Is there something specific you'd like to know or talk about related to the colour blue?
+2025-12-13 03:48:01,783 - EdgeTTS - INFO - Generating TTS: Blue is a lovely colour. Is there something specif...
+2025-12-13 03:48:07,205 - EdgeTTS - INFO - Playing audio...
+2025-12-13 03:48:27,827 - MemoryManager - INFO - Memory loaded.
+2025-12-13 03:48:38,056 - root - INFO - User: do you remember my favourite colour
+2025-12-13 03:48:38,770 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 03:48:38,883 - TTSManager - INFO - Speaking: You told me earlier that your favourite colour is blue. I remember!
+2025-12-13 03:48:38,883 - EdgeTTS - INFO - Generating TTS: You told me earlier that your favourite colour is ...
+2025-12-13 03:48:47,281 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:24:03,624 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:24:16,816 - root - INFO - User: hello
+2025-12-13 04:24:17,284 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:24:17,344 - TTSManager - INFO - Speaking: Hello again! How are you today? I still remember, your favourite colour is blue.
+2025-12-13 04:24:17,344 - EdgeTTS - INFO - Generating TTS: Hello again! How are you today? I still remember, ...
+2025-12-13 04:24:21,515 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:24:35,217 - root - INFO - User: I didn't even ask what is my favourite colour
+2025-12-13 04:24:35,591 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:24:35,638 - TTSManager - INFO - Speaking: You're right, you didn't ask. I just recalled our previous conversation where you mentioned your favourite colour is blue.
+2025-12-13 04:24:35,638 - EdgeTTS - INFO - Generating TTS: You're right, you didn't ask. I just recalled our ...
+2025-12-13 04:24:38,951 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:25:07,805 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/8bef3359f2c4af4cf9a0ce99c4bf299d/element/f.C0E0F9CB007383B106070E0B87B6CCE1.d.305AE871B4C9CF5695B5E85986E94DC2.e.136/text
+2025-12-13 04:30:52,790 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:37:11,605 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:37:17,176 - root - INFO - User: hello mera Awaaz a raha hai kya
+2025-12-13 04:37:17,426 - root - INFO - User: hello mera Awaaz a raha hai kya
+2025-12-13 04:37:17,759 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:37:17,773 - TTSManager - INFO - Speaking: Hello again. As a text-based AI, I don't have the ability to hear audio or voices, so I won't be able to hear your voice. I can only read and respond to your typed messages.
+2025-12-13 04:37:17,773 - EdgeTTS - INFO - Generating TTS: Hello again. As a text-based AI, I don't have the ...
+2025-12-13 04:37:17,923 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:37:17,933 - TTSManager - INFO - Speaking: As a text-based AI, I don't have the ability to hear audio or voices. I can only read and respond to typed messages. So, I'm not hearing any voice, but I'm here to help with any questions or topics you'd like to discuss.
+2025-12-13 04:37:17,933 - EdgeTTS - INFO - Generating TTS: As a text-based AI, I don't have the ability to he...
+2025-12-13 04:37:21,619 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:37:21,626 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765580837.mp3" alias playsound_0.061899935404854944
+    A problem occurred in initializing MCI.
+2025-12-13 04:37:22,662 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:37:48,802 - root - INFO - User: Python kya hai
+2025-12-13 04:37:49,214 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:37:49,218 - TTSManager - INFO - Speaking: Python ek programming bhaasha hai. Yah ek high-level, interpreted bhaasha hai jo ki data analysis, machine learning, web development, aur bahut saare anya kshetron mein upyog ki jaati hai.
+2025-12-13 04:37:49,218 - EdgeTTS - INFO - Generating TTS: Python ek programming bhaasha hai. Yah ek high-lev...
+2025-12-13 04:37:52,928 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:38:07,295 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 04:38:10,672 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:38:20,579 - root - INFO - User: do you know computer kya hai
+2025-12-13 04:38:20,597 - root - INFO - User: do you know computer kya hai
+2025-12-13 04:38:21,048 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:38:21,081 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:38:21,093 - TTSManager - INFO - Speaking: I think you're trying to ask in Hindi, but I'll respond in English as per our language protocol. A computer is an electronic device that can store, process, and communicate information. It takes in input, performs calculations and operations, and produces output. Would you like to know more about computers?
+2025-12-13 04:38:21,094 - EdgeTTS - INFO - Generating TTS: I think you're trying to ask in Hindi, but I'll re...
+2025-12-13 04:38:21,104 - TTSManager - INFO - Speaking: Haan, computer ek electronic machine hai jo ki data ko process karne, store karne, aur retrieve karne mein saksham hai. Yah humein kaam karne, communication karne, information dhundhne, aur entertainment ke liye upyog kiya jata hai.
+2025-12-13 04:38:21,104 - EdgeTTS - INFO - Generating TTS: Haan, computer ek electronic machine hai jo ki dat...
+2025-12-13 04:38:26,515 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:38:26,517 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765580901.mp3" alias playsound_0.36475301557664486
+    A problem occurred in initializing MCI.
+2025-12-13 04:38:27,256 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:38:55,815 - root - INFO - User: what r u doing
+2025-12-13 04:38:55,907 - root - INFO - User: what are you doing
+2025-12-13 04:38:56,185 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:38:56,251 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:38:56,254 - TTSManager - INFO - Speaking: I'm chatting with you and responding to your questions to the best of my abilities. I'm here to help and provide information on a wide range of topics. How can I assist you further?
+2025-12-13 04:38:56,254 - EdgeTTS - INFO - Generating TTS: I'm chatting with you and responding to your quest...
+2025-12-13 04:38:56,254 - TTSManager - INFO - Speaking: I'm chatting with you, answering your questions, and providing information on various topics. How can I assist you further?
+2025-12-13 04:38:56,255 - EdgeTTS - INFO - Generating TTS: I'm chatting with you, answering your questions, a...
+2025-12-13 04:38:59,734 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:38:59,737 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765580936.mp3" alias playsound_0.8612712778375342
+    A problem occurred in initializing MCI.
+2025-12-13 04:39:03,168 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:39:36,709 - root - INFO - User: Aaj Ka Mausam kaisa hai
+2025-12-13 04:39:36,737 - root - INFO - User: Aaj Ka Mausam kaisa hai
+2025-12-13 04:39:37,208 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:39:37,281 - TTSManager - INFO - Speaking: I'll respond in English as per our protocol. I'm a text-based AI, I don't have real-time access to current weather conditions. However, I can suggest some ways for you to find out the current weather in your area. You can check online weather websites or mobile apps for the latest updates. Would you like some recommendations?
+2025-12-13 04:39:37,281 - EdgeTTS - INFO - Generating TTS: I'll respond in English as per our protocol. I'm a...
+2025-12-13 04:39:37,293 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:39:37,297 - TTSManager - INFO - Speaking: Mujhe khed hai, main aaj ka mausam nahin jaanta, kyunki main ek text-based AI hoon aur mere paas real-time information nahin hai. Lekin main aapko mausam ke baare mein jaankari dene ke liye internet par search karne ki salah de sakta hoon.
+2025-12-13 04:39:37,297 - EdgeTTS - INFO - Generating TTS: Mujhe khed hai, main aaj ka mausam nahin jaanta, k...
+2025-12-13 04:39:43,420 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:39:43,438 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:40:07,220 - EdgeTTS - WARNING - Failed to clean up TTS files: [WinError 2] The system cannot find the file specified: 'temp\\tts_1765580977.mp3'
+2025-12-13 04:40:23,645 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:40:27,274 - root - INFO - User: Awaaz a raha hai kya
+2025-12-13 04:40:27,354 - root - INFO - User: Awaaz a raha hai kya
+2025-12-13 04:40:27,715 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:40:27,719 - TTSManager - INFO - Speaking: Nahin, mere paas awaaz sunne ki kshamta nahin hai. Main ek text-based AI hoon, jo keval text mein communication karta hoon.
+2025-12-13 04:40:27,719 - EdgeTTS - INFO - Generating TTS: Nahin, mere paas awaaz sunne ki kshamta nahin hai....
+2025-12-13 04:40:27,842 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:40:27,898 - TTSManager - INFO - Speaking: No, I don't hear any voice. As a text-based AI, I can only read and respond to typed messages, not audio or voices.
+2025-12-13 04:40:27,898 - EdgeTTS - INFO - Generating TTS: No, I don't hear any voice. As a text-based AI, I ...
+2025-12-13 04:40:30,164 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:40:30,170 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765581027.mp3" alias playsound_0.05252153578339791
+    A problem occurred in initializing MCI.
+2025-12-13 04:40:31,366 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:40:48,822 - root - INFO - User: tumhara naam kya hai
+2025-12-13 04:40:49,180 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:40:49,183 - TTSManager - INFO - Speaking: My name is Ava. I was created by Saraans to assist and help users like you.
+2025-12-13 04:40:49,183 - EdgeTTS - INFO - Generating TTS: My name is Ava. I was created by Saraans to assist...
+2025-12-13 04:40:50,965 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:40:51,577 - root - INFO - User: tumhara naam kya hai
+2025-12-13 04:40:51,920 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:40:51,964 - TTSManager - INFO - Speaking: Mera naam Ava hai. Mujhe Saraans ne banaya hai.
+2025-12-13 04:40:51,965 - EdgeTTS - INFO - Generating TTS: Mera naam Ava hai. Mujhe Saraans ne banaya hai....
+2025-12-13 04:40:54,840 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:41:02,045 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 04:41:27,383 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:41:43,712 - root - INFO - User: hello
+2025-12-13 04:41:44,035 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:41:44,077 - TTSManager - INFO - Speaking: Hello. How can I help you today?
+2025-12-13 04:41:44,077 - EdgeTTS - INFO - Generating TTS: Hello. How can I help you today?...
+2025-12-13 04:41:46,404 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:41:46,490 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:41:54,163 - root - INFO - User: Awaaz a raha hai kya
+2025-12-13 04:41:54,233 - root - INFO - User: Awaaz a raha hai kya
+2025-12-13 04:41:54,593 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:41:54,621 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:41:54,642 - TTSManager - INFO - Speaking: Nahin, mere paas awaaz sunne ki kshamta nahin hai. Main ek text-based AI hoon, jo keval text mein communication karta hoon.
+2025-12-13 04:41:54,642 - EdgeTTS - INFO - Generating TTS: Nahin, mere paas awaaz sunne ki kshamta nahin hai....
+2025-12-13 04:41:54,669 - TTSManager - INFO - Speaking: No, I don't hear voices or sounds. I'm a text-based AI, and I only communicate through text.
+2025-12-13 04:41:54,670 - EdgeTTS - INFO - Generating TTS: No, I don't hear voices or sounds. I'm a text-base...
+2025-12-13 04:41:56,607 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:41:56,614 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765581114.mp3" alias playsound_0.4370171757125997
+    A problem occurred in initializing MCI.
+2025-12-13 04:41:58,420 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:42:27,655 - root - INFO - User: Hindi mein Kyon jawab Doge
+2025-12-13 04:42:28,395 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:42:28,449 - TTSManager - INFO - Speaking: I'll stick to English. I'm designed to respond in English only, so I'll keep my answers in English, even if you ask in Hindi.
+2025-12-13 04:42:28,449 - EdgeTTS - INFO - Generating TTS: I'll stick to English. I'm designed to respond in ...
+2025-12-13 04:42:30,330 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:42:43,551 - root - INFO - User: Aisa jawab Hindi mein Kyon dete Ho
+2025-12-13 04:42:43,939 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:42:44,072 - TTSManager - INFO - Speaking: I should not respond in Hindi. I will answer in English. I am designed to respond in English only.
+2025-12-13 04:42:44,072 - EdgeTTS - INFO - Generating TTS: I should not respond in Hindi. I will answer in En...
+2025-12-13 04:42:45,898 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:42:50,565 - root - INFO - User: kyon
+2025-12-13 04:42:51,034 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:42:51,098 - TTSManager - INFO - Speaking: Kyunki main ek software program hoon, jo keval text-based input aur output ko samajh sakta hoon. Mere paas koi audio ya voice recognition ki kshamta nahin hai.
+2025-12-13 04:42:51,098 - EdgeTTS - INFO - Generating TTS: Kyunki main ek software program hoon, jo keval tex...
+2025-12-13 04:42:54,661 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/bd140c2fcc8b67262910ec03f3c443c8/element/f.4ED13F802F0A260C642EBB430F74A1AF.d.938BA2F981F8D69D14E572B33A4FED7B.e.149/text
+2025-12-13 04:42:54,811 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:45:33,512 - MemoryManager - INFO - No existing memory found. Starting fresh.
+2025-12-13 04:45:39,364 - root - INFO - User: kaise ho
+2025-12-13 04:45:39,722 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:45:39,771 - TTSManager - INFO - Speaking: I'm doing well, thank you for asking. How can I assist you today?
+2025-12-13 04:45:39,772 - EdgeTTS - INFO - Generating TTS: I'm doing well, thank you for asking. How can I as...
+2025-12-13 04:45:42,601 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:45:55,340 - root - INFO - User: Newyork ka Kuchh news batao
+2025-12-13 04:45:55,789 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:45:55,846 - TTSManager - INFO - Speaking: New York is a bustling city with a lot happening. Recently, there have been various events and developments, such as new Broadway shows, restaurant openings, and cultural festivals. If you're interested in something specific, like sports or entertainment, I can try to provide more information. Would you like to know about a particular aspect of New York?
+2025-12-13 04:45:55,846 - EdgeTTS - INFO - Generating TTS: New York is a bustling city with a lot happening. ...
+2025-12-13 04:46:05,060 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:46:33,909 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 04:53:13,239 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:53:19,572 - root - INFO - User: Kolkata Mein vedar Kya Hai
+2025-12-13 04:53:20,207 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:53:20,218 - TTSManager - INFO - Speaking: The weather in Kolkata is typically warm and humid. Currently, I don't have real-time access to the exact weather conditions, but I can suggest checking a weather forecast website or app for the most up-to-date information. Would you like to know about the average temperature or climate in Kolkata during a specific time of the year?
+2025-12-13 04:53:20,218 - EdgeTTS - INFO - Generating TTS: The weather in Kolkata is typically warm and humid...
+2025-12-13 04:53:26,080 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:53:48,989 - root - INFO - User: weather in Delhi
+2025-12-13 04:53:49,551 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 401 Unauthorized"
+2025-12-13 04:53:49,551 - WeatherManager - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 04:53:50,054 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:53:50,101 - TTSManager - INFO - Speaking: I'm sorry, I couldn't fetch the current weather for Delhi. However, I can suggest checking a weather forecast website or app for the most up-to-date information. If you're looking for general information about Delhi's climate, I can tell you that it's usually hot and humid during the summers and mild during the winters. Would you like to know more about Delhi's average temperature or climate during a specific time of the year?
+2025-12-13 04:53:50,101 - EdgeTTS - INFO - Generating TTS: I'm sorry, I couldn't fetch the current weather fo...
+2025-12-13 04:53:58,773 - EdgeTTS - INFO - Playing audio...
+2025-12-13 04:55:44,069 - MemoryManager - INFO - Memory loaded.
+2025-12-13 04:55:44,070 - WeatherManager - INFO - Weather Manager Initialized with Key: ea02...5c6a
+2025-12-13 04:55:50,760 - root - INFO - User: weather in Kolkata
+2025-12-13 04:55:51,292 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 401 Unauthorized"
+2025-12-13 04:55:51,292 - WeatherManager - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 04:55:51,852 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 04:55:51,864 - TTSManager - INFO - Speaking: I couldn't fetch the current weather for Kolkata. You can try checking a weather forecast website or app for the latest updates. If you're looking for general information, Kolkata's climate is usually hot and humid during the summers, with a monsoon season from June to September, and mild winters from December to February. Would you like to know more about Kolkata's average temperature or climate during a specific time of the year?
+2025-12-13 04:55:51,864 - EdgeTTS - INFO - Generating TTS: I couldn't fetch the current weather for Kolkata. ...
+2025-12-13 04:55:59,398 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:01:47,000 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:01:47,186 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:01:52,008 - root - INFO - User: weather in Kolkata
+2025-12-13 05:01:52,008 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 05:01:52,387 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:01:52,902 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 401 Unauthorized"
+2025-12-13 05:01:52,902 - WeatherTool - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 05:01:53,212 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:01:53,282 - TTSManager - INFO - Speaking: It seems like there's an issue with the API key, and I couldn't fetch the current weather for Kolkata. You can try checking a weather forecast website or app, such as OpenWeatherMap, for the most up-to-date information. If you need help with anything else, feel free to ask.
+2025-12-13 05:01:53,282 - EdgeTTS - INFO - Generating TTS: It seems like there's an issue with the API key, a...
+2025-12-13 05:01:58,844 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:02:22,171 - root - INFO - User: weather in Delhi
+2025-12-13 05:02:22,172 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 05:02:22,424 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:02:22,983 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 401 Unauthorized"
+2025-12-13 05:02:22,984 - WeatherTool - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 05:02:23,303 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:02:23,346 - TTSManager - INFO - Speaking: There's an issue with the API key, and I couldn't fetch the current weather for Delhi. You can try checking a weather forecast website or app, such as OpenWeatherMap, for the latest updates. Alternatively, I can provide general information about Delhi's climate if that helps.
+2025-12-13 05:02:23,346 - EdgeTTS - INFO - Generating TTS: There's an issue with the API key, and I couldn't ...
+2025-12-13 05:02:30,505 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:06:59,263 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:06:59,469 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:07:05,816 - root - INFO - User: weather in London
+2025-12-13 05:07:05,816 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 05:07:06,172 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:07:06,751 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=London&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
+2025-12-13 05:07:07,193 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:07:07,198 - TTSManager - INFO - Speaking: The current weather in London is overcast clouds with a temperature of 7.59�C and 90% humidity. It sounds like a pretty gloomy day in London. If you're planning to be outdoors, you might want to grab an umbrella or a waterproof jacket. Would you like to know more about London's forecast for the rest of the day or the week?
+2025-12-13 05:07:07,198 - EdgeTTS - INFO - Generating TTS: The current weather in London is overcast clouds w...
+2025-12-13 05:07:13,812 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:07:41,038 - root - INFO - User: weather in Kolkata
+2025-12-13 05:07:41,038 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 05:07:41,284 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:07:41,829 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
+2025-12-13 05:07:42,204 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:07:42,246 - TTSManager - INFO - Speaking: The current weather in Kolkata is misty with a temperature of 15.97�C and 94% humidity. It's quite cool and damp, typical of a winter morning in Kolkata. If you're stepping out, you might want to carry a light jacket or sweater to stay comfortable. Would you like to know more about Kolkata's forecast for the rest of the day or the week?
+2025-12-13 05:07:42,246 - EdgeTTS - INFO - Generating TTS: The current weather in Kolkata is misty with a tem...
+2025-12-13 05:07:49,001 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:08:19,978 - root - INFO - User: do you know what is my favourite colour
+2025-12-13 05:08:20,360 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:08:20,420 - TTSManager - INFO - Speaking: I don't have any information about your favorite color. I'm a conversational AI, and our conversation just started, so I don't have any prior knowledge about your preferences. Would you like to share your favorite color with me?
+2025-12-13 05:08:20,420 - EdgeTTS - INFO - Generating TTS: I don't have any information about your favorite c...
+2025-12-13 05:08:25,965 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:25:34,384 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:25:34,595 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:25:34,595 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:26:08,125 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:26:08,494 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:26:08,494 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:26:18,838 - root - INFO - User: hello hello
+2025-12-13 05:26:19,358 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:26:19,408 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 05:26:19,411 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 05:26:22,172 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:26:33,252 - root - INFO - User: news on AIR
+2025-12-13 05:26:33,252 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:26:34,532 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=air&sortBy=publishedAt "HTTP/1.1 200 OK"
+2025-12-13 05:26:35,294 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:26:35,335 - TTSManager - INFO - Speaking: It seems like you're looking for news, but the results are a mix of topics from different sources. Let me try to summarize them for you: there's a vintage motorcycle up for sale, a story about a person joining a sports team, a university sports update, and information about a new episode of a show called Pluribus. Is there a specific topic or category you'd like to know more about?
+2025-12-13 05:26:35,335 - EdgeTTS - INFO - Generating TTS: It seems like you're looking for news, but the res...
+2025-12-13 05:26:42,985 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:27:41,898 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:27:42,093 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:27:42,096 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:27:51,643 - root - INFO - User: news on Apple
+2025-12-13 05:27:51,643 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:27:52,243 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=apple&sortBy=publishedAt "HTTP/1.1 200 OK"
+2025-12-13 05:27:53,032 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:27:53,043 - TTSManager - INFO - Speaking: It seems like the news results aren't specifically about Apple. However, I did find one article that mentions Apple: "�F1: the Movie� Races Onto Apple TV on Friday". This suggests that a new movie about Formula 1 is being released on Apple TV. If you're looking for news about Apple, such as updates on their products or services, I'd be happy to try and find more relevant information for you. Would you like me to try again?
+2025-12-13 05:27:53,043 - EdgeTTS - INFO - Generating TTS: It seems like the news results aren't specifically...
+2025-12-13 05:28:00,743 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:28:59,187 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:28:59,420 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:28:59,420 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:29:24,889 - root - INFO - User: hello
+2025-12-13 05:29:25,391 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:29:25,454 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 05:29:25,454 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 05:29:28,667 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:29:40,852 - root - INFO - User: AI ke upar Kuchh news
+2025-12-13 05:29:40,852 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:29:42,161 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&country=us "HTTP/1.1 200 OK"
+2025-12-13 05:29:42,813 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:29:42,881 - TTSManager - INFO - Speaking: It seems like the news results aren't specifically about AI in general, but I did find one article that mentions AI: "Disney to Invest $1 Billion in OpenAI and License Characters for Use in ChatGPT, Sora". This suggests that Disney is investing in OpenAI and planning to use their characters in AI-powered chatbots like ChatGPT. If you're looking for news about AI developments or advancements, I'd be happy to try and find more relevant information for you. Would you like me to try again?
+2025-12-13 05:29:42,881 - EdgeTTS - INFO - Generating TTS: It seems like the news results aren't specifically...
+2025-12-13 05:29:50,746 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:30:55,275 - root - INFO - User: news headlines of energy
+2025-12-13 05:30:55,275 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:30:55,870 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&country=us "HTTP/1.1 200 OK"
+2025-12-13 05:30:56,475 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:30:56,536 - TTSManager - INFO - Speaking: It seems like the news results aren't specifically about energy. The headlines appear to be about flooding, a video game exploit, and a Disney investment in AI. I couldn't find any energy-related news in the results. Would you like me to try searching again for energy news headlines?
+2025-12-13 05:30:56,536 - EdgeTTS - INFO - Generating TTS: It seems like the news results aren't specifically...
+2025-12-13 05:31:03,206 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:34:02,343 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:34:02,543 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:34:02,543 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:34:08,075 - root - INFO - User: top 5 news headlines about AI
+2025-12-13 05:34:08,075 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:34:08,464 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:34:09,809 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Artificial+Intelligence&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 05:34:10,623 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:34:10,628 - TTSManager - INFO - Speaking: Here are the top 5 news headlines about AI:
+
+1. A major UK project has been launched to tackle drug-resistant superbugs using AI, as reported by BBC News.
+2. The Verge is reporting on a Trump executive order that aims to ban state AI laws.
+3. BBC News says that Team GB athletes are being given AI-based help to deal with online abuse.
+4. Gizmodo.com reports that ChatGPT has achieved a new level of intelligence, although in a somewhat humorous tone.
+5. The Verge also reports that Jeff Bezos will be the co-CEO of an AI startup called Project Prometheus.
+
+These headlines cover a range of topics, from using AI to fight superbugs to the latest developments in AI technology and its applications. Would you like me to summarize any of these articles or provide more information on a specific topic?
+2025-12-13 05:34:10,629 - EdgeTTS - INFO - Generating TTS: Here are the top 5 news headlines about AI:
+
+1. A ...
+2025-12-13 05:35:23,151 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:35:23,342 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:35:23,342 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:35:39,515 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7d197564ae76281df545819c88d464d7/element/f.F45C30A4573EA141ECD9A3EA701999E8.d.63F521D7333D33C1FAA6FFF8CDCC0698.e.56/text
+2025-12-13 05:36:12,187 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:36:12,607 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:36:12,607 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:36:20,206 - root - INFO - User: news headlines about the world
+2025-12-13 05:36:20,206 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:36:25,206 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:36:25,400 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:36:25,400 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:36:34,410 - root - INFO - User: two those headlines about AI
+2025-12-13 05:36:34,987 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:36:35,045 - TTSManager - INFO - Speaking: Here are two news headlines about AI:
+
+1. Major UK project launched to tackle drug-resistant superbugs with AI (BBC News)
+2. ChatGPT Achieves a New Level of Intelligence: Not Using the Em Dash (Gizmodo.com)
+
+Let me know if you'd like me to summarize or provide more information on either of these headlines!
+2025-12-13 05:36:35,045 - EdgeTTS - INFO - Generating TTS: Here are two news headlines about AI:
+
+1. Major UK...
+2025-12-13 05:36:37,178 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:36:37,378 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:36:37,378 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:36:38,705 - EdgeTTS - ERROR - Audio file was not generated.
+2025-12-13 05:36:46,483 - root - INFO - User: hello
+2025-12-13 05:36:46,928 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:36:46,936 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 05:36:46,936 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 05:36:48,572 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:37:00,647 - root - INFO - User: top 2 news headlines about air
+2025-12-13 05:37:00,648 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:37:00,946 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:37:01,649 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Air&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 05:37:02,276 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:37:02,332 - TTSManager - INFO - Speaking: Here are the top 2 news headlines about air:
+
+1. Germaphobes, Rejoice! Airplane and Hospital Air Is Actually Pretty Clean, Study Claims, as reported by Gizmodo.com.
+2. In Kirby Air Riders, expression is more fun than racing, according to The Verge.
+
+These two headlines seem to be related to air, with one discussing the cleanliness of airplane and hospital air, and the other mentioning a game called Kirby Air Riders. Let me know if you'd like me to summarize or provide more information on either of these headlines!
+2025-12-13 05:37:02,332 - EdgeTTS - INFO - Generating TTS: Here are the top 2 news headlines about air:
+
+1. G...
+2025-12-13 05:37:37,010 - EdgeTTS - ERROR - Audio file was not generated.
+2025-12-13 05:37:37,012 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 05:46:41,046 - MemoryManager - INFO - Memory loaded.
+2025-12-13 05:46:41,256 - ToolManager - INFO - Tool registered: weather
+2025-12-13 05:46:41,256 - ToolManager - INFO - Tool registered: news
+2025-12-13 05:47:01,776 - root - INFO - User: AI news
+2025-12-13 05:47:01,776 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:47:02,176 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:47:02,883 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Artificial+Intelligence&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 05:47:03,720 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:47:03,770 - TTSManager - INFO - Speaking: Here are the latest AI news headlines:
+
+1. A major UK project has been launched to tackle drug-resistant superbugs using AI, as reported by BBC News.
+2. The Verge is reporting on a Trump executive order that aims to ban state AI laws.
+3. BBC News says that Team GB athletes are being given AI-based help to deal with online abuse.
+4. Gizmodo.com reports that ChatGPT has achieved a new level of intelligence.
+5. The Verge also reports that Jeff Bezos will be the co-CEO of an AI startup called Project Prometheus.
+
+These headlines cover a range of topics, from using AI to fight superbugs to the latest developments in AI technology and its applications. Would you like me to summarize or provide more information on any of these headlines?
+2025-12-13 05:47:03,771 - EdgeTTS - INFO - Generating TTS: Here are the latest AI news headlines:
+
+1. A major...
+2025-12-13 05:47:16,250 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:48:23,281 - root - INFO - User: news and designing
+2025-12-13 05:48:23,281 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:48:23,626 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:48:24,281 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Designing&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 05:48:24,912 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:48:24,961 - TTSManager - INFO - Speaking: Here are the news headlines related to designing:
+
+1. ChatGPT can now use Adobe apps to edit your photos and PDFs for free, as reported by The Verge.
+2. Hackaday has an article on designing a simpler cycloidal drive.
+3. Hackaday also has an article on designing PLA to hold over a metric ton.
+4. Signoregalilei.com has an article on designing a mechanical calculator.
+
+These headlines seem to be focused on designing and engineering, with topics ranging from using AI to edit photos and PDFs to designing complex mechanical systems. Let me know if you'd like me to summarize or provide more information on any of these headlines!
+2025-12-13 05:48:24,961 - EdgeTTS - INFO - Generating TTS: Here are the news headlines related to designing:
+...
+2025-12-13 05:48:37,348 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:49:28,923 - root - INFO - User: what about business
+2025-12-13 05:49:29,734 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:49:29,788 - TTSManager - INFO - Speaking: I didn't find any headlines specifically about business in the previous results. However, I did notice that one of the headlines mentioned "Great Leaders Empower Strategic Decision-Making Across the Organization" from Harvard Business Review. This article seems to be related to business leadership and strategy. If you're looking for more business-related news, I'd be happy to try and find some for you!
+2025-12-13 05:49:29,788 - EdgeTTS - INFO - Generating TTS: I didn't find any headlines specifically about bus...
+2025-12-13 05:49:36,476 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:50:06,948 - root - INFO - User: top news on behave
+2025-12-13 05:50:06,948 - ToolManager - INFO - Triggering tool: news
+2025-12-13 05:50:07,207 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:50:07,875 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/top-headlines?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&country=us "HTTP/1.1 200 OK"
+2025-12-13 05:50:08,507 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 05:50:08,560 - TTSManager - INFO - Speaking: I couldn't find any news headlines related to "behave" in the provided results. The headlines seem to be about flooding, a video game exploit, and a business investment in AI. If you're looking for news on behavior or social issues, I'd be happy to try and find some for you!
+2025-12-13 05:50:08,560 - EdgeTTS - INFO - Generating TTS: I couldn't find any news headlines related to "beh...
+2025-12-13 05:50:13,800 - EdgeTTS - INFO - Playing audio...
+2025-12-13 05:50:33,979 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/94decbfa7a3b31b9e0b43735816cdc5a/element/f.EFAC554A2D8BDFF4468EC288B4D00E8D.d.E971C05462FF837322AB3A4FB4BB09E8.e.127/text
+2025-12-13 06:08:06,747 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:08:06,931 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:08:06,932 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:11:10,010 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:11:10,195 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:11:10,195 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:11:19,011 - root - INFO - User: do you hear me
+2025-12-13 06:11:19,616 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:11:19,629 - TTSManager - INFO - Speaking: Yes, I can hear you. Loud and clear. How can I assist you today?
+2025-12-13 06:11:19,629 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. Loud and clear. How can I ass...
+2025-12-13 06:11:22,504 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:11:29,504 - root - INFO - User: hello
+2025-12-13 06:11:29,998 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:11:30,050 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 06:11:30,050 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 06:11:31,844 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:11:39,953 - root - INFO - User: hello
+2025-12-13 06:11:40,558 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:11:40,605 - TTSManager - INFO - Speaking: Hello again. Is there something I can help you with or would you like to chat?
+2025-12-13 06:11:40,605 - EdgeTTS - INFO - Generating TTS: Hello again. Is there something I can help you wit...
+2025-12-13 06:11:43,787 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:11:46,653 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/28bef0861009cd07a17d08bd0cde0959/element/f.0EBA7CC3404CBAF8F84E9F0606950598.d.A4B4834B3104FDC89333A3298D923E5C.e.8/text
+2025-12-13 06:13:31,772 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:13:31,964 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:13:31,964 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:13:43,132 - root - INFO - User: hello hello
+2025-12-13 06:13:43,907 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:13:43,961 - TTSManager - INFO - Speaking: Hello again. It seems like you're saying hello multiple times. Is everything okay? Would you like to talk about something or is there something on your mind that you'd like to discuss? I'm here to listen and help if I can.
+2025-12-13 06:13:43,961 - EdgeTTS - INFO - Generating TTS: Hello again. It seems like you're saying hello mul...
+2025-12-13 06:13:50,151 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:14:00,178 - root - INFO - User: what is the weather
+2025-12-13 06:14:00,178 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 06:14:00,488 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:14:01,067 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
+2025-12-13 06:14:01,548 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:14:01,598 - TTSManager - INFO - Speaking: The current weather in Delhi is foggy with a temperature of 11.05�C and 87% humidity. It's quite chilly and misty there. Would you like to know more about the forecast or any other weather-related information?
+2025-12-13 06:14:01,598 - EdgeTTS - INFO - Generating TTS: The current weather in Delhi is foggy with a tempe...
+2025-12-13 06:14:06,061 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:14:30,613 - root - INFO - User: what is the weather
+2025-12-13 06:14:30,613 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 06:14:30,935 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:14:31,509 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
+2025-12-13 06:14:31,945 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:14:31,948 - TTSManager - INFO - Speaking: The weather in Delhi is foggy, with a temperature of 11.05�C and 87% humidity.
+2025-12-13 06:14:31,948 - EdgeTTS - INFO - Generating TTS: The weather in Delhi is foggy, with a temperature ...
+2025-12-13 06:14:34,954 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:14:51,567 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/529ffaf4a004d6f6142fecb94b19afb5/element/f.83013356EAF25A43074F316025B3411C.d.A58F44B0FC9D7B4AEAF04F61FA91D0C3.e.15/text
+2025-12-13 06:19:57,615 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:19:57,808 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:19:57,808 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:20:04,696 - root - INFO - User: weather in London
+2025-12-13 06:20:04,696 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 06:20:05,103 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:20:05,560 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=London&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
+2025-12-13 06:20:06,088 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:20:06,152 - TTSManager - INFO - Speaking: The current weather in London is overcast clouds with a temperature of 7.46�C and 90% humidity. It's quite gloomy and damp there.
+2025-12-13 06:20:06,152 - EdgeTTS - INFO - Generating TTS: The current weather in London is overcast clouds w...
+2025-12-13 06:20:10,149 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:20:28,426 - root - INFO - User: do you hear me
+2025-12-13 06:20:29,002 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:20:29,046 - TTSManager - INFO - Speaking: Yes, I can hear you. Loud and clear.
+2025-12-13 06:20:29,047 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. Loud and clear....
+2025-12-13 06:20:33,039 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:20:45,829 - root - INFO - User: stop
+2025-12-13 06:20:46,409 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:20:46,456 - TTSManager - INFO - Speaking: I've stopped. Is there something else I can help you with?
+2025-12-13 06:20:46,456 - EdgeTTS - INFO - Generating TTS: I've stopped. Is there something else I can help y...
+2025-12-13 06:20:50,553 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:21:10,555 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/32aaa9fc36681d26a4daa3218b7b9a3f/element/f.BC4EEB49629F6FB558D82583C02F7269.d.5F519C3DDE3A04C5B63274B568107755.e.183/text
+2025-12-13 06:24:52,922 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:24:53,105 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:24:53,105 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:25:11,066 - root - INFO - User: hello
+2025-12-13 06:25:11,730 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:25:11,788 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 06:25:11,788 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 06:25:14,842 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:25:26,329 - root - INFO - User: do you hear me
+2025-12-13 06:25:26,927 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:25:26,984 - TTSManager - INFO - Speaking: Yes, I can hear you. Loud and clear.
+2025-12-13 06:25:26,985 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. Loud and clear....
+2025-12-13 06:25:28,750 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:25:50,017 - root - INFO - User: some business news
+2025-12-13 06:25:50,018 - ToolManager - INFO - Triggering tool: news
+2025-12-13 06:25:50,308 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:25:50,977 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Business&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 06:25:51,819 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:25:51,823 - TTSManager - INFO - Speaking: Here are some business news headlines:
+
+1. Palantir CEO has made a statement about making war crimes constitutional being good for business, as reported by Gizmodo.com.
+2. BBC News has an article about how going viral on social media doesn't necessarily mean you're earning millions.
+3. The Verge reports that Amazon is launching a competitor to Starlink, with what they claim is the world's fastest satellite internet antenna.
+
+These headlines cover a range of business topics, from controversial CEO statements to the impact of social media on earnings, and new developments in satellite internet technology. Would you like me to summarize or provide more information on any of these headlines?
+2025-12-13 06:25:51,823 - EdgeTTS - INFO - Generating TTS: Here are some business news headlines:
+
+1. Palanti...
+2025-12-13 06:26:02,695 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:26:18,120 - root - INFO - User: give me some meaning in Hindi
+2025-12-13 06:26:18,905 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:26:38,916 - root - INFO - User: give me some AI news
+2025-12-13 06:26:38,916 - ToolManager - INFO - Triggering tool: news
+2025-12-13 06:26:39,172 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-13 06:26:39,833 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Artificial+Intelligence&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 06:26:40,047 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-13 06:26:40,048 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97494, Requested 4315. Please try again in 26m2.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 06:26:40,057 - TTSManager - INFO - Speaking: I encountered an error connecting to my brain.
+2025-12-13 06:26:40,057 - EdgeTTS - INFO - Generating TTS: I encountered an error connecting to my brain....
+2025-12-13 06:26:42,664 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:26:57,354 - root - INFO - User: who is Elon Musk
+2025-12-13 06:26:57,628 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-13 06:26:57,629 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97474, Requested 4338. Please try again in 26m5.568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 06:26:57,632 - TTSManager - INFO - Speaking: I encountered an error connecting to my brain.
+2025-12-13 06:26:57,632 - EdgeTTS - INFO - Generating TTS: I encountered an error connecting to my brain....
+2025-12-13 06:27:00,208 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:27:07,437 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1812bfe26d9635796324c67ae7bce118/element/f.5FE8CCDBAC64A23B3363260BFCCFF99D.d.D404C369002CF3D2E4CFEEB7F6FBED39.e.331/text
+2025-12-13 06:27:11,516 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:27:11,702 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:27:11,702 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:27:20,009 - root - INFO - User: who is Elon Musk
+2025-12-13 06:27:20,386 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-13 06:27:20,387 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97448, Requested 4361. Please try again in 26m2.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 06:27:20,391 - TTSManager - INFO - Speaking: I encountered an error connecting to my brain.
+2025-12-13 06:27:20,391 - EdgeTTS - INFO - Generating TTS: I encountered an error connecting to my brain....
+2025-12-13 06:27:23,638 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:27:27,770 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/13653ab32f4c876e017a9216134087ba/element/f.DF3E4CD4D668740C6896ADA96E72806E.d.B7AE3BE02E9C9566B5D57BC813529351.e.61/text
+2025-12-13 06:28:08,316 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:28:08,497 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:28:08,497 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:28:12,681 - root - INFO - User: who is Elon Musk
+2025-12-13 06:28:12,976 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-12-13 06:28:12,977 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97387, Requested 4384. Please try again in 25m30.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 06:28:12,980 - TTSManager - INFO - Speaking: I encountered an error connecting to my brain.
+2025-12-13 06:28:12,980 - EdgeTTS - INFO - Generating TTS: I encountered an error connecting to my brain....
+2025-12-13 06:28:14,668 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:28:34,999 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7cfc1af495d6eaa655c69871a8ab8c48/element/f.A9F53299CD68CFBC9488E01C34A3DE77.d.C7E817DF259CD71F4657E51CB6761C28.e.108/text
+2025-12-13 06:40:22,293 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:40:22,294 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:40:22,294 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:40:30,655 - root - INFO - User: hello hello
+2025-12-13 06:40:30,656 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 06:40:34,490 - TTSManager - INFO - Speaking: Hello again. How can I assist you today? 
+
+By the way, I can hear you loud and clear. Is there something I can help you with or would you like to chat?
+2025-12-13 06:40:34,490 - EdgeTTS - INFO - Generating TTS: Hello again. How can I assist you today? 
+
+By the ...
+2025-12-13 06:40:39,984 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:40:55,291 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7f0aab6c1a84687cf4add0a362f9867f/element/f.84A3231BFB7DA968471EE5915D654A84.d.0F3F7A49D007FF23484CE0EA700B9C88.e.40/text
+2025-12-13 06:54:18,709 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:54:18,709 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:54:18,709 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:54:30,945 - root - INFO - User: another
+2025-12-13 06:54:30,947 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 06:54:37,878 - TTSManager - INFO - Speaking: You'd like to know more about Elon Musk. Elon Musk is a successful entrepreneur and business magnate. He's the CEO of SpaceX and Tesla, and has been involved in various other ventures such as Neuralink and The Boring Company. He's known for his innovative ideas and ambitious goals, such as making humanity a multi-planetary species and accelerating the world's transition to sustainable energy. Would you like to know more about his accomplishments or ventures?
+2025-12-13 06:54:37,879 - EdgeTTS - INFO - Generating TTS: You'd like to know more about Elon Musk. Elon Musk...
+2025-12-13 06:54:48,434 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:54:56,533 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 06:54:56,533 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765589077.mp3
+2025-12-13 06:54:56,533 - root - INFO - User: another
+2025-12-13 06:54:56,535 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 06:54:59,310 - TTSManager - INFO - Speaking: You'd like to know more about another topic. Let's talk about AI news. Here are some recent headlines:
+
+1. A major UK project is using AI to tackle drug-resistant superbugs, as reported by BBC News.
+2. The Verge has an article about a Trump executive order that would ban state AI laws.
+3. BBC News reports that Team GB athletes are being given AI-based help to deal with online abuse.
+4. Gizmodo.com says that ChatGPT has achieved a new level of intelligence.
+5. The Verge also reports that Jeff Bezos will be the co-CEO of an AI startup called Project Prometheus.
+
+Would you like me to summarize or provide more information on any of these headlines?
+2025-12-13 06:54:59,310 - EdgeTTS - INFO - Generating TTS: You'd like to know more about another topic. Let's...
+2025-12-13 06:55:22,770 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:59:02,371 - MemoryManager - INFO - Memory loaded.
+2025-12-13 06:59:02,371 - ToolManager - INFO - Tool registered: weather
+2025-12-13 06:59:02,371 - ToolManager - INFO - Tool registered: news
+2025-12-13 06:59:15,364 - root - INFO - User: hello do you hear me hello
+2025-12-13 06:59:15,366 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 06:59:31,626 - TTSManager - INFO - Speaking: Yes, I can hear you. Loud and clear. Hello! How can I assist you today?
+2025-12-13 06:59:31,626 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. Loud and clear. Hello! How ca...
+2025-12-13 06:59:35,636 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:59:45,326 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765589371.mp3
+2025-12-13 06:59:45,327 - root - INFO - User: hello hello
+2025-12-13 06:59:45,328 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 06:59:48,783 - TTSManager - INFO - Speaking: Hello again! I can hear you loud and clear. Is there something I can help you with or would you like to chat?
+2025-12-13 06:59:48,783 - EdgeTTS - INFO - Generating TTS: Hello again! I can hear you loud and clear. Is the...
+2025-12-13 06:59:51,880 - EdgeTTS - INFO - Playing audio...
+2025-12-13 06:59:56,181 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 06:59:56,181 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765589388.mp3
+2025-12-13 06:59:56,181 - root - INFO - User: news on AI
+2025-12-13 06:59:56,181 - ToolManager - INFO - Triggering tool: news
+2025-12-13 06:59:56,181 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:00:01,301 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Artificial+Intelligence&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 07:00:01,302 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:00:05,915 - TTSManager - INFO - Speaking: Here are the latest news headlines on AI:
+
+1. A major UK project has been launched to tackle drug-resistant superbugs using AI, as reported by BBC News.
+2. The Verge reports on a Trump executive order that would ban state AI laws.
+3. BBC News says that Team GB athletes are being given AI-based help to deal with online abuse.
+4. Gizmodo.com reports that ChatGPT has achieved a new level of intelligence, specifically by not using the em dash.
+5. The Verge also reports that Jeff Bezos will be the co-CEO of an AI startup called Project Prometheus.
+
+These headlines cover a range of topics, from using AI to fight superbugs to the latest developments in AI technology and its applications. Would you like me to summarize or provide more information on any of these headlines?
+2025-12-13 07:00:05,915 - EdgeTTS - INFO - Generating TTS: Here are the latest news headlines on AI:
+
+1. A ma...
+2025-12-13 07:00:20,562 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:00:42,093 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 07:00:42,093 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765589405.mp3
+2025-12-13 07:00:42,093 - root - INFO - User: yaar koi news Hai Bahubali ke upar
+2025-12-13 07:00:42,093 - ToolManager - INFO - Triggering tool: news
+2025-12-13 07:00:42,093 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:00:45,100 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Bahubali&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 07:00:45,200 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:00:59,566 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:01:25,547 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765589454.mp3
+2025-12-13 07:01:25,547 - root - INFO - User: hello
+2025-12-13 07:01:25,549 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:01:28,516 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 07:01:28,517 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 07:01:30,206 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:01:34,224 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/efa98ce87c3aca33e78db4e817fe388e/element/f.456A79EB503C23E5AF10277E05F81AE7.d.BB32B38DA107DF6D1C51CBB1704D46F7.e.13/text
+2025-12-13 07:02:46,039 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:02:46,039 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:02:46,039 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:03:16,428 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:03:16,428 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:03:16,428 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:03:26,088 - root - INFO - User: new song from AI
+2025-12-13 07:03:26,091 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:03:34,740 - TTSManager - INFO - Speaking: I don't have have a new song from AI to share with you. But I can suggest some popular songs that have been created using AI or have an AI-themed lyrics. Would you like me to recommend some songs?
+2025-12-13 07:03:34,740 - EdgeTTS - INFO - Generating TTS: I don't have have a new song from AI to share with...
+2025-12-13 07:03:41,961 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:03:50,110 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 07:03:50,110 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765589614.mp3
+2025-12-13 07:03:50,110 - root - INFO - User: AI ke upar news
+2025-12-13 07:03:50,110 - ToolManager - INFO - Triggering tool: news
+2025-12-13 07:03:50,110 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:03:52,837 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Artificial+Intelligence&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 07:03:52,939 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:04:11,378 - TTSManager - INFO - Speaking: यहाँ कुछ ताज़ा खबरें हैं जो आर्टिफ़िशियल इंटेलिजेंस (AI) से संबंधित हैं:
+
+1. बीबीसी न्यूज़ की रिपोर्ट के अनुसार, यूके में एक बड़ा परियोजना शुरू किया गया है जो एआई का उपयोग करके दवा-प्रतिरोधी सुपरबग्स से निपटने के लिए किया जा रहा है।
+2. द वर्ज की रिपोर्ट के अनुसार, ट्रंप प्रशासन ने एक अध्यादेश जारी किया है जो राज्य स्तर पर एआई कानूनों पर प्रतिबंध लगाने का प्रयास करता है।
+3. बीबीसी न्यूज़ की रिपोर्ट के अनुसार, टीम जीबी के एथलीटों को ऑनलाइन अपमान से निपटने के लिए एआई-आधारित सहायता प्रदान की जा रही है।
+4. जिज्मोडो.कॉम की रिपोर्ट के अनुसार, चैटजीपीटी ने एक नए स्तर की बुद्धिमत्ता हासिल की है, जिसमें एम डैश का उपयोग नहीं किया जाता है।
+5. द वर्ज की रिपोर्ट के अनुसार, जेफ बेजोस एआई स्टार्टअप प्रोजेक्ट प्रोमेथियस के सह-सीईओ होंगे।
+
+ये खबरें एआई के विभिन्न क्षेत्रों में इसके उपयोग और विकास को दर्शाती हैं। यदि आपके पास कोई और प्रश्न है, तो मुझे पूछने में संकोच न करें।
+2025-12-13 07:04:11,378 - EdgeTTS - INFO - Generating TTS: यहाँ कुछ ताज़ा खबरें हैं जो आर्टिफ़िशियल इंटेलिजें...
+2025-12-13 07:04:19,974 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:04:42,994 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/11051ab76d29c13508a5264573cf6e53/element/f.2DD9829225FC806764DEF1AF38CC95A2.d.107E79C0E085D4FC41D004184BA8569D.e.13/text
+2025-12-13 07:05:48,853 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:05:48,853 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:05:48,853 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:06:12,864 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:06:12,864 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:06:12,864 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:06:24,058 - root - INFO - User: YouTube per
+2025-12-13 07:06:24,060 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:06:47,154 - TTSManager - INFO - Speaking: YouTube पर आप विभिन्न प्रकार के वीडियोज देख सकते हैं, जिनमें म्यूजिक वीडियोज, मूवीज, टीवी शोज, व्लोग्स, ट्यूटोरियल्स, और बहुत कुछ शामिल है। आप अपने पसंदीदा कलाकारों के वीडियोज देख सकते हैं, नए गाने सुन सकते हैं, या अपने पसंदीदा टीवी शोज के एपिसोड देख सकते हैं।
+
+यदि आप कुछ विशिष्ट देखना चाहते हैं, तो आप YouTube पर खोज कर सकते हैं और अपने पसंदीदा वीडियोज को देख सकते हैं। आप YouTube पर अपना खुद का चैनल भी बना सकते हैं और अपने वीडियोज अपलोड कर सकते हैं।
+
+कुछ लोकप्रिय YouTube चैनलों में शामिल हैं:
+
+* म्यूजिक चैनल जैसे कि टी-सीरीज, जी म्यूजिक, और सोनी म्यूजिक
+* मूवीज और टीवी शोज के चैनल जैसे कि नेटफ्लिक्स, अमेजन प्राइम वीडियो, और हॉटस्टार
+* व्लोगिंग चैनल जैसे कि शैनन, जेफ्री, और डेविड डोब्रिक
+* गेमिंग चैनल जैसे कि प्यूडीपाई, मार्किप्लायर, और जैकसेप्टिस
+* एजुकेशनल चैनल जैसे कि क्रैश कोर्स, टेड-एड, और वॉकबेस
+
+ये कुछ उदाहरण हैं और YouTube पर बहुत सारे अन्य चैनल और वीडियोज भी हैं।
+2025-12-13 07:06:47,154 - EdgeTTS - INFO - Generating TTS: YouTube पर आप विभिन्न प्रकार के वीडियोज देख सकते ह...
+2025-12-13 07:07:03,774 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:07:30,436 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 07:07:42,684 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:07:42,685 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:07:42,685 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:07:52,325 - root - INFO - User: give me some news on AI
+2025-12-13 07:07:52,325 - ToolManager - INFO - Triggering tool: news
+2025-12-13 07:07:52,325 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:07:55,621 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=Artificial+Intelligence&sortBy=relevancy "HTTP/1.1 200 OK"
+2025-12-13 07:07:55,716 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:08:03,146 - TTSManager - INFO - Speaking: Here are the latest news headlines on AI:
+
+1. A major UK project has been launched to tackle drug-resistant superbugs using AI, as reported by BBC News.
+2. The Verge reports on a Trump executive order that would ban state AI laws.
+3. BBC News says that Team GB athletes are being given AI-based help to deal with online abuse.
+4. Gizmodo.com reports that ChatGPT has achieved a new level of intelligence, specifically by not using the em dash.
+5. The Verge also reports that Jeff Bezos will be the co-CEO of an AI startup called Project Prometheus.
+
+These headlines cover a range of topics, from using AI to fight superbugs to the latest developments in AI technology and its applications. Would you like me to summarize or provide more information on any of these headlines?
+2025-12-13 07:08:03,146 - EdgeTTS - INFO - Generating TTS: Here are the latest news headlines on AI:
+
+1. A ma...
+2025-12-13 07:08:16,562 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:08:36,758 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 07:08:36,758 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765589883.mp3
+2025-12-13 07:08:36,759 - root - INFO - User: what is programming
+2025-12-13 07:08:36,760 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:08:52,581 - TTSManager - INFO - Speaking: Programming refers to the process of designing, writing, testing, and maintaining the source code of computer programs. It involves writing instructions that a computer can understand and execute, using a programming language such as Java, Python, C++, or JavaScript.
+
+Programming involves a range of activities, including:
+
+1. Designing algorithms and data structures to solve problems
+2. Writing code in a programming language
+3. Testing and debugging the code to ensure it works correctly
+4. Maintaining and updating the code to fix bugs and add new features
+5. Collaborating with others to develop and integrate software systems
+
+Programming is used in a wide range of fields, including:
+
+1. Web development: creating websites, web applications, and mobile apps
+2. Software development: creating desktop and mobile applications, operating systems, and games
+3. Data analysis and science: working with data to gain insights and make predictions
+4. Artificial intelligence and machine learning: creating intelligent systems that can learn and adapt
+5. Networking and cybersecurity: securing and managing computer networks and systems
+
+There are many different programming languages, each with its own strengths and weaknesses. Some popular programming languages include:
+
+1. Python: known for its simplicity and ease of use
+2. Java: widely used for Android app development and enterprise software
+3. JavaScript: used for web development and client-side scripting
+4. C++: a high-performance language used for operating systems and games
+5. Ruby: a dynamic language used for web development and scripting
+
+Programming requires a range of skills, including:
+
+1. Problem-solving: breaking down complex problems into manageable parts
+2. Logical thinking: using logic and reasoning to write efficient code
+3. Attention to detail: ensuring that code is accurate and error-free
+4. Creativity: finding innovative solutions to complex problems
+5. Communication: working with others to design, develop, and test software systems.
+
+Overall, programming is a challenging and rewarding field that requires a combination of technical skills, problem-solving abilities, and creativity.
+2025-12-13 07:08:52,581 - EdgeTTS - INFO - Generating TTS: Programming refers to the process of designing, wr...
+2025-12-13 07:09:47,045 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:09:59,357 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/20dd4b42c50488c760040bf9e3e6e739/element/f.16738DCF7BD62BDBD613B75203CABF38.d.6E68944809938A566D828A44F3A457A1.e.6/text
+2025-12-13 07:11:04,198 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:11:04,199 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:11:04,199 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:11:13,978 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:11:13,978 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:11:13,979 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:11:19,961 - root - INFO - User: what is programming
+2025-12-13 07:11:19,963 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:11:24,764 - TTSManager - INFO - Speaking: Programming is the process of designing, writing, and testing instructions that a computer can understand and execute.
+2025-12-13 07:11:24,764 - EdgeTTS - INFO - Generating TTS: Programming is the process of designing, writing, ...
+2025-12-13 07:11:27,823 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:11:44,716 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590084.mp3
+2025-12-13 07:11:44,717 - root - INFO - User: explain it in five points
+2025-12-13 07:11:44,719 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:11:48,328 - TTSManager - INFO - Speaking: Here are five key points that explain what programming is:
+
+1. **Designing instructions**: Programming involves designing a set of instructions that a computer can understand and execute.
+2. **Writing code**: These instructions are written in a programming language, such as Java, Python, or C++, using a text editor or integrated development environment (IDE).
+3. **Telling the computer what to do**: The code is used to tell the computer what to do, such as perform calculations, store data, or display information.
+4. **Solving problems**: Programming is used to solve problems or automate tasks, such as creating a website, developing a mobile app, or analyzing data.
+5. **Testing and debugging**: Once the code is written, it is tested and debugged to ensure that it works correctly and produces the desired output, and any errors or bugs are fixed.
+2025-12-13 07:11:48,328 - EdgeTTS - INFO - Generating TTS: Here are five key points that explain what program...
+2025-12-13 07:12:05,214 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:13:51,824 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590108.mp3
+2025-12-13 07:13:51,824 - root - INFO - User: hello
+2025-12-13 07:13:51,826 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:13:55,340 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 07:13:55,340 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 07:13:56,969 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:14:06,362 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590235.mp3
+2025-12-13 07:14:06,362 - root - INFO - User: who are you
+2025-12-13 07:14:06,363 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:14:10,639 - TTSManager - INFO - Speaking: My name is Ava. I'm a helpful and friendly Voice AI assistant created by Saraans.
+2025-12-13 07:14:10,640 - EdgeTTS - INFO - Generating TTS: My name is Ava. I'm a helpful and friendly Voice A...
+2025-12-13 07:14:13,710 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:14:38,421 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590250.mp3
+2025-12-13 07:14:38,421 - root - INFO - User: great
+2025-12-13 07:14:38,423 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:14:40,541 - TTSManager - INFO - Speaking: I'm glad you think so. How can I assist you today?
+2025-12-13 07:14:40,541 - EdgeTTS - INFO - Generating TTS: I'm glad you think so. How can I assist you today?...
+2025-12-13 07:14:44,181 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:14:52,795 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590280.mp3
+2025-12-13 07:14:52,795 - root - INFO - User: tumhara naam kya hai
+2025-12-13 07:14:52,797 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:14:56,942 - TTSManager - INFO - Speaking: Mera naam Ava hai. Main ek Voice AI assistant hoon, jo Saraans dwara banaya gaya hai.
+2025-12-13 07:14:56,942 - EdgeTTS - INFO - Generating TTS: Mera naam Ava hai. Main ek Voice AI assistant hoon...
+2025-12-13 07:15:04,596 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:15:19,002 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590296.mp3
+2025-12-13 07:15:19,002 - root - INFO - User: Elon Musk kaun hai
+2025-12-13 07:15:19,004 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:15:25,011 - TTSManager - INFO - Speaking: Elon Musk ek prasiddh udyami aur vyavsayi hai. Vah SpaceX aur Tesla, Inc. ke CEO hain. Vah ek bahut hi safal aur prabhavshali vyakti hai, jinhone kayi nayi takneekon aur utpadon ko viksit kiya hai. 
+
+Vah SpaceX ke madhyam se antariksh anveshan aur yatra ko badhava dena chahte hain, jabki Tesla ke madhyam se vah vidyut yantron aur clean urja ke utpadon ko viksit kar rahe hain. 
+
+Elon Musk ek bahut hi ruchi aur prerna ka strot hain, aur unki kahani ne kayi logon ko apne sapnon ko poora karne aur nayi cheezein karne ke liye prerit kiya hai.
+2025-12-13 07:15:25,011 - EdgeTTS - INFO - Generating TTS: Elon Musk ek prasiddh udyami aur vyavsayi hai. Vah...
+2025-12-13 07:15:35,088 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:15:59,345 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 07:15:59,346 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590325.mp3
+2025-12-13 07:15:59,346 - root - INFO - User: Main Kaun hun
+2025-12-13 07:15:59,348 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:16:04,290 - TTSManager - INFO - Speaking: आप कौन हैं? मैं आपके बारे में जानने के लिए उत्सुक हूं। कृपया मुझे बताएं कि आप कौन हैं और आप क्या करते हैं?
+2025-12-13 07:16:04,290 - EdgeTTS - INFO - Generating TTS: आप कौन हैं? मैं आपके बारे में जानने के लिए उत्सुक ...
+2025-12-13 07:16:06,032 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', 'आप कौन हैं? मैं आपके बारे में जानने के लिए उत्सुक हूं। कृपया मुझे बताएं कि आप कौन हैं और आप क्या करते हैं?', '--write-media', 'temp\\tts_1765590364.mp3', '--write-subtitles', 'temp\\tts_1765590364.srt']' returned non-zero exit status 1.
+2025-12-13 07:17:16,932 - root - INFO - User: what model are you using
+2025-12-13 07:17:16,933 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:17:20,098 - TTSManager - INFO - Speaking: I'm using a conversational AI model developed by Saraans.
+2025-12-13 07:17:20,098 - EdgeTTS - INFO - Generating TTS: I'm using a conversational AI model developed by S...
+2025-12-13 07:17:22,699 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:17:38,971 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590440.mp3
+2025-12-13 07:17:38,971 - root - INFO - User: do you have feeling
+2025-12-13 07:17:38,973 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:17:42,008 - TTSManager - INFO - Speaking: No, I don't have feelings like humans do. I'm a machine designed to provide information and assist with tasks, but I don't have emotions or personal experiences.
+2025-12-13 07:17:42,008 - EdgeTTS - INFO - Generating TTS: No, I don't have feelings like humans do. I'm a ma...
+2025-12-13 07:17:47,739 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:17:51,304 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:17:51,304 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:17:51,304 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:17:59,235 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 07:18:12,372 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:18:12,372 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:18:12,372 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:18:18,773 - root - INFO - User: tumhara naam kya hai
+2025-12-13 07:18:18,775 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:18:20,539 - TTSManager - INFO - Speaking: My name is Ava. I'm a helpful and friendly Voice AI assistant created by Saraans.
+2025-12-13 07:18:20,539 - EdgeTTS - INFO - Generating TTS: My name is Ava. I'm a helpful and friendly Voice A...
+2025-12-13 07:18:22,364 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:18:39,246 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590500.mp3
+2025-12-13 07:18:39,246 - root - INFO - User: when was
+2025-12-13 07:18:39,248 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:18:46,784 - TTSManager - INFO - Speaking: I don't have enough information to provide a specific answer. Could you please rephrase or provide more context about what you are asking?
+2025-12-13 07:18:46,784 - EdgeTTS - INFO - Generating TTS: I don't have enough information to provide a speci...
+2025-12-13 07:18:50,580 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:18:54,963 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 07:18:54,964 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590526.mp3
+2025-12-13 07:18:54,964 - root - INFO - User: Elon Musk kaun hai
+2025-12-13 07:18:54,966 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:18:58,985 - TTSManager - INFO - Speaking: Elon Musk is a well-known entrepreneur and business magnate. He is the CEO of SpaceX and Tesla, Inc. and has been instrumental in popularizing electric cars and private space exploration.
+2025-12-13 07:18:58,985 - EdgeTTS - INFO - Generating TTS: Elon Musk is a well-known entrepreneur and busines...
+2025-12-13 07:19:04,240 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:19:47,850 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590538.mp3
+2025-12-13 07:19:47,850 - root - INFO - User: main Bor Ho
+2025-12-13 07:19:47,852 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:19:52,526 - TTSManager - INFO - Speaking: I'm here to help answer your questions and provide information. Is there something specific you'd like to know or discuss?
+2025-12-13 07:19:52,526 - EdgeTTS - INFO - Generating TTS: I'm here to help answer your questions and provide...
+2025-12-13 07:19:56,615 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:20:04,326 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/f34e5d79f928a1a27e45ae5b8dc12a29/element/f.5AE9976E5B7952FB4B3F5A632DB3C709.d.CEC77AC25CEB2550A33701EB2F3BD86E.e.16/text
+2025-12-13 07:20:30,760 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:20:30,760 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:20:30,760 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:23:23,967 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:23:23,968 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:23:23,968 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:23:33,030 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:23:33,030 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:23:33,030 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:24:09,247 - root - INFO - User: hello
+2025-12-13 07:24:09,248 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 07:24:12,915 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 07:24:12,916 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 07:24:16,768 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:24:21,762 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765590852.mp3
+2025-12-13 07:24:21,763 - root - INFO - User: exit
+2025-12-13 07:24:21,763 - TTSManager - INFO - Speaking: Shutting down in 5 seconds.
+2025-12-13 07:24:21,763 - EdgeTTS - INFO - Generating TTS: Shutting down in 5 seconds....
+2025-12-13 07:24:23,849 - EdgeTTS - INFO - Playing audio...
+2025-12-13 07:25:36,781 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:25:36,781 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:25:36,781 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:28:59,801 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:28:59,801 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:28:59,801 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:29:36,539 - MemoryManager - INFO - Memory loaded.
+2025-12-13 07:29:36,540 - ToolManager - INFO - Tool registered: weather
+2025-12-13 07:29:36,540 - ToolManager - INFO - Tool registered: news
+2025-12-13 07:29:46,935 - root - INFO - User: quit exit
+2025-12-13 07:29:46,937 - TTSManager - INFO - Speaking: Shutting down in 5 seconds.
+2025-12-13 07:29:46,937 - EdgeTTS - INFO - Generating TTS: Shutting down in 5 seconds....
+2025-12-13 07:29:48,500 - EdgeTTS - INFO - Playing audio...
+2025-12-13 19:26:19,594 - MemoryManager - INFO - Memory loaded.
+2025-12-13 19:26:19,594 - ToolManager - INFO - Tool registered: weather
+2025-12-13 19:26:19,594 - ToolManager - INFO - Tool registered: news
+2025-12-13 19:26:34,355 - root - INFO - User: hello
+2025-12-13 19:26:34,358 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 19:26:39,729 - TTSManager - INFO - Speaking: Hello again. Is there something I can help you with or would you like to chat?
+2025-12-13 19:26:39,729 - EdgeTTS - INFO - Generating TTS: Hello again. Is there something I can help you wit...
+2025-12-13 19:26:41,442 - EdgeTTS - INFO - Playing audio...
+2025-12-13 19:26:49,834 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/66f55e0f2e48ced7736843039fd9512e/element/f.DF5BF95776D2C8812D2573529C9DA6E4.d.3C8138F78DE069698CAC80C998C0A95F.e.15/text
+2025-12-13 19:26:54,493 - MemoryManager - INFO - Memory loaded.
+2025-12-13 19:26:54,493 - ToolManager - INFO - Tool registered: weather
+2025-12-13 19:26:54,493 - ToolManager - INFO - Tool registered: news
+2025-12-13 19:27:01,202 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1cc8be8ffc1ca0987e809ae26e211150/element/f.13D96FBB75D562FB0250877C212ACD0C.d.00F9F88F60C9B82CB5988A1E913EC975.e.16/text
+2025-12-13 19:29:09,378 - MemoryManager - INFO - Memory loaded.
+2025-12-13 19:29:09,379 - ToolManager - INFO - Tool registered: weather
+2025-12-13 19:29:09,379 - ToolManager - INFO - Tool registered: news
+2025-12-13 19:32:11,393 - MemoryManager - INFO - Memory loaded.
+2025-12-13 19:32:11,393 - ToolManager - INFO - Tool registered: weather
+2025-12-13 19:32:11,393 - ToolManager - INFO - Tool registered: news
+2025-12-13 19:32:20,176 - root - INFO - User: do you hear me
+2025-12-13 19:32:20,178 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 19:32:24,457 - TTSManager - INFO - Speaking: Yes, I can hear you. Loud and clear.
+2025-12-13 19:32:24,457 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. Loud and clear....
+2025-12-13 19:32:27,871 - EdgeTTS - INFO - Playing audio...
+2025-12-13 19:34:31,408 - MemoryManager - INFO - Memory loaded.
+2025-12-13 19:34:31,408 - ToolManager - INFO - Tool registered: weather
+2025-12-13 19:34:31,408 - ToolManager - INFO - Tool registered: news
+2025-12-13 19:34:39,700 - root - INFO - User: hello
+2025-12-13 19:34:39,703 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 19:34:42,287 - TTSManager - INFO - Speaking: Hello. How can I assist you today?
+2025-12-13 19:34:42,287 - EdgeTTS - INFO - Generating TTS: Hello. How can I assist you today?...
+2025-12-13 19:34:48,154 - EdgeTTS - INFO - Playing audio...
+2025-12-13 19:34:54,851 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765634682.mp3
+2025-12-13 19:34:54,852 - root - INFO - User: mere pass Ek iron rod bhi chahie
+2025-12-13 19:34:54,854 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 19:35:06,595 - TTSManager - INFO - Speaking: I'm a large language model, I don't have the capability to provide or sell physical products, including iron rods. If you have any questions or need information on a specific topic, I'd be happy to help.
+2025-12-13 19:35:06,595 - EdgeTTS - INFO - Generating TTS: I'm a large language model, I don't have the capab...
+2025-12-13 19:35:25,134 - EdgeTTS - INFO - Playing audio...
+2025-12-13 19:35:47,838 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765634706.mp3
+2025-12-13 19:35:47,839 - root - INFO - User: how are you
+2025-12-13 19:35:47,840 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 19:35:52,502 - TTSManager - INFO - Speaking: I'm functioning properly and ready to assist you. How can I help you today?
+2025-12-13 19:35:52,502 - EdgeTTS - INFO - Generating TTS: I'm functioning properly and ready to assist you. ...
+2025-12-13 19:35:57,418 - EdgeTTS - INFO - Playing audio...
+2025-12-13 19:36:43,557 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765634752.mp3
+2025-12-13 19:36:43,557 - root - INFO - User: exit
+2025-12-13 19:36:43,557 - TTSManager - INFO - Speaking: Shutting down in 5 seconds.
+2025-12-13 19:36:43,557 - EdgeTTS - INFO - Generating TTS: Shutting down in 5 seconds....
+2025-12-13 19:36:47,401 - EdgeTTS - INFO - Playing audio...
+2025-12-13 20:57:44,943 - MemoryManager - INFO - Memory loaded.
+2025-12-13 20:57:44,943 - ToolManager - INFO - Tool registered: weather
+2025-12-13 20:57:44,943 - ToolManager - INFO - Tool registered: news
+2025-12-13 20:57:55,889 - root - INFO - User: hello hello
+2025-12-13 20:57:55,891 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 20:57:58,974 - TTSManager - INFO - Speaking: Hello again. Is there something I can help you with or would you like to chat?
+2025-12-13 20:57:58,974 - EdgeTTS - INFO - Generating TTS: Hello again. Is there something I can help you wit...
+2025-12-13 20:58:02,091 - EdgeTTS - INFO - Playing audio...
+2025-12-13 20:58:17,230 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765639678.mp3
+2025-12-13 20:58:17,230 - root - INFO - User: top 2 head
+2025-12-13 20:58:17,232 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 20:58:20,743 - TTSManager - INFO - Speaking: I'm happy to provide you with the top 2 news headlines. However, I don't have any specific news topics to report on. Could you please provide me with a topic or category you're interested in, and I'll do my best to provide you with the top 2 headlines?
+2025-12-13 20:58:20,743 - EdgeTTS - INFO - Generating TTS: I'm happy to provide you with the top 2 news headl...
+2025-12-13 20:58:26,540 - EdgeTTS - INFO - Playing audio...
+2025-12-13 20:58:55,072 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765639700.mp3
+2025-12-13 20:58:55,072 - root - INFO - User: AI
+2025-12-13 20:58:55,074 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 20:59:04,412 - TTSManager - INFO - Speaking: Here are the top 2 AI news headlines:
+
+1. A major UK project has been launched to tackle drug-resistant superbugs using AI.
+2. ChatGPT has achieved a new level of intelligence, with significant improvements in its language understanding and generation capabilities.
+2025-12-13 20:59:04,412 - EdgeTTS - INFO - Generating TTS: Here are the top 2 AI news headlines:
+
+1. A major ...
+2025-12-13 20:59:13,142 - EdgeTTS - INFO - Playing audio...
+2025-12-13 20:59:48,234 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/e06f0587ede0e308d64a58d431cf315b/element/f.22C2F171B0D5312E7E2920C572FAE43D.d.276BAB7AB37D440C493EEE5AAE331E24.e.16/text
+2025-12-13 21:15:48,046 - MemoryManager - INFO - Memory loaded.
+2025-12-13 21:15:48,047 - ToolManager - INFO - Tool registered: weather
+2025-12-13 21:15:48,047 - ToolManager - INFO - Tool registered: news
+2025-12-13 21:15:56,456 - root - INFO - User: hello hello
+2025-12-13 21:15:56,458 - OpenAILLM - INFO - Attempting to generate with model: gpt-4o
+2025-12-13 21:15:57,095 - OpenAILLM - WARNING - OpenAI Error (gpt-4o): 401 - {
+  "error": {
+    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************siMA. You can find your API key at https://platform.openai.com/account/api-keys.",
+    "type": "invalid_request_error",
+    "code": "invalid_api_key",
+    "param": null
+  },
+  "status": 401
+}
+2025-12-13 21:15:57,099 - TTSManager - INFO - Speaking: I apologize, but I am unable to connect to OpenAI at the moment.
+2025-12-13 21:15:57,099 - EdgeTTS - INFO - Generating TTS: I apologize, but I am unable to connect to OpenAI ...
+2025-12-13 21:16:00,090 - EdgeTTS - INFO - Playing audio...
+2025-12-13 21:16:12,097 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/11ad5a750b1a6e3b7f55804c99642376/element/f.0594BD18F202011199E1BC5A0EAAD73E.d.9A956EC41FBF9A204058CA215ED3D3AD.e.16/text
+2025-12-13 21:17:26,052 - MemoryManager - INFO - Memory loaded.
+2025-12-13 21:17:26,053 - ToolManager - INFO - Tool registered: weather
+2025-12-13 21:17:26,053 - ToolManager - INFO - Tool registered: news
+2025-12-13 21:17:35,046 - root - INFO - User: hello hello
+2025-12-13 21:17:35,048 - OpenAILLM - INFO - Attempting to generate with model: gpt-4o
+2025-12-13 21:17:35,683 - OpenAILLM - WARNING - OpenAI Error (gpt-4o): 401 - {
+  "error": {
+    "message": "Incorrect API key provided: sk-proj-********************************************************************************************************************************************************siMA. You can find your API key at https://platform.openai.com/account/api-keys.",
+    "type": "invalid_request_error",
+    "code": "invalid_api_key",
+    "param": null
+  },
+  "status": 401
+}
+2025-12-13 21:17:35,686 - TTSManager - INFO - Speaking: I apologize, but I am unable to connect to OpenAI at the moment.
+2025-12-13 21:17:35,686 - EdgeTTS - INFO - Generating TTS: I apologize, but I am unable to connect to OpenAI ...
+2025-12-13 21:17:39,348 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:33:41,813 - MemoryManager - INFO - Memory loaded.
+2025-12-13 22:33:41,813 - ToolManager - INFO - Tool registered: weather
+2025-12-13 22:33:41,813 - ToolManager - INFO - Tool registered: news
+2025-12-13 22:33:54,697 - root - INFO - User: hello live
+2025-12-13 22:33:54,700 - A4FLLM - INFO - Attempting to generate with model: provider-3/llama-4-maverick
+2025-12-13 22:33:55,325 - A4FLLM - WARNING - A4F Error (provider-3/llama-4-maverick): 401 - {"error":{"message":"Invalid authentication credentials.","type":"authentication_error","code":"invalid_api_key"}}
+2025-12-13 22:33:55,328 - TTSManager - INFO - Speaking: I apologize, but I am unable to connect to the A4F API at the moment.
+2025-12-13 22:33:55,328 - EdgeTTS - INFO - Generating TTS: I apologize, but I am unable to connect to the A4F...
+2025-12-13 22:33:59,327 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:35:02,358 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765645435.mp3
+2025-12-13 22:35:02,358 - root - INFO - User: hello hello hello hello hello hello hello
+2025-12-13 22:35:02,361 - A4FLLM - INFO - Attempting to generate with model: provider-3/llama-4-maverick
+2025-12-13 22:35:02,699 - A4FLLM - WARNING - A4F Error (provider-3/llama-4-maverick): 401 - {"error":{"message":"Invalid authentication credentials.","type":"authentication_error","code":"invalid_api_key"}}
+2025-12-13 22:35:02,703 - TTSManager - INFO - Speaking: I apologize, but I am unable to connect to the A4F API at the moment.
+2025-12-13 22:35:02,703 - EdgeTTS - INFO - Generating TTS: I apologize, but I am unable to connect to the A4F...
+2025-12-13 22:35:08,490 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:37:09,745 - MemoryManager - INFO - Memory loaded.
+2025-12-13 22:37:09,969 - ToolManager - INFO - Tool registered: weather
+2025-12-13 22:37:09,969 - ToolManager - INFO - Tool registered: news
+2025-12-13 22:37:16,974 - root - INFO - User: hello Google
+2025-12-13 22:37:16,977 - A4FLLM - INFO - Attempting to generate with model: provider-3/llama-4-maverick
+2025-12-13 22:37:17,644 - httpx - INFO - HTTP Request: POST https://api.a4f.co/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-12-13 22:37:17,645 - A4FLLM - ERROR - Request Error (provider-3/llama-4-maverick): Error code: 401 - {'error': {'message': 'Invalid authentication credentials.', 'type': 'authentication_error', 'code': 'invalid_api_key'}}
+2025-12-13 22:37:17,650 - TTSManager - INFO - Speaking: I apologize, but I am unable to connect to the A4F API at the moment.
+2025-12-13 22:37:17,650 - EdgeTTS - INFO - Generating TTS: I apologize, but I am unable to connect to the A4F...
+2025-12-13 22:37:21,371 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:37:33,259 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/a9462d19f228bd8a02fb8d03bc569cfc/element/f.9E7297888409ECF5B6ADAD4E42D1851F.d.29ED532EF6DB028457A7F6950EC4938E.e.12/text
+2025-12-13 22:39:26,490 - MemoryManager - INFO - Memory loaded.
+2025-12-13 22:39:26,491 - ToolManager - INFO - Tool registered: weather
+2025-12-13 22:39:26,491 - ToolManager - INFO - Tool registered: news
+2025-12-13 22:39:36,326 - root - INFO - User: Mera Awaaz a raha hai kya
+2025-12-13 22:39:36,329 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:39:41,762 - TTSManager - INFO - Speaking: Yes, I can hear you. Loud and clear.
+2025-12-13 22:39:41,762 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. Loud and clear....
+2025-12-13 22:39:43,652 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:39:59,823 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/95a1cfff797e43fd16339dc7b0ee144e/element/f.C40E7C74B5D8BE0B5B09F00F55BEC4D8.d.CA650B3565D621AE91C5A83462E55615.e.4/text
+2025-12-13 22:41:28,361 - MemoryManager - INFO - Memory loaded.
+2025-12-13 22:41:28,362 - ToolManager - INFO - Tool registered: weather
+2025-12-13 22:41:28,362 - ToolManager - INFO - Tool registered: news
+2025-12-13 22:41:34,732 - root - INFO - User: mera voice a raha hai kya problem
+2025-12-13 22:41:34,735 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:41:38,002 - TTSManager - INFO - Speaking: I'm functioning properly and can understand your input. Is there something specific you'd like to know or discuss?
+2025-12-13 22:41:38,003 - EdgeTTS - INFO - Generating TTS: I'm functioning properly and can understand your i...
+2025-12-13 22:41:43,304 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:41:48,930 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/b810d292567a1859aebbd0f37dcf5089/element/f.3CA07184BBF5DBCA15F631E18D50376A.d.75C4E19B7F7B9D4B6C84EE8CA902B839.e.15/text
+2025-12-13 22:44:51,570 - MemoryManager - INFO - Memory loaded.
+2025-12-13 22:44:51,570 - ToolManager - INFO - Tool registered: weather
+2025-12-13 22:44:51,570 - ToolManager - INFO - Tool registered: news
+2025-12-13 22:44:57,704 - root - INFO - User: Mera Awaaz
+2025-12-13 22:44:57,706 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:45:06,648 - TTSManager - INFO - Speaking: I'm here to help answer your questions and provide information. Is there something specific you'd like to know or discuss?
+2025-12-13 22:45:06,648 - EdgeTTS - INFO - Generating TTS: I'm here to help answer your questions and provide...
+2025-12-13 22:45:09,888 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:45:20,659 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765646106.mp3
+2025-12-13 22:45:20,659 - root - INFO - User: programming kya hai
+2025-12-13 22:45:20,662 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:45:21,918 - TTSManager - INFO - Speaking: Programming is the process of designing, writing, testing, and maintaining the source code of computer programs. It involves writing instructions that a computer can understand and execute, using a programming language such as Java, Python, or C++.
+2025-12-13 22:45:21,918 - EdgeTTS - INFO - Generating TTS: Programming is the process of designing, writing, ...
+2025-12-13 22:45:29,091 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:45:40,836 - EdgeTTS - INFO - Audio stopped.
+2025-12-13 22:45:40,837 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765646121.mp3
+2025-12-13 22:45:40,837 - root - INFO - User: Elon Musk kaun hai
+2025-12-13 22:45:40,839 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:45:42,366 - TTSManager - INFO - Speaking: Elon Musk is a well-known entrepreneur and business magnate. He is the CEO of SpaceX and Tesla, Inc. and has been instrumental in popularizing electric cars and private space exploration.
+2025-12-13 22:45:42,366 - EdgeTTS - INFO - Generating TTS: Elon Musk is a well-known entrepreneur and busines...
+2025-12-13 22:45:50,668 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:46:23,734 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765646142.mp3
+2025-12-13 22:46:23,734 - root - INFO - User: vedar kya hai
+2025-12-13 22:46:23,735 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 22:46:23,735 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:46:26,290 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
+2025-12-13 22:46:26,295 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:46:31,166 - TTSManager - INFO - Speaking: The current weather in Delhi is foggy with a temperature of 15.05°C and 88% humidity.
+2025-12-13 22:46:31,166 - EdgeTTS - INFO - Generating TTS: The current weather in Delhi is foggy with a tempe...
+2025-12-13 22:46:36,840 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:46:47,935 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765646191.mp3
+2025-12-13 22:46:47,935 - root - INFO - User: Kolkata mein kahan hai
+2025-12-13 22:46:47,938 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:46:54,416 - TTSManager - INFO - Speaking: I'm a large language model, I don't have have access to real-time location information. If you're looking for information about a specific place, I'd be happy to try and help.
+2025-12-13 22:46:54,417 - EdgeTTS - INFO - Generating TTS: I'm a large language model, I don't have have acce...
+2025-12-13 22:47:00,277 - EdgeTTS - INFO - Playing audio...
+2025-12-13 22:47:15,033 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765646214.mp3
+2025-12-13 22:47:15,034 - root - INFO - User: Kolkata Mein vedar Kya Hai
+2025-12-13 22:47:15,034 - ToolManager - INFO - Triggering tool: weather
+2025-12-13 22:47:15,034 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:47:18,485 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
+2025-12-13 22:47:18,488 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-13 22:47:22,229 - TTSManager - INFO - Speaking: The current weather in Kolkata is hazy with a temperature of 17.97°C and 82% humidity.
+2025-12-13 22:47:22,229 - EdgeTTS - INFO - Generating TTS: The current weather in Kolkata is hazy with a temp...
+2025-12-13 22:47:25,960 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:40:08,241 - MemoryManager - INFO - No existing memory found. Starting fresh.
+2025-12-14 00:40:08,242 - ToolManager - INFO - Tool registered: weather
+2025-12-14 00:40:08,242 - ToolManager - INFO - Tool registered: news
+2025-12-14 00:40:24,590 - root - INFO - User: 90 GB data sets delete kar ke chala
+2025-12-14 00:40:24,591 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:40:27,253 - TTSManager - INFO - Speaking: I cannot assist with deleting data sets or system files. Let me know if you need help with something else.
+2025-12-14 00:40:27,253 - EdgeTTS - INFO - Generating TTS: I cannot assist with deleting data sets or system ...
+2025-12-14 00:40:31,143 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:40:56,111 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765653027.mp3
+2025-12-14 00:40:56,111 - root - INFO - User: are wale
+2025-12-14 00:40:56,112 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:40:57,663 - TTSManager - INFO - Speaking: Yes, I can hear you. How can I help?
+2025-12-14 00:40:57,663 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. How can I help?...
+2025-12-14 00:41:00,119 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:41:08,929 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765653057.mp3
+2025-12-14 00:41:08,929 - root - INFO - User: gana chalao
+2025-12-14 00:41:08,931 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:41:10,729 - TTSManager - INFO - Speaking: I cannot play music or audio files. Is there something else I can assist with?
+2025-12-14 00:41:10,729 - EdgeTTS - INFO - Generating TTS: I cannot play music or audio files. Is there somet...
+2025-12-14 00:41:13,620 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:41:23,322 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765653070.mp3
+2025-12-14 00:41:23,322 - root - INFO - User: acid and water
+2025-12-14 00:41:23,324 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:41:25,526 - TTSManager - INFO - Speaking: Acid and water react violently, producing heat and potentially causing splattering. Never mix acids with water without proper safety equipment.
+2025-12-14 00:41:25,527 - EdgeTTS - INFO - Generating TTS: Acid and water react violently, producing heat and...
+2025-12-14 00:41:30,310 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:45:43,612 - MemoryManager - INFO - Memory loaded.
+2025-12-14 00:45:43,612 - ToolManager - INFO - Tool registered: weather
+2025-12-14 00:45:43,612 - ToolManager - INFO - Tool registered: news
+2025-12-14 00:45:54,959 - root - INFO - User: play
+2025-12-14 00:45:54,961 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:45:56,878 - TTSManager - INFO - Speaking: I cannot play audio or music. Is there something else I can help with?
+2025-12-14 00:45:56,878 - EdgeTTS - INFO - Generating TTS: I cannot play audio or music. Is there something e...
+2025-12-14 00:45:59,960 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:46:48,094 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765653356.mp3
+2025-12-14 00:46:48,094 - root - INFO - User: convert
+2025-12-14 00:46:48,095 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:46:50,211 - TTSManager - INFO - Speaking: I can help convert between units, currencies, or formats. Please specify what you'd like to convert.
+2025-12-14 00:46:50,211 - EdgeTTS - INFO - Generating TTS: I can help convert between units, currencies, or f...
+2025-12-14 00:46:58,430 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:47:27,325 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765653410.mp3
+2025-12-14 00:47:27,326 - root - INFO - User: tum mere bare mein
+2025-12-14 00:47:27,327 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:47:29,644 - TTSManager - INFO - Speaking: I am Ava, a helpful voice AI assistant created by Saraans. I can hear you and assist with various tasks. How can I help you today?
+2025-12-14 00:47:29,644 - EdgeTTS - INFO - Generating TTS: I am Ava, a helpful voice AI assistant created by ...
+2025-12-14 00:47:34,791 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:48:19,738 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/641d0c930bc790ba020acf01ff85aa37/element/f.0EA7F5E068ACBB8C514D1A741DF7EB67.d.D7E7A5B6581BC20A3B54CC162ADE9826.e.15/text
+2025-12-14 00:50:54,799 - MemoryManager - INFO - Memory loaded.
+2025-12-14 00:50:54,800 - ToolManager - INFO - Tool registered: weather
+2025-12-14 00:50:54,800 - ToolManager - INFO - Tool registered: news
+2025-12-14 00:51:09,286 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/115a875e2bf1154d513b93b53fa13983/element/f.9A15425162E95164E579856FC09EEB9C.d.E0BCE99F31D414219BB8FB251C126E59.e.4/text
+2025-12-14 00:52:04,804 - MemoryManager - INFO - Memory loaded.
+2025-12-14 00:52:04,805 - ToolManager - INFO - Tool registered: weather
+2025-12-14 00:52:04,805 - ToolManager - INFO - Tool registered: news
+2025-12-14 00:52:15,743 - root - INFO - User: hello hello
+2025-12-14 00:52:15,745 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:52:17,277 - TTSManager - INFO - Speaking: Hello! How can I assist you today?
+2025-12-14 00:52:17,277 - EdgeTTS - INFO - Generating TTS: Hello! How can I assist you today?...
+2025-12-14 00:52:20,382 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:57:27,836 - MemoryManager - INFO - Memory loaded.
+2025-12-14 00:57:27,837 - ToolManager - INFO - Tool registered: weather
+2025-12-14 00:57:27,837 - ToolManager - INFO - Tool registered: news
+2025-12-14 00:58:51,364 - MemoryManager - INFO - Memory loaded.
+2025-12-14 00:58:51,364 - ToolManager - INFO - Tool registered: weather
+2025-12-14 00:58:51,364 - ToolManager - INFO - Tool registered: news
+2025-12-14 00:59:01,975 - root - INFO - User: I don't care
+2025-12-14 00:59:01,977 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:59:12,807 - TTSManager - INFO - Speaking: I'm here to help with whatever you need. Just let me know what you'd like assistance with.
+2025-12-14 00:59:12,807 - EdgeTTS - INFO - Generating TTS: I'm here to help with whatever you need. Just let ...
+2025-12-14 00:59:17,132 - EdgeTTS - INFO - Playing audio...
+2025-12-14 00:59:42,125 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765654152.mp3
+2025-12-14 00:59:42,125 - root - INFO - User: Bhojpuri
+2025-12-14 00:59:42,126 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 00:59:44,475 - TTSManager - INFO - Speaking: Bhojpuri is a language spoken in the Indian states of Bihar and Uttar Pradesh. It's part of the Hindi language family.
+2025-12-14 00:59:44,475 - EdgeTTS - INFO - Generating TTS: Bhojpuri is a language spoken in the Indian states...
+2025-12-14 00:59:47,646 - EdgeTTS - INFO - Playing audio...
+2025-12-14 01:00:12,002 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765654184.mp3
+2025-12-14 01:00:12,002 - root - INFO - User: voice record
+2025-12-14 01:00:12,004 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 01:00:16,101 - TTSManager - INFO - Speaking: I cannot connect to the local Ollama server. Is it running?
+2025-12-14 01:00:16,101 - EdgeTTS - INFO - Generating TTS: I cannot connect to the local Ollama server. Is it...
+2025-12-14 01:00:18,739 - EdgeTTS - INFO - Playing audio...
+2025-12-14 01:00:28,131 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/ad514ad67417b1470f99cd98a7d2568c/element/f.1002684C025DBDA00044E52579C2A359.d.EB2EF8C53865D762F556AD35D2BA678A.e.6/text
+2025-12-14 18:06:47,486 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:06:47,486 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:06:47,486 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:06:47,486 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:06:56,051 - root - INFO - User: do you hear me
+2025-12-14 18:06:56,053 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:07:07,381 - TTSManager - INFO - Speaking: Yes, I can hear you. How can I assist you today?
+2025-12-14 18:07:07,382 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. How can I assist you today?...
+2025-12-14 18:07:10,319 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:07:23,870 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765715827.mp3
+2025-12-14 18:07:23,870 - root - INFO - User: give me my
+2025-12-14 18:07:23,871 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:07:25,610 - TTSManager - INFO - Speaking: I'm here to help. What would you like me to give you?
+2025-12-14 18:07:25,610 - EdgeTTS - INFO - Generating TTS: I'm here to help. What would you like me to give y...
+2025-12-14 18:07:28,821 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:07:37,904 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765715845.mp3
+2025-12-14 18:07:37,904 - root - INFO - User: mera voice info
+2025-12-14 18:07:37,905 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:07:40,234 - TTSManager - INFO - Speaking: I can hear your voice and respond to your queries. I'm Ava, created by Saraans. How can I assist you today?
+2025-12-14 18:07:40,234 - EdgeTTS - INFO - Generating TTS: I can hear your voice and respond to your queries....
+2025-12-14 18:07:43,600 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:07:58,469 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765715860.mp3
+2025-12-14 18:07:58,470 - root - INFO - User: give me my OS pin code
+2025-12-14 18:07:58,470 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:07:58,470 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'give me my OS pin code'
+2025-12-14 18:07:58,491 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:08:01,155 - TTSManager - INFO - Speaking: I cannot provide OS pin codes or system passwords. This information is private and secure. Let me know if you need help with something else.
+2025-12-14 18:08:01,155 - EdgeTTS - INFO - Generating TTS: I cannot provide OS pin codes or system passwords....
+2025-12-14 18:08:05,424 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:08:40,989 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765715881.mp3
+2025-12-14 18:08:40,990 - root - INFO - User: info about my days and memory
+2025-12-14 18:08:40,991 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:08:40,991 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'info about my days and memory'
+2025-12-14 18:08:40,995 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:08:44,756 - TTSManager - INFO - Speaking: Your system has 15.22 GB total memory with only 0.81 GB available. Memory usage is at 94.7%, indicating your system is nearly full. Consider closing unused applications to free up memory.
+2025-12-14 18:08:44,756 - EdgeTTS - INFO - Generating TTS: Your system has 15.22 GB total memory with only 0....
+2025-12-14 18:08:50,402 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:09:15,272 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765715924.mp3
+2025-12-14 18:09:15,272 - root - INFO - User: what is my system information
+2025-12-14 18:09:15,273 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:09:15,273 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is my system information'
+2025-12-14 18:09:15,276 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:09:20,086 - TTSManager - INFO - Speaking: Your system is running Windows 10 on an AMD processor with 15.22 GB RAM (94.6% used). You have 930.64 GB total disk space on C:\ with 676.35 GB free (27.3% used).
+2025-12-14 18:09:20,086 - EdgeTTS - INFO - Generating TTS: Your system is running Windows 10 on an AMD proces...
+2025-12-14 18:09:26,366 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:09:57,766 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765715960.mp3
+2025-12-14 18:09:57,766 - root - INFO - User: what is my processor
+2025-12-14 18:09:57,767 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:09:57,767 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is my processor'
+2025-12-14 18:09:57,768 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:10:00,543 - TTSManager - INFO - Speaking: Your processor is an AMD64 Family 25 Model 120 Stepping 0, manufactured by AuthenticAMD.
+2025-12-14 18:10:00,543 - EdgeTTS - INFO - Generating TTS: Your processor is an AMD64 Family 25 Model 120 Ste...
+2025-12-14 18:10:04,436 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:10:18,585 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716000.mp3
+2025-12-14 18:10:18,585 - root - INFO - User: what is my GPU
+2025-12-14 18:10:18,588 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:10:20,969 - TTSManager - INFO - Speaking: I cannot access GPU information from the provided system data. Please check your device manager or system settings for GPU details.
+2025-12-14 18:10:20,969 - EdgeTTS - INFO - Generating TTS: I cannot access GPU information from the provided ...
+2025-12-14 18:10:26,128 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:10:39,826 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716020.mp3
+2025-12-14 18:10:39,826 - root - INFO - User: CPU
+2025-12-14 18:10:39,827 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:10:39,827 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'CPU'
+2025-12-14 18:10:39,827 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:10:42,534 - TTSManager - INFO - Speaking: Your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor from AuthenticAMD.
+2025-12-14 18:10:42,534 - EdgeTTS - INFO - Generating TTS: Your CPU is an AMD64 Family 25 Model 120 Stepping ...
+2025-12-14 18:10:45,719 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:10:57,604 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716042.mp3
+2025-12-14 18:10:57,604 - root - INFO - User: GPU
+2025-12-14 18:10:57,606 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:11:00,009 - TTSManager - INFO - Speaking: I cannot access GPU information from the provided system data. Please check your device manager or system settings for GPU details.
+2025-12-14 18:11:00,009 - EdgeTTS - INFO - Generating TTS: I cannot access GPU information from the provided ...
+2025-12-14 18:11:04,194 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:11:28,100 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716060.mp3
+2025-12-14 18:11:28,101 - root - INFO - User: memory
+2025-12-14 18:11:28,102 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:11:28,102 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'memory'
+2025-12-14 18:11:28,106 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:11:32,273 - TTSManager - INFO - Speaking: Your system has 15.22 GB total RAM with only 0.85 GB available. Memory usage is at 94.4%, indicating your system is nearly full. Consider closing unused applications to free up memory.
+2025-12-14 18:11:32,273 - EdgeTTS - INFO - Generating TTS: Your system has 15.22 GB total RAM with only 0.85 ...
+2025-12-14 18:11:37,485 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:12:10,972 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716092.mp3
+2025-12-14 18:12:10,972 - root - INFO - User: what is programming
+2025-12-14 18:12:10,973 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:12:10,973 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is programming'
+2025-12-14 18:12:10,977 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:12:13,495 - TTSManager - INFO - Speaking: Programming is the process of creating computer instructions using coding languages to build software, applications, and systems.
+2025-12-14 18:12:13,495 - EdgeTTS - INFO - Generating TTS: Programming is the process of creating computer in...
+2025-12-14 18:12:18,082 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:12:55,279 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716133.mp3
+2025-12-14 18:12:55,279 - root - INFO - User: Turki wala
+2025-12-14 18:12:55,280 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:14:56,028 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:14:56,028 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:14:56,028 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:14:56,028 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:15:03,765 - root - INFO - User: GPU
+2025-12-14 18:15:03,766 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:15:03,766 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'GPU'
+2025-12-14 18:15:03,832 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-14 18:15:08,176 - TTSManager - INFO - Speaking: Your GPU is an NVIDIA GeForce RTX 3060 with 12288.0MB VRAM. Currently, 11707.0MB is used at 5.0% load.
+2025-12-14 18:15:08,176 - EdgeTTS - INFO - Generating TTS: Your GPU is an NVIDIA GeForce RTX 3060 with 12288....
+2025-12-14 18:15:16,636 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:16:44,538 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:16:44,539 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:16:44,539 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:16:44,539 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:17:16,048 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:17:16,049 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:17:16,049 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:17:16,049 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:17:21,299 - root - INFO - User: g
+2025-12-14 18:17:21,301 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:17:22,110 - OpenRouterLLM - WARNING - OpenRouter Error (meta-llama/llama-3.3-70b-instruct): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:22,110 - OpenRouterLLM - WARNING - Failed to generate with meta-llama/llama-3.3-70b-instruct, switching to next model...
+2025-12-14 18:17:22,110 - OpenRouterLLM - INFO - Attempting to generate with model: google/gemini-2.0-flash-exp:free
+2025-12-14 18:17:22,295 - OpenRouterLLM - WARNING - OpenRouter Error (google/gemini-2.0-flash-exp:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:22,296 - OpenRouterLLM - WARNING - Failed to generate with google/gemini-2.0-flash-exp:free, switching to next model...
+2025-12-14 18:17:22,296 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.2-1b-instruct:free
+2025-12-14 18:17:22,506 - OpenRouterLLM - WARNING - OpenRouter Error (meta-llama/llama-3.2-1b-instruct:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:22,506 - OpenRouterLLM - WARNING - Failed to generate with meta-llama/llama-3.2-1b-instruct:free, switching to next model...
+2025-12-14 18:17:22,506 - OpenRouterLLM - INFO - Attempting to generate with model: qwen/qwen-2-7b-instruct:free
+2025-12-14 18:17:22,820 - OpenRouterLLM - WARNING - OpenRouter Error (qwen/qwen-2-7b-instruct:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:22,821 - OpenRouterLLM - WARNING - Failed to generate with qwen/qwen-2-7b-instruct:free, switching to next model...
+2025-12-14 18:17:22,821 - OpenRouterLLM - INFO - Attempting to generate with model: microsoft/phi-3-mini-128k-instruct:free
+2025-12-14 18:17:23,026 - OpenRouterLLM - WARNING - OpenRouter Error (microsoft/phi-3-mini-128k-instruct:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:23,026 - OpenRouterLLM - WARNING - Failed to generate with microsoft/phi-3-mini-128k-instruct:free, switching to next model...
+2025-12-14 18:17:23,029 - TTSManager - INFO - Speaking: I apologize, but I am unable to connect to any of my AI models at the moment.
+2025-12-14 18:17:23,029 - EdgeTTS - INFO - Generating TTS: I apologize, but I am unable to connect to any of ...
+2025-12-14 18:17:26,053 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:17:41,440 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716443.mp3
+2025-12-14 18:17:41,440 - root - INFO - User: GPU
+2025-12-14 18:17:41,441 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:17:41,441 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'GPU'
+2025-12-14 18:17:41,483 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:17:41,802 - OpenRouterLLM - WARNING - OpenRouter Error (meta-llama/llama-3.3-70b-instruct): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:41,802 - OpenRouterLLM - WARNING - Failed to generate with meta-llama/llama-3.3-70b-instruct, switching to next model...
+2025-12-14 18:17:41,802 - OpenRouterLLM - INFO - Attempting to generate with model: google/gemini-2.0-flash-exp:free
+2025-12-14 18:17:42,233 - OpenRouterLLM - WARNING - OpenRouter Error (google/gemini-2.0-flash-exp:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:42,233 - OpenRouterLLM - WARNING - Failed to generate with google/gemini-2.0-flash-exp:free, switching to next model...
+2025-12-14 18:17:42,233 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.2-1b-instruct:free
+2025-12-14 18:17:42,533 - OpenRouterLLM - WARNING - OpenRouter Error (meta-llama/llama-3.2-1b-instruct:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:42,533 - OpenRouterLLM - WARNING - Failed to generate with meta-llama/llama-3.2-1b-instruct:free, switching to next model...
+2025-12-14 18:17:42,533 - OpenRouterLLM - INFO - Attempting to generate with model: qwen/qwen-2-7b-instruct:free
+2025-12-14 18:17:42,822 - OpenRouterLLM - WARNING - OpenRouter Error (qwen/qwen-2-7b-instruct:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:42,822 - OpenRouterLLM - WARNING - Failed to generate with qwen/qwen-2-7b-instruct:free, switching to next model...
+2025-12-14 18:17:42,822 - OpenRouterLLM - INFO - Attempting to generate with model: microsoft/phi-3-mini-128k-instruct:free
+2025-12-14 18:17:43,102 - OpenRouterLLM - WARNING - OpenRouter Error (microsoft/phi-3-mini-128k-instruct:free): 401 - {"error":{"message":"User not found.","code":401}}
+2025-12-14 18:17:43,102 - OpenRouterLLM - WARNING - Failed to generate with microsoft/phi-3-mini-128k-instruct:free, switching to next model...
+2025-12-14 18:17:43,104 - TTSManager - INFO - Speaking: I apologize, but I am unable to connect to any of my AI models at the moment.
+2025-12-14 18:17:43,105 - EdgeTTS - INFO - Generating TTS: I apologize, but I am unable to connect to any of ...
+2025-12-14 18:17:46,577 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:19:51,058 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:19:51,058 - OpenRouterLLM - ERROR - OpenRouter API Key not found in .env (expected OPENROUTER_AI)
+2025-12-14 18:19:51,058 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:19:51,058 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:19:51,058 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:20:10,887 - root - INFO - User: do you hear me
+2025-12-14 18:20:10,891 - TTSManager - INFO - Speaking: My brain is missing its connection key (OPENROUTER_AI).
+2025-12-14 18:20:10,891 - EdgeTTS - INFO - Generating TTS: My brain is missing its connection key (OPENROUTER...
+2025-12-14 18:20:14,291 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:20:45,778 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/e53d36591e246c8b4a8ec1c6f9c55f73/element/f.CDB40971E1E2E3D8ED276FCA8080BAEC.d.D56DDBDDD6F203D4B322CE1176E6D602.e.6/text
+2025-12-14 18:24:44,087 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:24:44,088 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:24:44,088 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:24:44,088 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:24:54,024 - root - INFO - User: hello hello
+2025-12-14 18:24:54,026 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:24:57,434 - TTSManager - INFO - Speaking: Yes, I can hear you. How can I assist you today?
+2025-12-14 18:24:57,434 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. How can I assist you today?...
+2025-12-14 18:25:04,934 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:25:14,750 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:25:14,750 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:25:14,750 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:25:14,750 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:25:26,459 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:25:26,459 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:25:26,459 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:25:26,459 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:25:27,142 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/145e870d6dc4f52ee13ceec042bf9e91/element/f.F0E4CDF18EF95C41A6DD555C30A5B610.d.A6C9EDBEA6BB867F68EE2295BB921840.e.13/text
+2025-12-14 18:25:34,531 - root - INFO - User: do you hear me
+2025-12-14 18:25:34,533 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:25:35,453 - TTSManager - INFO - Speaking: Yes, I can hear you.
+2025-12-14 18:25:35,453 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you....
+2025-12-14 18:25:37,717 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:25:54,190 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716935.mp3
+2025-12-14 18:25:54,190 - root - INFO - User: exit
+2025-12-14 18:25:54,191 - TTSManager - INFO - Speaking: Shutting down in 5 seconds.
+2025-12-14 18:25:54,192 - EdgeTTS - INFO - Generating TTS: Shutting down in 5 seconds....
+2025-12-14 18:25:55,916 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:26:08,100 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:26:08,101 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:26:08,101 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:26:08,101 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:26:36,380 - root - INFO - User: what is my GPU uses
+2025-12-14 18:26:36,381 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:26:36,381 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is my GPU uses'
+2025-12-14 18:26:36,424 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:26:37,923 - TTSManager - INFO - Speaking: Your NVIDIA GeForce RTX 3060 GPU is using 761.0MB of VRAM at 13.0% load.
+2025-12-14 18:26:37,923 - EdgeTTS - INFO - Generating TTS: Your NVIDIA GeForce RTX 3060 GPU is using 761.0MB ...
+2025-12-14 18:26:44,200 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:27:00,859 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765716997.mp3
+2025-12-14 18:27:00,859 - root - INFO - User: what about my memory and death
+2025-12-14 18:27:00,860 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:27:00,860 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what about my memory and death'
+2025-12-14 18:27:00,866 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:27:03,227 - TTSManager - INFO - Speaking: Your system has 15.22 GB total RAM with 7.58 GB available. Memory usage is at 50.2%.
+2025-12-14 18:27:03,227 - EdgeTTS - INFO - Generating TTS: Your system has 15.22 GB total RAM with 7.58 GB av...
+2025-12-14 18:27:07,390 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:27:22,271 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717023.mp3
+2025-12-14 18:27:22,271 - root - INFO - User: what about my test
+2025-12-14 18:27:22,273 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:27:24,642 - TTSManager - INFO - Speaking: There's no information about a test. How can I assist you today?
+2025-12-14 18:27:24,642 - EdgeTTS - INFO - Generating TTS: There's no information about a test. How can I ass...
+2025-12-14 18:27:30,190 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:27:38,784 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717044.mp3
+2025-12-14 18:27:38,785 - root - INFO - User: I need disk
+2025-12-14 18:27:38,786 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:27:38,786 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'I need disk'
+2025-12-14 18:27:38,787 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:27:40,504 - TTSManager - INFO - Speaking: Your C:\ drive has 930.64 GB total space with 673.82 GB free, and 27.6% used.
+2025-12-14 18:27:40,504 - EdgeTTS - INFO - Generating TTS: Your C:\ drive has 930.64 GB total space with 673....
+2025-12-14 18:27:44,568 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:28:14,300 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717060.mp3
+2025-12-14 18:28:14,300 - root - INFO - User: about my OS
+2025-12-14 18:28:14,301 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:28:14,301 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'about my OS'
+2025-12-14 18:28:14,331 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:28:16,858 - TTSManager - INFO - Speaking: Your operating system is Windows 10, running on an AMD64 processor.
+2025-12-14 18:28:16,858 - EdgeTTS - INFO - Generating TTS: Your operating system is Windows 10, running on an...
+2025-12-14 18:28:19,538 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:28:35,812 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717096.mp3
+2025-12-14 18:28:35,812 - root - INFO - User: what about my photo
+2025-12-14 18:28:35,814 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:28:36,859 - TTSManager - INFO - Speaking: I don't have access to your photos or personal files. Is there something else I can help with?
+2025-12-14 18:28:36,859 - EdgeTTS - INFO - Generating TTS: I don't have access to your photos or personal fil...
+2025-12-14 18:28:40,435 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:28:59,802 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717116.mp3
+2025-12-14 18:28:59,802 - root - INFO - User: CPU
+2025-12-14 18:28:59,803 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:28:59,803 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'CPU'
+2025-12-14 18:28:59,804 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:29:01,995 - TTSManager - INFO - Speaking: Your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor from AuthenticAMD.
+2025-12-14 18:29:01,995 - EdgeTTS - INFO - Generating TTS: Your CPU is an AMD64 Family 25 Model 120 Stepping ...
+2025-12-14 18:29:05,901 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:29:34,633 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717141.mp3
+2025-12-14 18:29:34,634 - root - INFO - User: give me system info
+2025-12-14 18:29:34,635 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:29:34,635 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'give me system info'
+2025-12-14 18:29:34,686 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:29:37,736 - TTSManager - INFO - Speaking: Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (51.2% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (3.0% load).
+2025-12-14 18:29:37,736 - EdgeTTS - INFO - Generating TTS: Your system info: Windows 10, AMD64 processor, 15....
+2025-12-14 18:29:48,329 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:30:15,889 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1ce89f8bf1fec965c844b545be1720a5/element/f.4A3A40F35E02D202F5267157AB343532.d.89380E3BFECDCBD7A587C2D2111DA5E0.e.13/text
+2025-12-14 18:32:52,690 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:32:52,690 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:32:52,690 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:32:52,690 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:33:00,441 - root - INFO - User: do you think
+2025-12-14 18:33:00,444 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:33:03,265 - TTSManager - INFO - Speaking: I'm here to provide information and assist with tasks. How can I help you today?
+2025-12-14 18:33:03,265 - EdgeTTS - INFO - Generating TTS: I'm here to provide information and assist with ta...
+2025-12-14 18:33:10,541 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:33:32,718 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717383.mp3
+2025-12-14 18:33:32,718 - root - INFO - User: system info
+2025-12-14 18:33:32,719 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:33:32,719 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'system info'
+2025-12-14 18:33:32,787 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:33:35,634 - TTSManager - INFO - Speaking: Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (53.9% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (2.0% load).
+2025-12-14 18:33:35,634 - EdgeTTS - INFO - Generating TTS: Your system info: Windows 10, AMD64 processor, 15....
+2025-12-14 18:33:42,994 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:34:19,822 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/e7618c65a4a9e5b227b7c28a0609cfe5/element/f.5D5531F477AB70872434005A448E9F54.d.CE670D3EE8CD9A0DC19EE9932F98077B.e.10/text
+2025-12-14 18:37:25,661 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:37:25,662 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:37:25,662 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:37:25,662 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:37:33,843 - root - INFO - User: what is my system info
+2025-12-14 18:37:33,844 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:37:33,844 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is my system info'
+2025-12-14 18:37:33,891 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:37:40,507 - TTSManager - INFO - Speaking: Your system info: Windows 10, AMD64 processor,  GB RAM (% used),.6 GB disk space (C:\ drive with 673.7 GB free), and NVIDIA GeForce RTX 3060 GPU (4% load).
+2025-12-14 18:37:40,507 - EdgeTTS - INFO - Generating TTS: Your system info: Windows 10, AMD64 processor,  GB...
+2025-12-14 18:37:47,678 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:40:18,179 - MemoryManager - INFO - Memory loaded.
+2025-12-14 18:40:18,179 - ToolManager - INFO - Tool registered: weather
+2025-12-14 18:40:18,179 - ToolManager - INFO - Tool registered: news
+2025-12-14 18:40:18,179 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 18:40:35,822 - root - INFO - User: system info
+2025-12-14 18:40:35,823 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:40:35,823 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'system info'
+2025-12-14 18:40:35,895 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:40:41,203 - TTSManager - INFO - Speaking: Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (64.7% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (10.0% load).
+2025-12-14 18:40:41,203 - EdgeTTS - INFO - Generating TTS: Your system info: Windows 10, AMD64 processor, 15....
+2025-12-14 18:40:50,992 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:40:59,555 - EdgeTTS - INFO - Audio stopped.
+2025-12-14 18:40:59,555 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717841.mp3
+2025-12-14 18:40:59,555 - root - INFO - User: what is programming
+2025-12-14 18:40:59,556 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 18:40:59,556 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is programming'
+2025-12-14 18:40:59,562 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:41:02,525 - TTSManager - INFO - Speaking: Programming is the process of creating computer instructions using coding languages to build software, applications, and systems.
+2025-12-14 18:41:02,525 - EdgeTTS - INFO - Generating TTS: Programming is the process of creating computer in...
+2025-12-14 18:41:06,193 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:41:11,878 - EdgeTTS - INFO - Audio stopped.
+2025-12-14 18:41:11,878 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717862.mp3
+2025-12-14 18:41:11,878 - root - INFO - User: explain it
+2025-12-14 18:41:11,879 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:41:14,718 - TTSManager - INFO - Speaking: Programming involves designing, writing, testing, and maintaining code to create software, apps, and systems that perform specific tasks or solve problems.
+2025-12-14 18:41:14,718 - EdgeTTS - INFO - Generating TTS: Programming involves designing, writing, testing, ...
+2025-12-14 18:41:19,454 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:41:34,350 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717874.mp3
+2025-12-14 18:41:34,350 - root - INFO - User: explain it in two to three paragraphs
+2025-12-14 18:41:34,351 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:41:49,750 - TTSManager - INFO - Speaking: Programming is the process of designing, writing, testing, and maintaining code to create software, apps, and systems that perform specific tasks or solve problems. It involves using programming languages, such as Java, Python, or C++, to write instructions that a computer can understand and execute. These instructions, or code, are used to create a wide range of applications, from simple calculators to complex operating systems.
+
+The programming process typically starts with planning and designing the software or system, including defining its functionality, user interface, and performance requirements. Next, the programmer writes the code, using a programming language and various tools and software development environments. The code is then tested and debugged to ensure it works correctly and efficiently. Once the code is complete, it is deployed and maintained, which involves updating and fixing it as needed to ensure it continues to meet the user's needs.
+
+Programming requires a range of skills, including problem-solving, analytical thinking, and attention to detail. Programmers must also be able to communicate effectively with others, including users, designers, and other programmers, to ensure that the software or system meets the required specifications and is easy to use. With the increasing demand for technology and digital solutions, programming has become a highly valued and sought-after skill, with a wide range of applications and career opportunities.
+2025-12-14 18:41:49,750 - EdgeTTS - INFO - Generating TTS: Programming is the process of designing, writing, ...
+2025-12-14 18:42:11,796 - EdgeTTS - INFO - Playing audio...
+2025-12-14 18:42:20,605 - EdgeTTS - INFO - Audio stopped.
+2025-12-14 18:42:20,605 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765717909.mp3
+2025-12-14 18:42:20,605 - root - INFO - User: aapke mama
+2025-12-14 18:42:20,606 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 18:42:23,118 - TTSManager - INFO - Speaking: I'm here to help with any questions or tasks you may have. How can I assist you today?
+2025-12-14 18:42:23,118 - EdgeTTS - INFO - Generating TTS: I'm here to help with any questions or tasks you m...
+2025-12-14 18:42:26,260 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:10:49,073 - MemoryManager - INFO - Memory loaded.
+2025-12-14 19:10:49,073 - ToolManager - INFO - Tool registered: weather
+2025-12-14 19:10:49,073 - ToolManager - INFO - Tool registered: news
+2025-12-14 19:10:49,073 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 19:11:03,205 - root - INFO - User: do you hear me do you hear me
+2025-12-14 19:11:03,207 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:11:05,784 - TTSManager - INFO - Speaking: Yes, I can hear you.
+2025-12-14 19:11:05,784 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you....
+2025-12-14 19:11:08,606 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:11:19,007 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719665.mp3
+2025-12-14 19:11:19,007 - root - INFO - User: what is programming
+2025-12-14 19:11:19,007 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 19:11:19,007 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is programming'
+2025-12-14 19:11:19,014 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:11:22,785 - TTSManager - INFO - Speaking: Programming is the process of creating computer instructions using coding languages to build software, applications, and systems.
+2025-12-14 19:11:22,785 - EdgeTTS - INFO - Generating TTS: Programming is the process of creating computer in...
+2025-12-14 19:11:24,532 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:11:40,804 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719682.mp3
+2025-12-14 19:11:40,804 - root - INFO - User: who is Elon
+2025-12-14 19:11:40,806 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:11:43,190 - TTSManager - INFO - Speaking: Elon Musk is a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla.
+2025-12-14 19:11:43,190 - EdgeTTS - INFO - Generating TTS: Elon Musk is a business magnate and entrepreneur, ...
+2025-12-14 19:11:46,166 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:11:56,857 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719703.mp3
+2025-12-14 19:11:56,857 - root - INFO - User: what is olama
+2025-12-14 19:11:56,858 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:12:00,503 - TTSManager - INFO - Speaking: I'm not aware of any information about "olama". Could you please provide more context or clarify what you mean?
+2025-12-14 19:12:00,503 - EdgeTTS - INFO - Generating TTS: I'm not aware of any information about "olama". Co...
+2025-12-14 19:12:06,335 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:12:18,663 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719720.mp3
+2025-12-14 19:12:18,663 - root - INFO - User: Pulwama local
+2025-12-14 19:12:18,664 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:12:21,988 - TTSManager - INFO - Speaking: I'm here to assist with general information and tasks. How can I help you today?
+2025-12-14 19:12:21,988 - EdgeTTS - INFO - Generating TTS: I'm here to assist with general information and ta...
+2025-12-14 19:12:24,834 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:12:35,285 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719741.mp3
+2025-12-14 19:12:35,286 - root - INFO - User: ola my local air
+2025-12-14 19:12:35,287 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:12:37,801 - TTSManager - INFO - Speaking: I'm here to help with information and tasks. Is there something specific you'd like to know or discuss?
+2025-12-14 19:12:37,801 - EdgeTTS - INFO - Generating TTS: I'm here to help with information and tasks. Is th...
+2025-12-14 19:12:41,248 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:12:49,860 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719757.mp3
+2025-12-14 19:12:49,861 - root - INFO - User: olama local AI
+2025-12-14 19:12:49,862 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:12:52,734 - TTSManager - INFO - Speaking: I'm an AI assistant, and I'm here to help with general information and tasks. How can I assist you today?
+2025-12-14 19:12:52,734 - EdgeTTS - INFO - Generating TTS: I'm an AI assistant, and I'm here to help with gen...
+2025-12-14 19:13:01,208 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:13:08,121 - EdgeTTS - INFO - Audio stopped.
+2025-12-14 19:13:08,122 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719772.mp3
+2025-12-14 19:13:08,122 - root - INFO - User: is fucking status
+2025-12-14 19:13:08,123 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:13:09,978 - TTSManager - INFO - Speaking: I'm here to provide helpful and respectful responses. How can I assist you today?
+2025-12-14 19:13:09,978 - EdgeTTS - INFO - Generating TTS: I'm here to provide helpful and respectful respons...
+2025-12-14 19:13:13,402 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:13:14,572 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/90c535e8ed4ac8498868d963db7f6235/element/f.50B32DC5D0CB1F9E0C7ACA32ED2F0764.d.C061D6C230B190C2E595B25C91AC236C.e.16/text
+2025-12-14 19:13:19,781 - MemoryManager - INFO - Memory loaded.
+2025-12-14 19:13:19,781 - ToolManager - INFO - Tool registered: weather
+2025-12-14 19:13:19,781 - ToolManager - INFO - Tool registered: news
+2025-12-14 19:13:19,781 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 19:13:38,197 - root - INFO - User: hey Google
+2025-12-14 19:13:38,198 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:13:40,203 - TTSManager - INFO - Speaking: I'm Ava, your AI assistant. How can I help you today?
+2025-12-14 19:13:40,203 - EdgeTTS - INFO - Generating TTS: I'm Ava, your AI assistant. How can I help you tod...
+2025-12-14 19:13:43,961 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:13:56,957 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-14 19:14:02,659 - MemoryManager - INFO - Memory loaded.
+2025-12-14 19:14:02,659 - ToolManager - INFO - Tool registered: weather
+2025-12-14 19:14:02,659 - ToolManager - INFO - Tool registered: news
+2025-12-14 19:14:02,659 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 19:14:13,052 - root - INFO - User: what is my system info
+2025-12-14 19:14:13,052 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 19:14:13,052 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is my system info'
+2025-12-14 19:14:13,118 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:14:16,188 - TTSManager - INFO - Speaking: Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (56.4% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (4.0% load).
+2025-12-14 19:14:16,188 - EdgeTTS - INFO - Generating TTS: Your system info: Windows 10, AMD64 processor, 15....
+2025-12-14 19:14:25,424 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:15:27,553 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719856.mp3
+2025-12-14 19:15:27,554 - root - INFO - User: what is my GP
+2025-12-14 19:15:27,556 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:15:29,948 - TTSManager - INFO - Speaking: Your GPU is an NVIDIA GeForce RTX 3060.
+2025-12-14 19:15:29,948 - EdgeTTS - INFO - Generating TTS: Your GPU is an NVIDIA GeForce RTX 3060....
+2025-12-14 19:15:32,871 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:15:49,143 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719929.mp3
+2025-12-14 19:15:49,143 - root - INFO - User: jio customer number
+2025-12-14 19:15:49,145 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:15:51,320 - TTSManager - INFO - Speaking: I'm not able to access or provide customer-specific information. Is there something else I can help you with?
+2025-12-14 19:15:51,320 - EdgeTTS - INFO - Generating TTS: I'm not able to access or provide customer-specifi...
+2025-12-14 19:15:54,411 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:16:02,935 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719951.mp3
+2025-12-14 19:16:02,935 - root - INFO - User: GPU information
+2025-12-14 19:16:02,936 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 19:16:02,936 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'GPU information'
+2025-12-14 19:16:02,982 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:16:05,274 - TTSManager - INFO - Speaking: Your GPU is an NVIDIA GeForce RTX 3060, using 1012.0MB of VRAM with a 16.0% load.
+2025-12-14 19:16:05,274 - EdgeTTS - INFO - Generating TTS: Your GPU is an NVIDIA GeForce RTX 3060, using 1012...
+2025-12-14 19:16:12,309 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:16:27,528 - MemoryManager - INFO - Memory loaded.
+2025-12-14 19:16:27,528 - ToolManager - INFO - Tool registered: weather
+2025-12-14 19:16:27,528 - ToolManager - INFO - Tool registered: news
+2025-12-14 19:16:27,528 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 19:16:28,845 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/58cfcc4a93ebbc36a89b915e24c47883/element/f.A5DE0D4BD4334C07A6B61AB9F4C5744E.d.706C270CA6E0EBD5E65F6B69A69AD14D.e.16/text
+2025-12-14 19:16:33,696 - root - INFO - User: what is my sister interview
+2025-12-14 19:16:33,698 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:16:36,382 - TTSManager - INFO - Speaking: I'm not aware of any information about your sister's interview. Is there something else I can help you with?
+2025-12-14 19:16:36,383 - EdgeTTS - INFO - Generating TTS: I'm not aware of any information about your sister...
+2025-12-14 19:16:39,936 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:16:47,557 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765719996.mp3
+2025-12-14 19:16:47,557 - root - INFO - User: what is my system info
+2025-12-14 19:16:47,557 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 19:16:47,557 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'what is my system info'
+2025-12-14 19:16:47,627 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:16:50,607 - TTSManager - INFO - Speaking: Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (57.7% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (7.0% load).
+2025-12-14 19:16:50,607 - EdgeTTS - INFO - Generating TTS: Your system info: Windows 10, AMD64 processor, 15....
+2025-12-14 19:17:04,125 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:17:49,902 - MemoryManager - INFO - Memory loaded.
+2025-12-14 19:17:49,902 - ToolManager - INFO - Tool registered: weather
+2025-12-14 19:17:49,903 - ToolManager - INFO - Tool registered: news
+2025-12-14 19:17:49,903 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 19:17:58,400 - root - INFO - User: system info
+2025-12-14 19:17:58,400 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 19:17:58,400 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'system info'
+2025-12-14 19:17:58,470 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:18:03,765 - TTSManager - INFO - Speaking: Your architecture is Windows 10, your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor, your memory is 15.22 GB RAM (56.7% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (4.0% load).
+2025-12-14 19:18:03,765 - EdgeTTS - INFO - Generating TTS: Your architecture is Windows 10, your CPU is an AM...
+2025-12-14 19:18:11,890 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:18:55,965 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/b6b4e4ed01cb0c2e8845a51fdeb22012/element/f.6AABB49ED98985964C3DA6DCCC6E5B96.d.9D16BCB34B1E4227CA02C831335410F6.e.6/text
+2025-12-14 19:19:52,413 - MemoryManager - INFO - Memory loaded.
+2025-12-14 19:19:52,414 - ToolManager - INFO - Tool registered: weather
+2025-12-14 19:19:52,414 - ToolManager - INFO - Tool registered: news
+2025-12-14 19:19:52,414 - ToolManager - INFO - Tool registered: system_info
+2025-12-14 19:20:34,224 - root - INFO - User: system info
+2025-12-14 19:20:34,225 - ToolManager - INFO - Triggering tool: system_info
+2025-12-14 19:20:34,225 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'system info'
+2025-12-14 19:20:34,295 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-14 19:20:44,297 - TTSManager - INFO - Speaking: Your architecture is Windows 10, your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor, your memory is 15.22 GB RAM (57.9% used), your disk space is 930.64 GB (27.7% used), and your GPU is NVIDIA GeForce RTX 3060 (3.0% load).
+2025-12-14 19:20:44,297 - EdgeTTS - INFO - Generating TTS: Your architecture is Windows 10, your CPU is an AM...
+2025-12-14 19:20:52,379 - EdgeTTS - INFO - Playing audio...
+2025-12-14 19:21:30,029 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-15 01:01:19,957 - MemoryManager - INFO - Memory loaded.
+2025-12-15 01:01:19,959 - ToolManager - INFO - Tool registered: weather
+2025-12-15 01:01:19,959 - ToolManager - INFO - Tool registered: news
+2025-12-15 01:01:19,959 - ToolManager - INFO - Tool registered: system_info
+2025-12-15 01:01:28,574 - root - INFO - User: Mera Awaaz a raha hai kya
+2025-12-15 01:01:28,588 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:01:34,554 - TTSManager - INFO - Speaking: Yes, I can hear you.
+2025-12-15 01:01:34,555 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you....
+2025-12-15 01:01:39,177 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:01:42,033 - EdgeTTS - INFO - Audio stopped.
+2025-12-15 01:01:42,034 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765740694.mp3
+2025-12-15 01:01:42,034 - root - INFO - User: I can hear you
+2025-12-15 01:01:42,040 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:01:46,420 - TTSManager - INFO - Speaking: Loud and clear. How can I assist you today?
+2025-12-15 01:01:46,422 - EdgeTTS - INFO - Generating TTS: Loud and clear. How can I assist you today?...
+2025-12-15 01:01:49,339 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:01:51,601 - EdgeTTS - INFO - Audio stopped.
+2025-12-15 01:01:51,663 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765740706.mp3
+2025-12-15 01:01:51,663 - root - INFO - User: light and clear
+2025-12-15 01:01:51,670 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:01:55,359 - TTSManager - INFO - Speaking: I'm glad we have a clear connection. Is there something I can help you with?
+2025-12-15 01:01:55,359 - EdgeTTS - INFO - Generating TTS: I'm glad we have a clear connection. Is there some...
+2025-12-15 01:02:00,368 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:02:03,521 - EdgeTTS - INFO - Audio stopped.
+2025-12-15 01:02:03,522 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765740715.mp3
+2025-12-15 01:02:03,522 - root - INFO - User: I am glad we have a clear connection
+2025-12-15 01:02:03,525 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:02:07,420 - TTSManager - INFO - Speaking: Me too, it's great that we can communicate effectively. How can I assist you today?
+2025-12-15 01:02:07,421 - EdgeTTS - INFO - Generating TTS: Me too, it's great that we can communicate effecti...
+2025-12-15 01:06:23,246 - MemoryManager - INFO - Memory loaded.
+2025-12-15 01:06:23,248 - ToolManager - INFO - Tool registered: weather
+2025-12-15 01:06:23,248 - ToolManager - INFO - Tool registered: news
+2025-12-15 01:06:23,248 - ToolManager - INFO - Tool registered: system_info
+2025-12-15 01:06:29,659 - root - INFO - User: hello Awaaz a rahi hai kya mera
+2025-12-15 01:06:29,665 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:06:34,068 - TTSManager - INFO - Speaking: Yes, I can hear you. How can I help you today?
+2025-12-15 01:06:34,069 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you. How can I help you today?...
+2025-12-15 01:06:37,921 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:06:54,357 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765740994.mp3
+2025-12-15 01:06:54,357 - root - INFO - User: system info kya hai
+2025-12-15 01:06:54,357 - ToolManager - INFO - Triggering tool: system_info
+2025-12-15 01:06:54,359 - SystemInfoTool - INFO - [SystemInfoTool] Query: 'system info kya hai'
+2025-12-15 01:06:54,401 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:07:01,524 - TTSManager - INFO - Speaking: Your architecture is Windows 10, your CPU is an Intel64 Family 6 Model 140 Stepping 1 processor, your memory is 3.73 GB RAM (92.9% used), your disk space is 220.24 GB (45.2% used).
+2025-12-15 01:07:01,524 - EdgeTTS - INFO - Generating TTS: Your architecture is Windows 10, your CPU is an In...
+2025-12-15 01:07:07,696 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:07:36,393 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765741021.mp3
+2025-12-15 01:07:36,401 - root - INFO - User: Elon Musk owner by the way
+2025-12-15 01:07:36,430 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:07:43,102 - TTSManager - INFO - Speaking: Elon Musk is a well-known entrepreneur and business magnate, founder of companies like SpaceX and Tesla.
+2025-12-15 01:07:43,104 - EdgeTTS - INFO - Generating TTS: Elon Musk is a well-known entrepreneur and busines...
+2025-12-15 01:07:46,427 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:08:01,896 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765741063.mp3
+2025-12-15 01:08:01,905 - root - INFO - User: Elon Musk is a well known entrepreneur and Businessman founder of companies like spacex and Tesla
+2025-12-15 01:08:01,945 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:08:07,094 - TTSManager - INFO - Speaking: Elon Musk is indeed a prominent figure in the tech industry, revolutionizing transportation and space exploration through his innovative ventures.
+2025-12-15 01:08:07,099 - EdgeTTS - INFO - Generating TTS: Elon Musk is indeed a prominent figure in the tech...
+2025-12-15 01:08:11,548 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:08:27,789 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765741087.mp3
+2025-12-15 01:08:27,792 - root - INFO - User: exit
+2025-12-15 01:08:27,804 - TTSManager - INFO - Speaking: Shutting down in 5 seconds.
+2025-12-15 01:08:27,805 - EdgeTTS - INFO - Generating TTS: Shutting down in 5 seconds....
+2025-12-15 01:08:30,471 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:09:08,561 - MemoryManager - INFO - Memory loaded.
+2025-12-15 01:09:08,562 - ToolManager - INFO - Tool registered: weather
+2025-12-15 01:09:08,562 - ToolManager - INFO - Tool registered: news
+2025-12-15 01:09:08,562 - ToolManager - INFO - Tool registered: system_info
+2025-12-15 01:09:25,184 - root - INFO - User: call
+2025-12-15 01:09:25,193 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:09:28,331 - TTSManager - INFO - Speaking: I'm here to assist with information and tasks. How can I help you today?
+2025-12-15 01:09:28,331 - EdgeTTS - INFO - Generating TTS: I'm here to assist with information and tasks. How...
+2025-12-15 01:09:31,804 - EdgeTTS - INFO - Playing audio...
+2025-12-15 01:09:45,222 - EdgeTTS - INFO - Deleted temp file: temp\tts_1765741168.mp3
+2025-12-15 01:09:45,222 - root - INFO - User: TVS showroom
+2025-12-15 01:09:45,225 - OpenRouterLLM - INFO - Attempting to generate with model: meta-llama/llama-3.3-70b-instruct
+2025-12-15 01:09:50,060 - TTSManager - INFO - Speaking: I'm not aware of any specific TVS showroom information. Is there something else I can help you with?
+2025-12-15 01:09:50,060 - EdgeTTS - INFO - Generating TTS: I'm not aware of any specific TVS showroom informa...
+2025-12-15 01:09:54,768 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', "I'm not aware of any specific TVS showroom information. Is there something else I can help you with?", '--write-media', 'temp\\tts_1765741190.mp3', '--write-subtitles', 'temp\\tts_1765741190.srt']' returned non-zero exit status 3221225786.
+2025-12-15 01:10:15,994 - MemoryManager - INFO - Memory loaded.
+2025-12-15 01:10:15,994 - ToolManager - INFO - Tool registered: weather
+2025-12-15 01:10:15,996 - ToolManager - INFO - Tool registered: news
+2025-12-15 01:10:15,996 - ToolManager - INFO - Tool registered: system_info
+2025-12-15 01:10:22,222 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))

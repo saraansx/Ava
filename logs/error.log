@@ -1,0 +1,43 @@
+2025-12-13 04:37:21,626 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765580837.mp3" alias playsound_0.061899935404854944
+    A problem occurred in initializing MCI.
+2025-12-13 04:38:07,295 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 04:38:26,517 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765580901.mp3" alias playsound_0.36475301557664486
+    A problem occurred in initializing MCI.
+2025-12-13 04:38:59,737 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765580936.mp3" alias playsound_0.8612712778375342
+    A problem occurred in initializing MCI.
+2025-12-13 04:40:30,170 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765581027.mp3" alias playsound_0.05252153578339791
+    A problem occurred in initializing MCI.
+2025-12-13 04:41:02,045 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 04:41:56,614 - EdgeTTS - ERROR - TTS Error: 
+    Error 277 for command:
+        open "temp\tts_1765581114.mp3" alias playsound_0.4370171757125997
+    A problem occurred in initializing MCI.
+2025-12-13 04:46:33,909 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 04:53:49,551 - WeatherManager - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 04:55:51,292 - WeatherManager - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 05:01:52,902 - WeatherTool - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 05:02:22,984 - WeatherTool - ERROR - Weather API Error: Invalid API key. Please see https://openweathermap.org/faq#error401 for more info.
+2025-12-13 05:36:38,705 - EdgeTTS - ERROR - Audio file was not generated.
+2025-12-13 05:37:37,010 - EdgeTTS - ERROR - Audio file was not generated.
+2025-12-13 05:37:37,012 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 06:26:40,048 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97494, Requested 4315. Please try again in 26m2.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 06:26:57,629 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97474, Requested 4338. Please try again in 26m5.568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 06:27:20,387 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97448, Requested 4361. Please try again in 26m2.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 06:28:12,977 - GroqLLM - ERROR - Groq Generation Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kcac52g4fexsy471cw8x7cky` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97387, Requested 4384. Please try again in 25m30.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+2025-12-13 07:07:30,436 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 07:16:06,032 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', 'आप कौन हैं? मैं आपके बारे में जानने के लिए उत्सुक हूं। कृपया मुझे बताएं कि आप कौन हैं और आप क्या करते हैं?', '--write-media', 'temp\\tts_1765590364.mp3', '--write-subtitles', 'temp\\tts_1765590364.srt']' returned non-zero exit status 1.
+2025-12-13 07:17:59,235 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-13 22:37:17,645 - A4FLLM - ERROR - Request Error (provider-3/llama-4-maverick): Error code: 401 - {'error': {'message': 'Invalid authentication credentials.', 'type': 'authentication_error', 'code': 'invalid_api_key'}}
+2025-12-14 18:19:51,058 - OpenRouterLLM - ERROR - OpenRouter API Key not found in .env (expected OPENROUTER_AI)
+2025-12-14 19:13:56,957 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-14 19:21:30,029 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-15 01:09:54,768 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', "I'm not aware of any specific TVS showroom information. Is there something else I can help you with?", '--write-media', 'temp\\tts_1765741190.mp3', '--write-subtitles', 'temp\\tts_1765741190.srt']' returned non-zero exit status 3221225786.
+2025-12-15 01:10:22,222 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))

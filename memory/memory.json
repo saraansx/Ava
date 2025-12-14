@@ -1,0 +1,582 @@
+[
+    {
+        "role": "user",
+        "content": "90 GB data sets delete kar ke chala (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot assist with deleting data sets or system files. Let me know if you need help with something else."
+    },
+    {
+        "role": "user",
+        "content": "are wale (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you. How can I help?"
+    },
+    {
+        "role": "user",
+        "content": "gana chalao (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot play music or audio files. Is there something else I can assist with?"
+    },
+    {
+        "role": "user",
+        "content": "acid and water (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Acid and water react violently, producing heat and potentially causing splattering. Never mix acids with water without proper safety equipment."
+    },
+    {
+        "role": "user",
+        "content": "play (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot play audio or music. Is there something else I can help with?"
+    },
+    {
+        "role": "user",
+        "content": "convert (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I can help convert between units, currencies, or formats. Please specify what you'd like to convert."
+    },
+    {
+        "role": "user",
+        "content": "tum mere bare mein (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I am Ava, a helpful voice AI assistant created by Saraans. I can hear you and assist with various tasks. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "I don't care (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to help with whatever you need. Just let me know what you'd like assistance with."
+    },
+    {
+        "role": "user",
+        "content": "Bhojpuri (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Bhojpuri is a language spoken in the Indian states of Bihar and Uttar Pradesh. It's part of the Hindi language family."
+    },
+    {
+        "role": "user",
+        "content": "voice record (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot connect to the local Ollama server. Is it running?"
+    },
+    {
+        "role": "user",
+        "content": "do you hear me (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "give me my (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to help. What would you like me to give you?"
+    },
+    {
+        "role": "user",
+        "content": "mera voice info (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I can hear your voice and respond to your queries. I'm Ava, created by Saraans. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "give me my OS pin code [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot provide OS pin codes or system passwords. This information is private and secure. Let me know if you need help with something else."
+    },
+    {
+        "role": "user",
+        "content": "info about my days and memory [System Data: --- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 0.81 GB\nMemory Used: 94.7%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system has 15.22 GB total memory with only 0.81 GB available. Memory usage is at 94.7%, indicating your system is nearly full. Consider closing unused applications to free up memory."
+    },
+    {
+        "role": "user",
+        "content": "what is my system information [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 0.82 GB\nMemory Used: 94.6%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 676.35 GB\nDisk Used: 27.3%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system is running Windows 10 on an AMD processor with 15.22 GB RAM (94.6% used). You have 930.64 GB total disk space on C:\\ with 676.35 GB free (27.3% used)."
+    },
+    {
+        "role": "user",
+        "content": "what is my processor [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your processor is an AMD64 Family 25 Model 120 Stepping 0, manufactured by AuthenticAMD."
+    },
+    {
+        "role": "user",
+        "content": "what is my GPU (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot access GPU information from the provided system data. Please check your device manager or system settings for GPU details."
+    },
+    {
+        "role": "user",
+        "content": "CPU [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor from AuthenticAMD."
+    },
+    {
+        "role": "user",
+        "content": "GPU (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot access GPU information from the provided system data. Please check your device manager or system settings for GPU details."
+    },
+    {
+        "role": "user",
+        "content": "memory [System Data: --- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 0.85 GB\nMemory Used: 94.4%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system has 15.22 GB total RAM with only 0.85 GB available. Memory usage is at 94.4%, indicating your system is nearly full. Consider closing unused applications to free up memory."
+    },
+    {
+        "role": "user",
+        "content": "what is programming [System Data: --- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 1.36 GB\nMemory Used: 91.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Programming is the process of creating computer instructions using coding languages to build software, applications, and systems."
+    },
+    {
+        "role": "user",
+        "content": "Turki wala (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "GPU [System Data: --- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 11707.0MB / 12288.0MB\nLoad: 5.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your GPU is an NVIDIA GeForce RTX 3060 with 12288.0MB VRAM. Currently, 11707.0MB is used at 5.0% load."
+    },
+    {
+        "role": "user",
+        "content": "g (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but I am unable to connect to any of my AI models at the moment."
+    },
+    {
+        "role": "user",
+        "content": "GPU [System Data: --- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 11636.0MB / 12288.0MB\nLoad: 7.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I apologize, but I am unable to connect to any of my AI models at the moment."
+    },
+    {
+        "role": "user",
+        "content": "do you hear me (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "My brain is missing its connection key (OPENROUTER_AI)."
+    },
+    {
+        "role": "user",
+        "content": "hello hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "do you hear me (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you."
+    },
+    {
+        "role": "user",
+        "content": "what is my GPU uses [System Data: --- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 761.0MB / 12288.0MB\nLoad: 13.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your NVIDIA GeForce RTX 3060 GPU is using 761.0MB of VRAM at 13.0% load."
+    },
+    {
+        "role": "user",
+        "content": "what about my memory and death [System Data: --- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 7.58 GB\nMemory Used: 50.2%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system has 15.22 GB total RAM with 7.58 GB available. Memory usage is at 50.2%."
+    },
+    {
+        "role": "user",
+        "content": "what about my test (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "There's no information about a test. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "I need disk [System Data: --- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.82 GB\nDisk Used: 27.6%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your C:\\ drive has 930.64 GB total space with 673.82 GB free, and 27.6% used."
+    },
+    {
+        "role": "user",
+        "content": "about my OS [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your operating system is Windows 10, running on an AMD64 processor."
+    },
+    {
+        "role": "user",
+        "content": "what about my photo (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have access to your photos or personal files. Is there something else I can help with?"
+    },
+    {
+        "role": "user",
+        "content": "CPU [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor from AuthenticAMD."
+    },
+    {
+        "role": "user",
+        "content": "give me system info [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 7.43 GB\nMemory Used: 51.2%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.81 GB\nDisk Used: 27.6%\n\n--- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 736.0MB / 12288.0MB\nLoad: 3.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (51.2% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (3.0% load)."
+    },
+    {
+        "role": "user",
+        "content": "do you think (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to provide information and assist with tasks. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "system info [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 7.02 GB\nMemory Used: 53.9%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.69 GB\nDisk Used: 27.6%\n\n--- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 782.0MB / 12288.0MB\nLoad: 2.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (53.9% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (2.0% load)."
+    },
+    {
+        "role": "user",
+        "content": "what is my system info [System Data: OS: Windows 10, CPU: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD; Memory: 15.2GB Total, 54.7% Used; Disk (C:\\): 673.7GB Free / 930.6GB Total; GPU: NVIDIA GeForce RTX 3060, Load: 4%, VRAM: 813.0/12288.0MB] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system info: Windows 10, AMD64 processor,  GB RAM (% used),.6 GB disk space (C:\\ drive with 673.7 GB free), and NVIDIA GeForce RTX 3060 GPU (4% load)."
+    },
+    {
+        "role": "user",
+        "content": "system info [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 5.37 GB\nMemory Used: 64.7%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.58 GB\nDisk Used: 27.6%\n\n--- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 1145.0MB / 12288.0MB\nLoad: 10.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (64.7% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (10.0% load)."
+    },
+    {
+        "role": "user",
+        "content": "what is programming [System Data: --- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 5.37 GB\nMemory Used: 64.7%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Programming is the process of creating computer instructions using coding languages to build software, applications, and systems."
+    },
+    {
+        "role": "user",
+        "content": "explain it (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Programming involves designing, writing, testing, and maintaining code to create software, apps, and systems that perform specific tasks or solve problems."
+    },
+    {
+        "role": "user",
+        "content": "explain it in two to three paragraphs (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Programming is the process of designing, writing, testing, and maintaining code to create software, apps, and systems that perform specific tasks or solve problems. It involves using programming languages, such as Java, Python, or C++, to write instructions that a computer can understand and execute. These instructions, or code, are used to create a wide range of applications, from simple calculators to complex operating systems.\n\nThe programming process typically starts with planning and designing the software or system, including defining its functionality, user interface, and performance requirements. Next, the programmer writes the code, using a programming language and various tools and software development environments. The code is then tested and debugged to ensure it works correctly and efficiently. Once the code is complete, it is deployed and maintained, which involves updating and fixing it as needed to ensure it continues to meet the user's needs.\n\nProgramming requires a range of skills, including problem-solving, analytical thinking, and attention to detail. Programmers must also be able to communicate effectively with others, including users, designers, and other programmers, to ensure that the software or system meets the required specifications and is easy to use. With the increasing demand for technology and digital solutions, programming has become a highly valued and sought-after skill, with a wide range of applications and career opportunities."
+    },
+    {
+        "role": "user",
+        "content": "aapke mama (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to help with any questions or tasks you may have. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "do you hear me do you hear me (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you."
+    },
+    {
+        "role": "user",
+        "content": "what is programming [System Data: --- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 6.41 GB\nMemory Used: 57.9%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Programming is the process of creating computer instructions using coding languages to build software, applications, and systems."
+    },
+    {
+        "role": "user",
+        "content": "who is Elon (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla."
+    },
+    {
+        "role": "user",
+        "content": "what is olama (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not aware of any information about \"olama\". Could you please provide more context or clarify what you mean?"
+    },
+    {
+        "role": "user",
+        "content": "Pulwama local (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to assist with general information and tasks. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "ola my local air (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to help with information and tasks. Is there something specific you'd like to know or discuss?"
+    },
+    {
+        "role": "user",
+        "content": "olama local AI (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm an AI assistant, and I'm here to help with general information and tasks. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "is fucking status (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to provide helpful and respectful responses. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hey Google (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm Ava, your AI assistant. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "what is my system info [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 6.64 GB\nMemory Used: 56.4%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.49 GB\nDisk Used: 27.6%\n\n--- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 996.0MB / 12288.0MB\nLoad: 4.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (56.4% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (4.0% load)."
+    },
+    {
+        "role": "user",
+        "content": "what is my GP (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your GPU is an NVIDIA GeForce RTX 3060."
+    },
+    {
+        "role": "user",
+        "content": "jio customer number (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not able to access or provide customer-specific information. Is there something else I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "GPU information [System Data: --- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 1012.0MB / 12288.0MB\nLoad: 16.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your GPU is an NVIDIA GeForce RTX 3060, using 1012.0MB of VRAM with a 16.0% load."
+    },
+    {
+        "role": "user",
+        "content": "what is my sister interview (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not aware of any information about your sister's interview. Is there something else I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "what is my system info [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 6.43 GB\nMemory Used: 57.7%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.41 GB\nDisk Used: 27.6%\n\n--- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 1000.0MB / 12288.0MB\nLoad: 7.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system info: Windows 10, AMD64 processor, 15.22 GB RAM (57.7% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (7.0% load)."
+    },
+    {
+        "role": "user",
+        "content": "system info [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 6.59 GB\nMemory Used: 56.7%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.35 GB\nDisk Used: 27.6%\n\n--- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 1049.0MB / 12288.0MB\nLoad: 4.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your architecture is Windows 10, your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor, your memory is 15.22 GB RAM (56.7% used), 930.64 GB disk space (27.6% used), and NVIDIA GeForce RTX 3060 GPU (4.0% load)."
+    },
+    {
+        "role": "user",
+        "content": "system info [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.19045-SP0\nProcessor: AMD64 Family 25 Model 120 Stepping 0, AuthenticAMD\n\n--- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 6.41 GB\nMemory Used: 57.9%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 930.64 GB\nFree Disk Space: 673.27 GB\nDisk Used: 27.7%\n\n--- GPU Info ---\nGPU: NVIDIA GeForce RTX 3060\nVRAM Used: 1082.0MB / 12288.0MB\nLoad: 3.0%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your architecture is Windows 10, your CPU is an AMD64 Family 25 Model 120 Stepping 0 processor, your memory is 15.22 GB RAM (57.9% used), your disk space is 930.64 GB (27.7% used), and your GPU is NVIDIA GeForce RTX 3060 (3.0% load)."
+    },
+    {
+        "role": "user",
+        "content": "Mera Awaaz a raha hai kya (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you."
+    },
+    {
+        "role": "user",
+        "content": "I can hear you (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Loud and clear. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "light and clear (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm glad we have a clear connection. Is there something I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "I am glad we have a clear connection (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Me too, it's great that we can communicate effectively. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello Awaaz a rahi hai kya mera (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "system info kya hai [System Data: --- System/OS Info ---\nSystem: Windows\nPlatform: Windows-10-10.0.26100-SP0\nProcessor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel\n\n--- Memory Info ---\nTotal Memory: 3.73 GB\nAvailable Memory: 0.27 GB\nMemory Used: 92.9%\n\n--- Disk Info (C:\\) ---\nTotal Disk Space: 220.24 GB\nFree Disk Space: 120.73 GB\nDisk Used: 45.2%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your architecture is Windows 10, your CPU is an Intel64 Family 6 Model 140 Stepping 1 processor, your memory is 3.73 GB RAM (92.9% used), your disk space is 220.24 GB (45.2% used)."
+    },
+    {
+        "role": "user",
+        "content": "Elon Musk owner by the way (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a well-known entrepreneur and business magnate, founder of companies like SpaceX and Tesla."
+    },
+    {
+        "role": "user",
+        "content": "Elon Musk is a well known entrepreneur and Businessman founder of companies like spacex and Tesla (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is indeed a prominent figure in the tech industry, revolutionizing transportation and space exploration through his innovative ventures."
+    },
+    {
+        "role": "user",
+        "content": "call (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to assist with information and tasks. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "TVS showroom (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm not aware of any specific TVS showroom information. Is there something else I can help you with?"
+    }
+]
