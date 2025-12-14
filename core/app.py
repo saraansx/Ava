@@ -32,10 +32,9 @@ class JarvisApp:
         self.tts_manager = TTSManager()
         self.memory_manager = MemoryManager()
         
-        
         #self.llm = OpenRouterLLM()
         self.llm = CohereLLM()
-        #self.llm = OllamaLLM(model="qwen3-coder:latest")
+        #self.llm = OllamaLLM()
             
         self.tool_manager = ToolManager(llm_instance=self.llm)
 

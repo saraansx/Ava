@@ -3,7 +3,7 @@ import json
 import logging
 
 class OllamaLLM:
-    def __init__(self, model="llama3"):
+    def __init__(self, model="qwen3-coder:latest"):
         self.logger = logging.getLogger("OllamaLLM")
         self.base_url = "http://localhost:11434/api/chat"
         self.model = model 
