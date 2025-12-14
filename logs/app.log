@@ -1783,3 +1783,7 @@ Programming requires a range of skills, including problem-solving, analytical th
 2025-12-15 01:10:15,996 - ToolManager - INFO - Tool registered: news
 2025-12-15 01:10:15,996 - ToolManager - INFO - Tool registered: system_info
 2025-12-15 01:10:22,222 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-15 02:15:24,674 - MemoryManager - INFO - Memory loaded.
+2025-12-15 02:15:24,675 - ToolManager - INFO - Tool registered: weather
+2025-12-15 02:15:24,675 - ToolManager - INFO - Tool registered: news
+2025-12-15 02:15:24,675 - ToolManager - INFO - Tool registered: system_info
