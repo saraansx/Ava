@@ -5,7 +5,7 @@ from managers.stt_manager import STTManager
 from managers.tts_manager import TTSManager
 from BRAIN.openrouter import OpenRouterLLM
 from BRAIN.ollama_llm import OllamaLLM
-from BRAIN.bytez_llm import BytezLLM
+from BRAIN.cohere_llm import CohereLLM
 from config import Config
 from rich.console import Console
 from rich.panel import Panel
@@ -34,7 +34,7 @@ class JarvisApp:
         
         
         #self.llm = OpenRouterLLM()
-        self.llm = BytezLLM()
+        self.llm = CohereLLM()
         #self.llm = OllamaLLM(model="qwen3-coder:latest")
             
         self.tool_manager = ToolManager(llm_instance=self.llm)
