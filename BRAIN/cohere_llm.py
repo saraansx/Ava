@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class CohereLLM:
-    def __init__(self, model="command-r"):
+    def __init__(self, model="command-a-03-2025"):
         self.logger = logging.getLogger("CohereLLM")
         self.api_key = os.getenv("COHERA_API_KEY")
         self.model = model
