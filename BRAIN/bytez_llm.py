@@ -14,9 +14,20 @@ class BytezLLM:
         if not self.api_key:
             self.logger.error("Bytez API Key not found in .env (expected BYTEZ_API or BYTEZ_API_KEY)")
             self.client = None
+            self.model = None
         else:
             self.client = Bytez(self.api_key)
-            self.model = self.client.model(self.model_id)
+            kargs = {}
+            if "google" in model_id.lower() or "gemini" in model_id.lower():
+                gemini_key = os.getenv("GEMINI_API")
+                if gemini_key:
+                    kargs["provider_key"] = gemini_key
+            
+            try:
+                self.model = self.client.model(self.model_id, **kargs)
+            except Exception as e:
+                self.logger.warning(f"Failed to init model with provider key, trying without: {e}")
+                self.model = self.client.model(self.model_id)
 
     def extract_city(self, text):
         prompt = f"Extract the city name from this user query: '{text}'. Return ONLY the city name. If no city is specified, return 'None'. Do not add any punctuation or extra words."
@@ -35,34 +46,37 @@ class BytezLLM:
             return "None"
 
     def generate(self, messages_history, system_prompt):
-        if not self.client:
-            return "My brain is missing its connection key (BYTEZ_API).", None, None
+        if not self.model:
+            return "My brain is not connected (Bytez initialization failed).", None, None
 
-        # Bytez seems to take a list of messages.
-        # We need to prepend the system prompt if possible, or include it in the messages.
-        # The user example shows standard role/content dicts.
-        
         full_messages = [{"role": "system", "content": "CRITICAL PROTOCOL: YOU ARE AN ENGLISH-ONLY AI. NEVER SPEAK HINDI. " + system_prompt}] + messages_history
 
         try:
             self.logger.info(f"Sending request to Bytez ({self.model_id})...")
             
-            # The Example: output, error = model.run(messages)
-            output, error = self.model.run(full_messages)
+            response = self.model.run(full_messages)
             
+            output = None
+            error = None
+
+            # Handle response type (Object vs Tuple)
+            if hasattr(response, 'output') and hasattr(response, 'error'):
+                output = response.output
+                error = response.error
+            elif isinstance(response, (list, tuple)) and len(response) >= 2:
+                output = response[0]
+                error = response[1]
+            else:
+                 # Fallback for unexpected return
+                 output = str(response)
+                 self.logger.warning(f"Unexpected response format from Bytez: {type(response)}")
+
             if error:
                 self.logger.error(f"Bytez Error: {error}")
-                return f"I encountered an error with my thoughts: {error}", None, None
+                return f"I encountered an error: {error}", None, None
             
             if output:
-                # Bytez run returns output and error. Assuming output is the string content.
-                content = output
-                
-                # Usage stats are not explicitly provided in the simple run return based on the example.
-                # We will return None for usage for now on.
-                usage = None 
-                
-                return content, usage, self.model_id
+                return output, None, self.model_id
             else:
                 self.logger.warning("Bytez returned empty output.")
                 return "I couldn't think of a response.", None, None
