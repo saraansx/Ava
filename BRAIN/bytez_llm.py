@@ -6,7 +6,7 @@ from bytez import Bytez
 load_dotenv()
 
 class BytezLLM:
-    def __init__(self, model_id="google/gemini-3-pro-preview"):
+    def __init__(self, model_id="mistralai/Mistral-7B-Instruct-v0.3"):
         self.logger = logging.getLogger("BytezLLM")
         self.api_key = os.getenv("BYTEZ_API") or os.getenv("BYTEZ_API_KEY")
         self.model_id = model_id
@@ -14,20 +14,9 @@ class BytezLLM:
         if not self.api_key:
             self.logger.error("Bytez API Key not found in .env (expected BYTEZ_API or BYTEZ_API_KEY)")
             self.client = None
-            self.model = None
         else:
             self.client = Bytez(self.api_key)
-            kargs = {}
-            if "google" in model_id.lower() or "gemini" in model_id.lower():
-                gemini_key = os.getenv("GEMINI_API")
-                if gemini_key:
-                    kargs["provider_key"] = gemini_key
-            
-            try:
-                self.model = self.client.model(self.model_id, **kargs)
-            except Exception as e:
-                self.logger.warning(f"Failed to init model with provider key, trying without: {e}")
-                self.model = self.client.model(self.model_id)
+            self.model = self.client.model(self.model_id)
 
     def extract_city(self, text):
         prompt = f"Extract the city name from this user query: '{text}'. Return ONLY the city name. If no city is specified, return 'None'. Do not add any punctuation or extra words."
@@ -46,37 +35,25 @@ class BytezLLM:
             return "None"
 
     def generate(self, messages_history, system_prompt):
-        if not self.model:
-            return "My brain is not connected (Bytez initialization failed).", None, None
+        if not self.client:
+            return "My brain is missing its connection key (BYTEZ_API).", None, None
 
+        
         full_messages = [{"role": "system", "content": "CRITICAL PROTOCOL: YOU ARE AN ENGLISH-ONLY AI. NEVER SPEAK HINDI. " + system_prompt}] + messages_history
 
         try:
             self.logger.info(f"Sending request to Bytez ({self.model_id})...")
+            output, error = self.model.run(full_messages)
             
-            response = self.model.run(full_messages)
-            
-            output = None
-            error = None
-
-            # Handle response type (Object vs Tuple)
-            if hasattr(response, 'output') and hasattr(response, 'error'):
-                output = response.output
-                error = response.error
-            elif isinstance(response, (list, tuple)) and len(response) >= 2:
-                output = response[0]
-                error = response[1]
-            else:
-                 # Fallback for unexpected return
-                 output = str(response)
-                 self.logger.warning(f"Unexpected response format from Bytez: {type(response)}")
-
             if error:
                 self.logger.error(f"Bytez Error: {error}")
-                return f"I encountered an error: {error}", None, None
+                return f"I encountered an error with my thoughts: {error}", None, None
             
             if output:
-                return output, None, self.model_id
+                content = output
+                usage = None 
+                
+                return content, usage, self.model_id
             else:
                 self.logger.warning("Bytez returned empty output.")
                 return "I couldn't think of a response.", None, None
