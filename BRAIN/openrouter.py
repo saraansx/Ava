@@ -16,13 +16,7 @@ class OpenRouterLLM:
             self.logger.error("OpenRouter API Key not found in .env (expected OPENROUTER_AI)")
         
 
-        self.models = [
-            "meta-llama/llama-3.3-70b-instruct", 
-            "google/gemini-2.0-flash-exp:free",  
-            "meta-llama/llama-3.2-1b-instruct:free", 
-            "qwen/qwen-2-7b-instruct:free",
-            "microsoft/phi-3-mini-128k-instruct:free" 
-        ]
+        self.model = "meta-llama/llama-3.3-70b-instruct"
 
     def extract_city(self, text):
         prompt = f"Extract the city name from this user query: '{text}'. Return ONLY the city name. If no city is specified, return 'None'. Do not add any punctuation or extra words."
@@ -33,27 +27,43 @@ class OpenRouterLLM:
             return "None"
 
     def extract_news_topic(self, text):
-        prompt = f"Extract the news topic or category from this user query: '{text  }'. Return ONLY the topic keywords (e.g., 'Artificial Intelligence', 'Bitcoin', 'Politics'). If the user asks for general news or doesn't specify a topic, return 'None'. Do not add any punctuation or extra words."
+        prompt = f"Extract the news topic or category from this user query: '{text}'. Return ONLY the topic keywords (e.g., 'Artificial Intelligence', 'Bitcoin', 'Politics'). If the user asks for general news or doesn't specify a topic, return 'None'. Do not add any punctuation or extra words."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
             return content.strip()
         except:
             return "None"
 
-    def generate(self, messages_history, system_prompt):
+    def generate(self, messages_history, system_prompt, image_data=None):
         if not self.api_key:
             return "My brain is missing its connection key (OPENROUTER_AI).", None, None
 
         full_messages = [{"role": "system", "content": "CRITICAL PROTOCOL: YOU ARE AN ENGLISH-ONLY AI. NEVER SPEAK HINDI. "+system_prompt}] + messages_history
 
-        for model in self.models:
-            success, response, usage = self._call_model(model, full_messages)
-            if success:
-                return response, usage, model
-            else:
-                self.logger.warning(f"Failed to generate with {model}, switching to next model...")
-        
-        return "I apologize, but I am unable to connect to any of my AI models at the moment.", None, None
+        # Inject Image Data if Present
+        if image_data:
+            for msg in reversed(full_messages):
+                if msg['role'] == 'user':
+                    original_text = msg['content']
+                    msg['content'] = [
+                        {
+                            "type": "text",
+                            "text": original_text
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{image_data}"
+                            }
+                        }
+                    ]
+                    break
+
+        success, response, usage = self._call_model(self.model, full_messages)
+        if success:
+            return response, usage, self.model
+        else:
+            return "I apologize, but I am unable to connect to OpenRouter at the moment.", None, None
 
     def _call_model(self, model, messages):
         headers = {
@@ -99,9 +109,5 @@ class OpenRouterLLM:
     def get_model_context_limit(self, model_name):
         limits = {
             "meta-llama/llama-3.3-70b-instruct": 128000,
-            "google/gemini-2.0-flash-exp:free": 1000000,
-            "meta-llama/llama-3.2-1b-instruct:free": 128000,
-            "qwen/qwen-2-7b-instruct:free": 32000,
-            "microsoft/phi-3-mini-128k-instruct:free": 128000
         }
         return limits.get(model_name, 4096)
