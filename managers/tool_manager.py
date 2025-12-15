@@ -36,8 +36,8 @@ class ToolManager:
         
         if self.llm:
             vision_intent = self.llm.extract_vision_intent(text)
-            if vision_intent == "YES":
-                self.logger.info("LLM decided this is a VISION request.")
+            if vision_intent and "YES" in vision_intent: 
+                self.logger.info(f"LLM decided this is a VISION request (Intent: {vision_intent}).")
                 return self.tools.get("vision")
         
         system_keywords = [
