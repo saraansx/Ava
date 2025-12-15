@@ -19,7 +19,19 @@ class VisionTool:
         
         self.logger.info("Processing visual data...")
         try:
-            description = self.cortex.analyze_image(image_path, prompt)
+            description, usage = self.cortex.analyze_image(image_path, prompt)
+            
+            if usage:
+                from rich.console import Console
+                from rich.text import Text
+                
+                console = Console()
+                model_name = usage.get('model', 'Unknown Model').split('/')[-1]
+                total_tokens = usage.get('total_tokens', 0)
+                
+                stats_text = Text(f"\n[Vision Cortex] Model: {model_name} | Tokens: {total_tokens}", style="dim white")
+                console.print(stats_text)
+
         finally:
             if image_path and os.path.exists(image_path):
                 try:

@@ -18,11 +18,11 @@ class VisionCortex:
 
     def analyze_image(self, image_path, prompt="What do you see in this image?"):
         if not self.api_key:
-            return "Visual Cortex is offline (Missing API Key)."
+            return "Visual Cortex is offline (Missing API Key).", None
         
         if not os.path.exists(image_path):
             self.logger.error(f"Image not found at: {image_path}")
-            return "I cannot see anything because the image capture failed."
+            return "I cannot see anything because the image capture failed.", None
 
         try:
             import base64
@@ -60,11 +60,20 @@ class VisionCortex:
             if response.status_code == 200:
                 data = response.json()
                 content = data['choices'][0]['message']['content']
-                return content
+                
+                usage_raw = data.get("usage", {})
+                usage_data = {
+                    "prompt_tokens": usage_raw.get("prompt_tokens", 0),
+                    "completion_tokens": usage_raw.get("completion_tokens", 0),
+                    "total_tokens": usage_raw.get("total_tokens", 0),
+                    "model": self.model
+                }
+                
+                return content, usage_data
             else:
                 self.logger.error(f"Vision API Error ({response.status_code}): {response.text}")
-                return "My vision is blurry. I couldn't process the image."
+                return "My vision is blurry. I couldn't process the image.", None
 
         except Exception as e:
             self.logger.error(f"Visual Cortex Exception: {e}")
-            return "I encountered a neural error while trying to see."
+            return "I encountered a neural error while trying to see.", None
