@@ -586,5 +586,113 @@
     {
         "role": "assistant",
         "content": "Hello! How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "India latest news [System Data: 1. Angry fans throw chairs and bottles at Messi event in India (BBC News)\n2. UK minister flags visa 'abuse' as student asylum claims surge (BBC News)\n3. Here's why the POCO F8 Ultra isn't coming to India (Android Central)\n4. Microsoft To Invest $17.5 Billion in India (Slashdot.org)] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are the latest news headlines: \n1. Angry fans throw chairs and bottles at Messi event in India, \n2. UK minister flags visa 'abuse' as student asylum claims surge, \n3. POCO F8 Ultra isn't coming to India, \n4. Microsoft to invest $17.5 billion in India."
+    },
+    {
+        "role": "user",
+        "content": "India's latest (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Some of the latest news from India includes: \nAngry fans throwing chairs and bottles at a Messi event, \na UK minister flagging visa 'abuse' as student asylum claims surge, \nthe POCO F8 Ultra not being released in India, \nand Microsoft investing $17.5 billion in India."
+    },
+    {
+        "role": "user",
+        "content": "explain me (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I can provide information and explanations on various topics. What would you like me to explain?"
+    },
+    {
+        "role": "user",
+        "content": "Messi image (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Lionel Messi is a renowned Argentine professional footballer widely regarded as one of the greatest players of all time."
+    },
+    {
+        "role": "user",
+        "content": "news about make in India [System Data: 1. The DOT says it wants to make trucking safer, but some see an 'immigration raid' (NPR)\n2. Google Translate brings real-time speech translations to any headphones (The Verge)\n3. Google Search and Gemini will now do more to surface your favorite and subscribed news (Android Central)\n4. Meet the highest-paid White House staffers \u2014 and see how much they make (Business Insider)\n5. Here's why the POCO F8 Ultra isn't coming to India (Android Central)] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "There is no specific news about \"Make in India\" in the provided data. The headlines are about various topics such as trucking safety, Google Translate, and White House staff salaries."
+    },
+    {
+        "role": "user",
+        "content": "news about Messi India [System Data: 1. Voting open for World Sport Star of the Year - meet the contenders (BBC News)\n2. Get six months of Apple TV at its 2022 price for Black Friday (The Verge)\n3. Today's NYT Connections: Sports Edition Hints and Answers for Dec. 9, #442 (CNET)\n4. Today's NYT Connections: Sports Edition Hints and Answers for Dec. 8, #441 (CNET)] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "There is no news about Messi in India in the provided data. The headlines are about topics such as sports awards, Apple TV, and New York Times connections."
+    },
+    {
+        "role": "user",
+        "content": "hello hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello do you feel (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "As a machine, I don't have emotions or feelings. I'm here to provide information and assist with tasks. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, is there something I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "oh my (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, is there something I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "Nitin drama [System Data: --- Memory Info ---\nTotal Memory: 15.22 GB\nAvailable Memory: 3.74 GB\nMemory Used: 75.4%] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Your system is running low on memory, with 75.4% used and 3.74 GB available."
     }
 ]

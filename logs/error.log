@@ -41,3 +41,10 @@
 2025-12-14 19:21:30,029 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
 2025-12-15 01:09:54,768 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', "I'm not aware of any specific TVS showroom information. Is there something else I can help you with?", '--write-media', 'temp\\tts_1765741190.mp3', '--write-subtitles', 'temp\\tts_1765741190.srt']' returned non-zero exit status 3221225786.
 2025-12-15 01:10:22,222 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-15 15:02:53,039 - StreamElementsTTS - ERROR - StreamElements API Error: 401
+2025-12-15 15:02:53,040 - StreamElementsTTS - ERROR - Failed to generate audio content.
+2025-12-15 15:24:23,338 - StreamElementsTTS - ERROR - StreamElements API Error: 401
+2025-12-15 15:24:23,338 - StreamElementsTTS - ERROR - Failed to generate audio content.
+2025-12-15 15:26:49,149 - StreamElementsTTS - ERROR - StreamElements API Error: 401
+2025-12-15 15:26:49,149 - StreamElementsTTS - ERROR - Failed to generate audio content.
+2025-12-15 15:28:17,734 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', 'Your system is running low on memory, with 75.4% used and 3.74 GB available.', '--write-media', 'C:\\Users\\lilvz\\Downloads\\Codes\\Personal\\Ava\\temp\\tts_1765792696.mp3']' returned non-zero exit status 3221225786.
