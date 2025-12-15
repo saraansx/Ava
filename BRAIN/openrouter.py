@@ -1,22 +1,21 @@
 import os
+import requests
 import json
 import logging
-import requests
 from dotenv import load_dotenv
 
 load_dotenv()
 
 class OpenRouterLLM:
-    def __init__(self):
+    def __init__(self, model="meta-llama/llama-3.3-70b-instruct"):
         self.logger = logging.getLogger("OpenRouterLLM")
-        self.api_key = os.getenv("OPENROUTER_AI") or os.getenv("OPENROUTER_API_KEY")
-        self.base_url = "https://openrouter.ai/api/v1"
-        
-        if not self.api_key:
-            self.logger.error("OpenRouter API Key not found in .env (expected OPENROUTER_AI)")
-        
+        self.api_keys = [key for key in [os.getenv("OPENROUTER_AI"), os.getenv("OPENROUTER_API_KEY_2")] if key]
+        self.current_key_index = 0
+        self.model = model
+        self.base_url = "https://openrouter.ai/api/v1/chat/completions"
 
-        self.model = "meta-llama/llama-3.3-70b-instruct"
+        if not self.api_keys:
+            self.logger.error("No OpenRouter API Keys found in .env (expected OPENROUTER_AI or OPENROUTER_API_KEY_2)")
 
     def extract_city(self, text):
         prompt = f"Extract the city name from this user query: '{text}'. Return ONLY the city name. If no city is specified, return 'None'. Do not add any punctuation or extra words."
@@ -34,81 +33,66 @@ class OpenRouterLLM:
         except:
             return "None"
 
-    def generate(self, messages_history, system_prompt, image_data=None):
-        if not self.api_key:
+    def get_model_context_limit(self, model_name):
+        return 128000
+
+    def generate(self, messages_history, system_prompt):
+        if not self.api_keys:
             return "My brain is missing its connection key (OPENROUTER_AI).", None, None
 
-        full_messages = [{"role": "system", "content": "CRITICAL PROTOCOL: YOU ARE AN ENGLISH-ONLY AI. NEVER SPEAK HINDI. "+system_prompt}] + messages_history
-
-        # Inject Image Data if Present
-        if image_data:
-            for msg in reversed(full_messages):
-                if msg['role'] == 'user':
-                    original_text = msg['content']
-                    msg['content'] = [
-                        {
-                            "type": "text",
-                            "text": original_text
-                        },
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/jpeg;base64,{image_data}"
-                            }
-                        }
-                    ]
-                    break
-
-        success, response, usage = self._call_model(self.model, full_messages)
-        if success:
-            return response, usage, self.model
-        else:
-            return f"I apologize, but I encountered an error: {response}", None, None
-
-    def _call_model(self, model, messages):
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "HTTP-Referer": "http://localhost:3000", 
-            "X-Title": "Jarvis Assistant",
-            "Content-Type": "application/json"
-        }
+        messages = [{"role": "system", "content": system_prompt}]
         
-        payload = {
-            "model": model,
-            "messages": messages,
-            "temperature": 0.7,
-            "max_tokens": 1024
-        }
-
-        try:
-            self.logger.info(f"Attempting to generate with model: {model}")
-            response = requests.post(
-                f"{self.base_url}/chat/completions",
-                headers=headers,
-                data=json.dumps(payload),
-                timeout=15 
-            )
-            
-            if response.status_code == 200:
-                data = response.json()
-                if 'choices' in data and len(data['choices']) > 0:
-                    content = data['choices'][0]['message']['content']
-                    usage = data.get('usage', {})
-                    return True, content, usage
-                else:
-                    self.logger.warning(f"OpenRouter response missing choices: {data}")
-                    return False, "OpenRouter sent an empty response.", None
-            else:
-                error_msg = f"OpenRouter Error {response.status_code}: {response.text}"
-                self.logger.warning(error_msg)
-                return False, error_msg, None
+        if messages_history:
+            for msg in messages_history:
+                content = msg["content"]
+                if isinstance(content, list):
+                    text_parts = [p.get("text", "") for p in content if p.get("type") == "text"]
+                    content = " ".join(text_parts)
                 
-        except Exception as e:
-            self.logger.error(f"Request Error ({model}): {e}")
-            return False, f"Connection Error: {str(e)}", None
+                messages.append({"role": msg["role"], "content": str(content)})
 
-    def get_model_context_limit(self, model_name):
-        limits = {
-            "meta-llama/llama-3.3-70b-instruct": 128000,
+        payload = {
+            "model": self.model,
+            "messages": messages
         }
-        return limits.get(model_name, 4096)
+
+        errors = []
+        for i in range(len(self.api_keys)):
+            key_idx = (self.current_key_index + i) % len(self.api_keys)
+            api_key = self.api_keys[key_idx]
+
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "HTTP-Referer": "https://github.com/Start-Of-The-Week/Ava",
+                "X-Title": "Ava"
+            }
+
+            try:
+                self.logger.info(f"Sending request to OpenRouter ({self.model}) with Key #{key_idx + 1}...")
+                response = requests.post(self.base_url, headers=headers, data=json.dumps(payload), timeout=30)
+                
+                if response.status_code == 200:
+                    self.current_key_index = key_idx
+                    data = response.json()
+                    content = data['choices'][0]['message']['content']
+                    
+                    usage_data = data.get("usage", {})
+                    usage = {
+                        "prompt_tokens": usage_data.get("prompt_tokens", 0),
+                        "completion_tokens": usage_data.get("completion_tokens", 0),
+                        "total_tokens": usage_data.get("total_tokens", 0)
+                    }
+                    
+                    return content, usage, self.model
+                else:
+                    self.logger.warning(f"OpenRouter Key #{key_idx + 1} Failed ({response.status_code}): {response.text}")
+                    errors.append(f"Key {key_idx+1}: {response.status_code}")
+
+            except Exception as e:
+                self.logger.error(f"OpenRouter Request Exception with Key #{key_idx + 1}: {e}")
+                errors.append(f"Key {key_idx+1}: {str(e)}")
+
+        error_msg = f"All OpenRouter keys failed. Errors: {', '.join(errors)}"
+        self.logger.error(error_msg)
+        return "I lost my connection to the OpenRouter cloud (All keys failed).", None, None

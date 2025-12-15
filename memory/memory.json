@@ -578,5 +578,13 @@
     {
         "role": "assistant",
         "content": "I'm not aware of any specific TVS showroom information. Is there something else I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "hello hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today?"
     }
 ]

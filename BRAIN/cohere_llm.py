@@ -9,12 +9,13 @@ load_dotenv()
 class CohereLLM:
     def __init__(self, model="command-a-03-2025"):
         self.logger = logging.getLogger("CohereLLM")
-        self.api_key = os.getenv("COHERA_API_KEY")
+        self.api_keys = [key for key in [os.getenv("COHERA_API_KEY"), os.getenv("COHERA_API_KEY_2")] if key]
+        self.current_key_index = 0
         self.model = model
         self.base_url = "https://api.cohere.com/v1/chat"
 
-        if not self.api_key:
-            self.logger.error("Cohere API Key not found in .env (expected COHERA_API_KEY)")
+        if not self.api_keys:
+            self.logger.error("No Cohere API Keys found in .env (expected COHERA_API_KEY or COHERA_API_KEY_2)")
 
     def extract_city(self, text):
         prompt = f"Extract the city name from this user query: '{text}'. Return ONLY the city name. If no city is specified, return 'None'. Do not add any punctuation or extra words."
@@ -33,7 +34,7 @@ class CohereLLM:
             return "None"
 
     def generate(self, messages_history, system_prompt):
-        if not self.api_key:
+        if not self.api_keys:
             return "My brain is missing its connection key (COHERA_API_KEY).", None, None
 
         latest_message = "Hello"
@@ -70,36 +71,47 @@ class CohereLLM:
             "temperature": 0.7
         }
 
-        headers = {
-            "Authorization": f"Bearer {self.api_key}",
-            "Content-Type": "application/json",
-            "Accept": "application/json"
-        }
-
-        try:
-            self.logger.info(f"Sending request to Cohere ({self.model})...")
-            response = requests.post(self.base_url, headers=headers, data=json.dumps(payload), timeout=30)
+        errors = []
+        for i in range(len(self.api_keys)):
             
-            if response.status_code == 200:
-                data = response.json()
-                content = data.get("text", "")
-                
-             
-                meta = data.get("meta", {}).get("billed_units", {})
-                usage = {
-                    "prompt_tokens": meta.get("input_tokens", 0),
-                    "completion_tokens": meta.get("output_tokens", 0),
-                    "total_tokens": meta.get("input_tokens", 0) + meta.get("output_tokens", 0)
-                }
-                
-                return content, usage, self.model
-            else:
-                self.logger.error(f"Cohere Error ({response.status_code}): {response.text}")
-                return f"I encountered an error connecting to Cohere: {response.status_code}", None, None
+            key_idx = (self.current_key_index + i) % len(self.api_keys)
+            api_key = self.api_keys[key_idx]
 
-        except Exception as e:
-            self.logger.error(f"Cohere Request Exception: {e}")
-            return "I lost my connection to the Cohere cloud.", None, None
+            headers = {
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            }
+
+            try:
+                self.logger.info(f"Sending request to Cohere ({self.model}) with Key #{key_idx + 1}...")
+                response = requests.post(self.base_url, headers=headers, data=json.dumps(payload), timeout=30)
+                
+                if response.status_code == 200:
+                    self.current_key_index = key_idx
+                    
+                    data = response.json()
+                    content = data.get("text", "")
+                    
+                    meta = data.get("meta", {}).get("billed_units", {})
+                    usage = {
+                        "prompt_tokens": meta.get("input_tokens", 0),
+                        "completion_tokens": meta.get("output_tokens", 0),
+                        "total_tokens": meta.get("input_tokens", 0) + meta.get("output_tokens", 0)
+                    }
+                    
+                    return content, usage, self.model
+                else:
+                    self.logger.warning(f"Cohere Key #{key_idx + 1} Failed ({response.status_code}): {response.text}")
+                    errors.append(f"Key {key_idx+1}: {response.status_code}")
+            
+            except Exception as e:
+                self.logger.error(f"Cohere Request Exception with Key #{key_idx + 1}: {e}")
+                errors.append(f"Key {key_idx+1}: {str(e)}")
+
+        error_msg = f"All Cohere keys failed. Errors: {', '.join(errors)}"
+        self.logger.error(error_msg)
+        return "I lost my connection to the Cohere cloud (All keys failed).", None, None
 
     def get_model_context_limit(self, model_name):
         return 128000

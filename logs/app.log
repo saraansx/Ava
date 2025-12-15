@@ -1787,3 +1787,12 @@ Programming requires a range of skills, including problem-solving, analytical th
 2025-12-15 02:15:24,675 - ToolManager - INFO - Tool registered: weather
 2025-12-15 02:15:24,675 - ToolManager - INFO - Tool registered: news
 2025-12-15 02:15:24,675 - ToolManager - INFO - Tool registered: system_info
+2025-12-15 14:16:05,800 - MemoryManager - INFO - Memory loaded.
+2025-12-15 14:16:05,800 - ToolManager - INFO - Tool registered: weather
+2025-12-15 14:16:05,800 - ToolManager - INFO - Tool registered: news
+2025-12-15 14:16:05,800 - ToolManager - INFO - Tool registered: system_info
+2025-12-15 14:16:16,877 - root - INFO - User: hello hello
+2025-12-15 14:16:16,879 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-15 14:16:21,821 - TTSManager - INFO - Speaking: Hello! How can I assist you today?
+2025-12-15 14:16:21,822 - EdgeTTS - INFO - Generating TTS: Hello! How can I assist you today?...
+2025-12-15 14:16:24,854 - EdgeTTS - INFO - Playing audio...
