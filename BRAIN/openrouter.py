@@ -32,6 +32,14 @@ class OpenRouterLLM:
         except:
             return "None"
 
+    def extract_vision_intent(self, text):
+        prompt = f"Analyze if the user wants you to visually look at something using the CAMERA. Queries like 'what is in front of you', 'what do you see', 'what color is this', 'describe this', 'look at me' imply VISION. Queries like 'visualize a dragon', 'imagine a beach' do NOT imply vision (they are image generation). Return ONLY 'YES' if they want you to SEE with the camera, otherwise return 'NO'."
+        try:
+            content, _, _ = self.generate([], system_prompt=prompt)
+            return content.strip().upper()
+        except:
+            return "NO"
+
     def get_model_context_limit(self, model_name):
         return 128000
 

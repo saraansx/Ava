@@ -826,5 +826,21 @@
     {
         "role": "assistant",
         "content": "The image shows a young man wearing a blue shirt and headphones, standing in front of a camera with a blurred face. The background includes blue curtains and a red object, possibly an exercise machine or furniture, in a brightly lit room."
+    },
+    {
+        "role": "user",
+        "content": "Awaaz a raha hai kya (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Error: 402"
+    },
+    {
+        "role": "user",
+        "content": "do you hear me (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you."
     }
 ]

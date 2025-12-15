@@ -2144,3 +2144,26 @@ Angr...
 2025-12-15 18:59:19,241 - TTSManager - INFO - Speaking: Shutting down in 5 seconds.
 2025-12-15 18:59:19,241 - EdgeTTS - INFO - Generating TTS: Shutting down in 5 seconds....
 2025-12-15 18:59:21,154 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', 'Shutting down in 5 seconds.', '--write-media', 'C:\\Users\\lilvz\\Downloads\\Ava\\temp\\tts_1765805359.mp3']' returned non-zero exit status 1.
+2025-12-16 05:00:38,290 - MemoryManager - INFO - Memory loaded.
+2025-12-16 05:00:38,290 - ToolManager - INFO - Tool registered: weather
+2025-12-16 05:00:38,291 - ToolManager - INFO - Tool registered: news
+2025-12-16 05:00:38,291 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 05:00:38,474 - ToolManager - INFO - Tool registered: vision
+2025-12-16 05:00:46,652 - root - INFO - User: Awaaz a raha hai kya
+2025-12-16 05:00:46,654 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:00:47,475 - OpenRouterLLM - WARNING - OpenRouter Failed (402): {"error":{"message":"This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 3822. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account","code":402,"metadata":{"provider_name":null}},"user_id":"user_2tctf9rkKZv2bcETjlxiBEf7A2H"}
+2025-12-16 05:00:47,561 - TTSManager - INFO - Speaking: Error: 402
+2025-12-16 05:00:47,561 - EdgeTTS - INFO - Generating TTS: Error: 402...
+2025-12-16 05:00:50,373 - EdgeTTS - INFO - Playing audio...
+2025-12-16 05:00:53,580 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Codes\Personal\Ava\temp\tts_1765841447.mp3
+2025-12-16 05:06:09,575 - MemoryManager - INFO - Memory loaded.
+2025-12-16 05:06:09,575 - ToolManager - INFO - Tool registered: weather
+2025-12-16 05:06:09,575 - ToolManager - INFO - Tool registered: news
+2025-12-16 05:06:09,575 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 05:06:09,642 - ToolManager - INFO - Tool registered: vision
+2025-12-16 05:06:15,065 - root - INFO - User: do you hear me
+2025-12-16 05:06:15,068 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:06:21,460 - TTSManager - INFO - Speaking: Yes, I can hear you.
+2025-12-16 05:06:21,460 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you....
+2025-12-16 05:06:23,147 - EdgeTTS - INFO - Playing audio...
+2025-12-16 05:06:26,852 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Codes\Personal\Ava\temp\tts_1765841781.mp3
