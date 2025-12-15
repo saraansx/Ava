@@ -63,7 +63,7 @@ class OpenRouterLLM:
         if success:
             return response, usage, self.model
         else:
-            return "I apologize, but I am unable to connect to OpenRouter at the moment.", None, None
+            return f"I apologize, but I encountered an error: {response}", None, None
 
     def _call_model(self, model, messages):
         headers = {
@@ -97,14 +97,15 @@ class OpenRouterLLM:
                     return True, content, usage
                 else:
                     self.logger.warning(f"OpenRouter response missing choices: {data}")
-                    return False, None, None
+                    return False, "OpenRouter sent an empty response.", None
             else:
-                self.logger.warning(f"OpenRouter Error ({model}): {response.status_code} - {response.text}")
-                return False, None, None
+                error_msg = f"OpenRouter Error {response.status_code}: {response.text}"
+                self.logger.warning(error_msg)
+                return False, error_msg, None
                 
         except Exception as e:
             self.logger.error(f"Request Error ({model}): {e}")
-            return False, None, None
+            return False, f"Connection Error: {str(e)}", None
 
     def get_model_context_limit(self, model_name):
         limits = {
