@@ -123,23 +123,23 @@ class JarvisApp:
                         text += f" [System Data: {tool_result}]"
                         tool_content = Text("\n\nTool Output: ", style="italic dim yellow") + Text(str(tool_result), style="italic dim yellow")
 
-      
-                     triggers = ["what do you see", "look at this", "describe this", "what is this", "vision", "camera"]
-                     if any(t in text.lower() for t in triggers):
-                         self.console.print("[dim italic]Engaging Visual Cortex...[/dim italic]", style="cyan")
-                         img_b64 = self.camera_manager.get_latest_frame_b64()
-                         if img_b64:
-                             vision_response, _, _ = self.vision_brain.generate(
-                                 messages_history=[{"role": "user", "content": "Describe this image in detail."}], 
-                                 system_prompt="You are a vision system. Describe the image objectively and detailed.", 
-                                 image_data=img_b64
-                             )
-                             
-                             if vision_response:
-                                 self.console.print(Panel(f"[dim]Visual System: {vision_response}[/dim]", title="Vision Data", border_style="dim"))
-                                 text += f" [VISUAL CONTEXT: {vision_response}]"
-                         else:
-                             self.console.print("[dim red]Camera Unavailable[/dim red]")
+                    # --- VISION PIPELINE ---
+                    triggers = ["what do you see", "look at this", "describe this", "what is this", "vision", "camera"]
+                    if any(t in text.lower() for t in triggers):
+                        self.console.print("[dim italic]Engaging Visual Cortex...[/dim italic]", style="cyan")
+                        img_b64 = self.camera_manager.get_latest_frame_b64()
+                        if img_b64:
+                            vision_response, _, _ = self.vision_brain.generate(
+                                messages_history=[{"role": "user", "content": "Describe this image in detail."}], 
+                                system_prompt="You are a vision system. Describe the image objectively and detailed.", 
+                                image_data=img_b64
+                            )
+                            
+                            if vision_response:
+                                self.console.print(Panel(f"[dim]Visual System: {vision_response}[/dim]", title="Vision Data", border_style="dim"))
+                                text += f" [VISUAL CONTEXT: {vision_response}]"
+                        else:
+                            self.console.print("[dim red]Camera Unavailable[/dim red]")
 
                      self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
                      
