@@ -22,6 +22,7 @@ from System.prompts import SystemPrompts
 
 from managers.memory_manager import MemoryManager
 from managers.tool_manager import ToolManager
+from managers.camera_manager import CameraManager
 
 class JarvisApp:
     def __init__(self):
@@ -32,9 +33,13 @@ class JarvisApp:
         self.tts_manager = TTSManager()
         self.memory_manager = MemoryManager()
         
-        #self.llm = OpenRouterLLM()
-        self.llm = CohereLLM()
-        #self.llm = OllamaLLM()
+        self.camera_manager = CameraManager()
+        
+        self.vision_brain = OpenRouterLLM() 
+        
+        self.chat_brain = CohereLLM()
+        
+        self.llm = self.chat_brain 
             
         self.tool_manager = ToolManager(llm_instance=self.llm)
 
@@ -122,14 +127,30 @@ class JarvisApp:
                     
                     with self.console.status("[bold magenta]Processing...[/bold magenta]", spinner="bouncingBar") as status:
                          history = self.memory_manager.get_messages()
-                         response, usage, model_name = self.llm.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR)
+                         
+                         # --- VISION TRIGGER LOGIC ---
+                         image_data = None
+                         active_brain = self.chat_brain # Default to Chat
+                         
+                         triggers = ["what do you see", "look at this", "describe this", "what is this", "vision", "camera"]
+                         if any(t in text.lower() for t in triggers):
+                             self.console.print("[dim italic]Activating Vision...[/dim italic]", style="cyan")
+                             img_b64 = self.camera_manager.get_latest_frame_b64()
+                             if img_b64:
+                                 self.console.print("[dim green]Image Captured.[/dim green]")
+                                 image_data = img_b64
+                                 active_brain = self.vision_brain
+                             else:
+                                 self.console.print("[dim red]Camera not ready.[/dim red]")
+
+                         response, usage, model_name = active_brain.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR, image_data=image_data if active_brain == self.vision_brain else None)
                     
                     self.memory_manager.add_message("assistant", response)
                     
                     # Calculate stats for the corner
                     if usage:
                         total = usage.get('total', usage.get('total_tokens', 0))
-                        limit = self.llm.get_model_context_limit(model_name)
+                        limit = active_brain.get_model_context_limit(model_name)
                         left = limit - total
                         
                         # Shorten model name (e.g. "meta-llama/llama-3.1" -> "llama-3.1")

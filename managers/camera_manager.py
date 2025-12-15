@@ -12,7 +12,6 @@ class CameraManager:
         self.latest_frame = None
         self.lock = threading.Lock()
         
-        # Start camera in a separate thread so it's always "on" (24/7) without blocking
         self.start_camera()
 
     def start_camera(self):
@@ -22,7 +21,6 @@ class CameraManager:
 
     def _capture_loop(self):
         self.logger.info("Initializing Camera...")
-        # Index 0 is usually the default webcam
         self.cap = cv2.VideoCapture(0)
         
         if not self.cap.isOpened():
@@ -37,7 +35,7 @@ class CameraManager:
             if ret:
                 with self.lock:
                     self.latest_frame = frame
-            time.sleep(0.03) # ~30 FPS capture rate
+            time.sleep(0.03)
 
         self.cap.release()
 
@@ -49,7 +47,6 @@ class CameraManager:
         if frame is None:
             return None
 
-        # Encode frame to JPG
         _, buffer = cv2.imencode('.jpg', frame)
         jpg_as_text = base64.b64encode(buffer).decode('utf-8')
         return jpg_as_text
