@@ -14,6 +14,14 @@ class ToolManager:
         self.register_tool(WeatherTool())
         self.register_tool(NewsTool())
         self.register_tool(SystemInfoTool())
+        
+        try:
+            from tools.vision_tool import VisionTool
+        
+            VisionTool.name = "vision" 
+            self.register_tool(VisionTool())
+        except Exception as e:
+            self.logger.error(f"Failed to register VisionTool: {e}")
 
     def register_tool(self, tool):
         self.tools[tool.name] = tool
@@ -26,7 +34,11 @@ class ToolManager:
         if "news" in text:
             return self.tools.get("news")
         
-        # Expanded system info triggers
+        vision_keywords = ["see", "holding", "look at", "describe", "vision"]
+        if any(keyword in text for keyword in vision_keywords):
+            if "you see" in text or "do you see" in text or "am i holding" in text or "look at this" in text:
+                 return self.tools.get("vision")
+        
         system_keywords = [
             "system", "spec", "specs", "processor", "cpu", 
             "memory", "ram", "disk", "storage", "space", "os", "platform",
@@ -65,5 +77,8 @@ class ToolManager:
             
             elif tool.name == "system_info":
                 return tool.execute(query_type=user_text)
+
+            elif tool.name == "vision":
+                return tool.execute(prompt=user_text)
         
         return None
