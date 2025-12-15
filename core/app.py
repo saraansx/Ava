@@ -141,11 +141,11 @@ class JarvisApp:
                         else:
                             self.console.print("[dim red]Camera Unavailable[/dim red]")
 
-                     self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
-                     
-                     with self.console.status("[bold magenta]Processing...[/bold magenta]", spinner="bouncingBar") as status:
-                          history = self.memory_manager.get_messages()
-                          response, usage, model_name = self.llm.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR)
+                    self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
+                    
+                    with self.console.status("[bold magenta]Processing...[/bold magenta]", spinner="bouncingBar") as status:
+                        history = self.memory_manager.get_messages()
+                        response, usage, model_name = self.llm.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR)
                     
                     self.memory_manager.add_message("assistant", response)
                     
