@@ -40,16 +40,23 @@ class CohereLLM:
         chat_history = []
         
         if messages_history:
+
              last_msg = messages_history[-1]
-             if last_msg['role'] == 'user':
-                 latest_message = last_msg['content']
-                 raw_history = messages_history[:-1]
+             content = last_msg['content']
+             if isinstance(content, list):
+                 text_parts = [p.get("text", "") for p in content if p.get("type") == "text"]
+                 latest_message = " ".join(text_parts)
              else:
-                 latest_message = last_msg['content']
-                 raw_history = messages_history[:-1]
+                 latest_message = content
+                 
+             raw_history = messages_history[:-1]
              for msg in raw_history:
                  role = "USER" if msg["role"] == "user" else "CHATBOT"
-                 chat_history.append({"role": role, "message": msg["content"]})
+                 content = msg["content"]
+                 if isinstance(content, list):
+                     text_parts = [p.get("text", "") for p in content if p.get("type") == "text"]
+                     content = " ".join(text_parts)
+                 chat_history.append({"role": role, "message": str(content)})
         else:
             pass
 
