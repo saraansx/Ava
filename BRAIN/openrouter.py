@@ -40,35 +40,13 @@ class OpenRouterLLM:
         except:
             return "None"
 
-    def generate(self, messages_history, system_prompt, image_data=None):
+    def generate(self, messages_history, system_prompt):
         if not self.api_key:
             return "My brain is missing its connection key (OPENROUTER_AI).", None, None
 
         full_messages = [{"role": "system", "content": "CRITICAL PROTOCOL: YOU ARE AN ENGLISH-ONLY AI. NEVER SPEAK HINDI. "+system_prompt}] + messages_history
 
-        if image_data:
-            for msg in reversed(full_messages):
-                if msg['role'] == 'user':
-                    original_text = msg['content']
-                    msg['content'] = [
-                        {
-                            "type": "text",
-                            "text": original_text
-                        },
-                        {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/jpeg;base64,{image_data}"
-                            }
-                        }
-                    ]
-                    break
-
-        priority_models = self.models
-        if image_data:
-             priority_models = [m for m in self.models if "gemini" in m or "vision" in m] + [m for m in self.models if "gemini" not in m and "vision" not in m]
-
-        for model in priority_models:
+        for model in self.models:
             success, response, usage = self._call_model(model, full_messages)
             if success:
                 return response, usage, model

@@ -22,7 +22,6 @@ from System.prompts import SystemPrompts
 
 from managers.memory_manager import MemoryManager
 from managers.tool_manager import ToolManager
-from managers.camera_manager import CameraManager
 
 class JarvisApp:
     def __init__(self):
@@ -33,13 +32,9 @@ class JarvisApp:
         self.tts_manager = TTSManager()
         self.memory_manager = MemoryManager()
         
-        self.camera_manager = CameraManager()
-        
-        self.vision_brain = OpenRouterLLM() 
-        
-        self.chat_brain = CohereLLM()
-        
-        self.llm = self.chat_brain 
+        #self.llm = OpenRouterLLM()
+        self.llm = CohereLLM()
+        #self.llm = OllamaLLM()
             
         self.tool_manager = ToolManager(llm_instance=self.llm)
 
@@ -123,29 +118,11 @@ class JarvisApp:
                         text += f" [System Data: {tool_result}]"
                         tool_content = Text("\n\nTool Output: ", style="italic dim yellow") + Text(str(tool_result), style="italic dim yellow")
 
-                    # --- VISION PIPELINE ---
-                    triggers = ["what do you see", "look at this", "describe this", "what is this", "vision", "camera"]
-                    if any(t in text.lower() for t in triggers):
-                        self.console.print("[dim italic]Engaging Visual Cortex...[/dim italic]", style="cyan")
-                        img_b64 = self.camera_manager.get_latest_frame_b64()
-                        if img_b64:
-                            vision_response, _, _ = self.vision_brain.generate(
-                                messages_history=[{"role": "user", "content": "Describe this image in detail."}], 
-                                system_prompt="You are a vision system. Describe the image objectively and detailed.", 
-                                image_data=img_b64
-                            )
-                            
-                            if vision_response:
-                                self.console.print(Panel(f"[dim]Visual System: {vision_response}[/dim]", title="Vision Data", border_style="dim"))
-                                text += f" [VISUAL CONTEXT: {vision_response}]"
-                        else:
-                            self.console.print("[dim red]Camera Unavailable[/dim red]")
-
                     self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
                     
                     with self.console.status("[bold magenta]Processing...[/bold magenta]", spinner="bouncingBar") as status:
-                        history = self.memory_manager.get_messages()
-                        response, usage, model_name = self.llm.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR)
+                         history = self.memory_manager.get_messages()
+                         response, usage, model_name = self.llm.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR)
                     
                     self.memory_manager.add_message("assistant", response)
                     

@@ -22,7 +22,7 @@ class CohereLLM:
             content, _, _ = self.generate([], system_prompt=prompt)
             return content.strip()
         except:
-            return "None"
+            return "None"fix
 
     def extract_news_topic(self, text):
         prompt = f"Extract the news topic or category from this user query: '{text}'. Return ONLY the topic keywords (e.g., 'Artificial Intelligence', 'Bitcoin', 'Politics'). If the user asks for general news or doesn't specify a topic, return 'None'. Do not add any punctuation or extra words."
@@ -32,7 +32,7 @@ class CohereLLM:
         except:
             return "None"
 
-    def generate(self, messages_history, system_prompt, **kwargs):
+    def generate(self, messages_history, system_prompt):
         if not self.api_key:
             return "My brain is missing its connection key (COHERA_API_KEY).", None, None
 
