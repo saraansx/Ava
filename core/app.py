@@ -123,49 +123,51 @@ class JarvisApp:
                         text += f" [System Data: {tool_result}]"
                         tool_content = Text("\n\nTool Output: ", style="italic dim yellow") + Text(str(tool_result), style="italic dim yellow")
 
-                    self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
-                    
-                    with self.console.status("[bold magenta]Processing...[/bold magenta]", spinner="bouncingBar") as status:
-                         history = self.memory_manager.get_messages()
-                         
-                         # --- VISION TRIGGER LOGIC ---
-                         image_data = None
-                         active_brain = self.chat_brain # Default to Chat
-                         
-                         triggers = ["what do you see", "look at this", "describe this", "what is this", "vision", "camera"]
-                         if any(t in text.lower() for t in triggers):
-                             self.console.print("[dim italic]Activating Vision...[/dim italic]", style="cyan")
-                             img_b64 = self.camera_manager.get_latest_frame_b64()
-                             if img_b64:
-                                 self.console.print("[dim green]Image Captured.[/dim green]")
-                                 image_data = img_b64
-                                 active_brain = self.vision_brain
-                             else:
-                                 self.console.print("[dim red]Camera not ready.[/dim red]")
+        
+                     triggers = ["what do you see", "look at this", "describe this", "what is this", "vision", "camera"]
+                     if any(t in text.lower() for t in triggers):
+                         self.console.print("[dim italic]Engaging Visual Cortex...[/dim italic]", style="cyan")
+                         img_b64 = self.camera_manager.get_latest_frame_b64()
+                         if img_b64:
+    
+                             vision_response, _, _ = self.vision_brain.generate(
+                                 messages_history=[{"role": "user", "content": "Describe this image in detail."}], 
+                                 system_prompt="You are a vision system. Describe the image objectively and detailed.", 
+                                 image_data=img_b64
+                             )
+                             
+                             if vision_response:
+                                 self.console.print(Panel(f"[dim]Visual System: {vision_response}[/dim]", title="Vision Data", border_style="dim"))
+        
+                                 text += f" [VISUAL CONTEXT: {vision_response}]"
+                         else:
+                             self.console.print("[dim red]Camera Unavailable[/dim red]")
 
-                         response, usage, model_name = active_brain.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR, image_data=image_data if active_brain == self.vision_brain else None)
+                     self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
+                     
+                     with self.console.status("[bold magenta]Processing...[/bold magenta]", spinner="bouncingBar") as status:
+                          history = self.memory_manager.get_messages()
+                          response, usage, model_name = self.llm.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR)
                     
                     self.memory_manager.add_message("assistant", response)
                     
-                    # Calculate stats for the corner
+    
                     if usage:
                         total = usage.get('total', usage.get('total_tokens', 0))
-                        limit = active_brain.get_model_context_limit(model_name)
+                        limit = self.llm.get_model_context_limit(model_name)
                         left = limit - total
                         
-                        # Shorten model name (e.g. "meta-llama/llama-3.1" -> "llama-3.1")
+    
                         short_model = model_name.split('/')[-1] if '/' in model_name else model_name
                         
                         subtitle_text = f"[dim]{short_model} • U:{total} L:{left}[/dim]"
                     else:
                         subtitle_text = f"[dim]{model_name or 'Unknown'}[/dim]"
 
-                    # Typewriter animation within a Box (Panel)
                     from rich.live import Live
                     
                     panel_content = Text("", style="cyan")
                     
-                    # Helper to create the panel state
                     def create_panel(text_content):
                         return Panel(
                             text_content,

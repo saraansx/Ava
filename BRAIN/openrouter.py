@@ -64,7 +64,11 @@ class OpenRouterLLM:
                     ]
                     break
 
-        for model in self.models:
+        priority_models = self.models
+        if image_data:
+             priority_models = [m for m in self.models if "gemini" in m or "vision" in m] + [m for m in self.models if "gemini" not in m and "vision" not in m]
+
+        for model in priority_models:
             success, response, usage = self._call_model(model, full_messages)
             if success:
                 return response, usage, model
