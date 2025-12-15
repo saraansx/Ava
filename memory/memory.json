@@ -694,5 +694,137 @@
     {
         "role": "assistant",
         "content": "Your system is running low on memory, with 75.4% used and 3.74 GB available."
+    },
+    {
+        "role": "user",
+        "content": "hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "latest news for India [System Data: 1. Angry fans throw chairs and bottles at Messi event in India (BBC News)\n2. UK minister flags visa 'abuse' as student asylum claims surge (BBC News)\n3. Here's why the POCO F8 Ultra isn't coming to India (Android Central)\n4. Microsoft To Invest $17.5 Billion in India (Slashdot.org)] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Here are some latest news headlines related to India: \n1. Angry fans throw chairs and bottles at Messi event in India, \n2. UK minister flags visa 'abuse' as student asylum claims surge, \n3. POCO F8 Ultra isn't coming to India, \n4. Microsoft to invest $ billion in India."
+    },
+    {
+        "role": "user",
+        "content": "dollar billion ki hai (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "Awaaz a raha hai kya (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you."
+    },
+    {
+        "role": "user",
+        "content": "what do you see (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm a voice assistant, I don't have the ability to see. I can only process and respond to text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "do you see anything (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm a voice assistant, I don't have the ability to see. I can only process and respond to text-based input."
+    },
+    {
+        "role": "user",
+        "content": "do you see anything [System Data: [Visual Observation]: The image is very dark, but it appears to show a person's face or head, possibly taking a selfie or making a gesture. Unfortunately, due to the low lighting, the details are unclear.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image appears to show a person's face or head, but details are unclear due to low lighting."
+    },
+    {
+        "role": "user",
+        "content": "what do you see now [System Data: [Visual Observation]: The image shows a young man holding up a smartphone in front of a mirror, with the phone's screen reflecting various icons and settings. The man is wearing a dark blue t-shirt and has short black hair. He is standing in a room with a window behind him, which is covered by blue curtains. To the right of the man, there is a red object and a fan visible in the mirror's reflection. The overall atmosphere of the image suggests that the man is taking a selfie or showcasing the phone's features.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a young man holding a smartphone in front of a mirror, with various icons and settings reflected on the screen. He is wearing a dark blue t-shirt and has short black hair, standing in a room with a window and blue curtains."
+    },
+    {
+        "role": "user",
+        "content": "what do you see [System Data: [Visual Observation]: The image shows a young man in a dimly lit room. The lighting is low, making it difficult to discern many details beyond his facial features and some aspects of his clothing. The young man has dark hair and is wearing a dark-colored top with a hood or possibly a hoodie. The background is very dark and indistinct, suggesting that the room is not well-lit. The overall impression is one of a casual, possibly nighttime setting.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a young man in a dimly lit room, wearing a dark-colored top with a hood, and having dark hair. The background is very dark and indistinct, suggesting a possibly nighttime setting."
+    },
+    {
+        "role": "user",
+        "content": "abhi kya dikh raha hai (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm a voice assistant, I don't have the ability to see or perceive visual information. I can only process and respond to text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "Tumhen kya dikh raha hai [System Data: [Visual Observation]: Mujhe kuch nahi dikh raha. Mujhe koi text ya image ke baare mein bataen.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or visually perceive information. I can only process and respond to text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see [System Data: [Visual Observation]: The person in the image appears to be covering their face with one or both hands, possibly indicating that they are emotional or need privacy, but the low quality of the image makes it difficult to determine what they are doing or how they are feeling.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The person in the image appears to be covering their face, possibly indicating emotion or a need for privacy, but the image quality is low, making it difficult to determine their actions or emotions."
+    },
+    {
+        "role": "user",
+        "content": "ab kya dikh raha hai [System Data: [Visual Observation]: Yeh chitra kaafi andhera hai, jismein kuch bhi saaf roop se nahin dikh raha hai. Ismein koi vishisht vastuon ya visheshataon ko pehchanana mushkil hai. Agar aap is chitra ke baare mein adhik jaankari dena chahte hain ya iske peechhe ke sandarbh ko samjhaana chahte hain, to kripya adhik vivaran pradaan karein. Main aapki sahayta ke liye yahaan hoon.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image is very dark, making it difficult to discern any distinct objects or features. If you'd like to provide more context or information about the image, I'm here to help."
+    },
+    {
+        "role": "user",
+        "content": "abhi dikh raha hai kya (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm a voice assistant, I don't have the ability to see or visually perceive information. I can only process and respond to text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "abhi dikh rahe hain (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or visually perceive information. I can only process and respond to text-based input. Is there something I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "ab kya dikh raha hai [System Data: [Visual Observation]: Is image mein ek yuvak dekha ja raha hai, jisne neele rang ki shirt pehni hui hai aur gale mein headphones daale hue hain. Woh camera ke samne khada hai aur uska chehra halka sa blur hai. Background mein, neele rang ke curtains aur ek red object dikh raha hai, jo shaayad ek exercise machine ya koi furniture ka hissa ho sakta hai. Kamre ki roshni tez hai, jisse image thoda overexposed lagta hai. Overall, yeh image ek informal setting ko darshati hai, jahan yuvak apne aap ko camera ke liye present kar raha hai.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a young man wearing a blue shirt and headphones, standing in front of a camera with a blurred face. The background includes blue curtains and a red object, possibly an exercise machine or furniture, in a brightly lit room."
     }
 ]
