@@ -34,10 +34,11 @@ class ToolManager:
         if "news" in text:
             return self.tools.get("news")
         
-        if self.llm:
-            vision_intent = self.llm.extract_vision_intent(text)
-            if vision_intent == "YES":
-                self.logger.info("LLM decided this is a VISION request.")
+        vision_keywords = ["see", "holding", "look at", "describe", "vision", "dikh", "dekho", "najar"]
+        if any(keyword in text for keyword in vision_keywords):
+            if "you see" in text or "do you see" in text or "am i holding" in text or "look at this" in text:
+                 return self.tools.get("vision")
+            if "kya dikh" in text or "dikh rha" in text or "isko dekho" in text or "najar aa rha" in text:
                 return self.tools.get("vision")
         
         system_keywords = [
