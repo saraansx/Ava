@@ -17,8 +17,8 @@ class OpenRouterLLM:
         
 
         self.models = [
+            "google/gemini-2.0-flash-exp:free", 
             "meta-llama/llama-3.3-70b-instruct", 
-            "google/gemini-2.0-flash-exp:free",  
             "meta-llama/llama-3.2-1b-instruct:free", 
             "qwen/qwen-2-7b-instruct:free",
             "microsoft/phi-3-mini-128k-instruct:free" 
@@ -33,18 +33,36 @@ class OpenRouterLLM:
             return "None"
 
     def extract_news_topic(self, text):
-        prompt = f"Extract the news topic or category from this user query: '{text}'. Return ONLY the topic keywords (e.g., 'Artificial Intelligence', 'Bitcoin', 'Politics'). If the user asks for general news or doesn't specify a topic, return 'None'. Do not add any punctuation or extra words."
+        prompt = f"Extract the news topic or category from this user query: '{text  }'. Return ONLY the topic keywords (e.g., 'Artificial Intelligence', 'Bitcoin', 'Politics'). If the user asks for general news or doesn't specify a topic, return 'None'. Do not add any punctuation or extra words."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
             return content.strip()
         except:
             return "None"
 
-    def generate(self, messages_history, system_prompt):
+    def generate(self, messages_history, system_prompt, image_data=None):
         if not self.api_key:
             return "My brain is missing its connection key (OPENROUTER_AI).", None, None
 
         full_messages = [{"role": "system", "content": "CRITICAL PROTOCOL: YOU ARE AN ENGLISH-ONLY AI. NEVER SPEAK HINDI. "+system_prompt}] + messages_history
+
+        if image_data:
+            for msg in reversed(full_messages):
+                if msg['role'] == 'user':
+                    original_text = msg['content']
+                    msg['content'] = [
+                        {
+                            "type": "text",
+                            "text": original_text
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{image_data}"
+                            }
+                        }
+                    ]
+                    break
 
         for model in self.models:
             success, response, usage = self._call_model(model, full_messages)
