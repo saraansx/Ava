@@ -2167,3 +2167,106 @@ Angr...
 2025-12-16 05:06:21,460 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you....
 2025-12-16 05:06:23,147 - EdgeTTS - INFO - Playing audio...
 2025-12-16 05:06:26,852 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Codes\Personal\Ava\temp\tts_1765841781.mp3
+2025-12-16 05:35:39,974 - MemoryManager - INFO - Memory loaded.
+2025-12-16 05:35:39,974 - ToolManager - INFO - Tool registered: weather
+2025-12-16 05:35:39,974 - ToolManager - INFO - Tool registered: news
+2025-12-16 05:35:39,974 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 05:35:40,151 - ToolManager - INFO - Tool registered: vision
+2025-12-16 05:36:06,863 - root - INFO - User: hello
+2025-12-16 05:36:06,864 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:36:16,437 - ToolManager - INFO - LLM decided this is a VISION request (Intent: TO ADDRESS THIS, I'LL PROVIDE A STRAIGHTFORWARD RESPONSE BASED ON THE GIVEN INSTRUCTIONS. IF THE INSTRUCTION IMPLIES A DIRECT VISUAL OBSERVATION OR DESCRIPTION OF A REAL-WORLD SCENE OR OBJECT USING THE CAMERA, THE RESPONSE IS 'YES'. FOR QUERIES THAT SUGGEST IMAGINING, VISUALIZING, OR DESCRIBING SOMETHING HYPOTHETICAL OR NOT DIRECTLY OBSERVABLE, THE RESPONSE IS 'NO'.
+
+GIVEN THERE'S NO SPECIFIC QUERY PROVIDED IN YOUR QUESTION, I'LL DEMONSTRATE WITH EXAMPLES BASED ON THE INSTRUCTIONS:
+
+1. **IF THE QUERY IS "WHAT IS IN FRONT OF YOU?"**  
+   - THE RESPONSE IS: YES
+
+2. **IF THE QUERY IS "VISUALIZE A DRAGON."**  
+   - THE RESPONSE IS: NO
+
+3. **IF THE QUERY IS "WHAT DO YOU SEE?"**  
+   - THE RESPONSE IS: YES
+
+4. **IF THE QUERY IS "IMAGINE A BEACH."**  
+   - THE RESPONSE IS: NO
+
+5. **IF THE QUERY IS "LOOK AT ME."**  
+   - THE RESPONSE IS: YES
+
+6. **IF THE QUERY IS "DESCRIBE THIS PICTURE I'M THINKING OF."**  
+   - THE RESPONSE IS: NO
+
+PLEASE PROVIDE A SPECIFIC QUERY IF YOU NEED A DIRECT 'YES' OR 'NO' BASED ON THE INSTRUCTIONS GIVEN.).
+2025-12-16 05:36:16,437 - ToolManager - INFO - Triggering tool: vision
+2025-12-16 05:36:16,437 - VisionTool - INFO - Opening eyes...
+2025-12-16 05:36:16,601 - CameraManager - ERROR - Could not open webcam.
+2025-12-16 05:36:16,604 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:36:24,238 - TTSManager - INFO - Speaking: Hello, how can I assist you today?
+2025-12-16 05:36:24,238 - EdgeTTS - INFO - Generating TTS: Hello, how can I assist you today?...
+2025-12-16 05:36:28,235 - EdgeTTS - INFO - Playing audio...
+2025-12-16 05:36:32,103 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765843584.mp3
+2025-12-16 05:47:03,374 - MemoryManager - INFO - Memory loaded.
+2025-12-16 05:47:03,375 - ToolManager - INFO - Tool registered: weather
+2025-12-16 05:47:03,375 - ToolManager - INFO - Tool registered: news
+2025-12-16 05:47:03,375 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 05:47:03,375 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 05:47:03,537 - ToolManager - INFO - Tool registered: vision
+2025-12-16 05:47:16,546 - root - INFO - User: what do you see on my face
+2025-12-16 05:47:16,547 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:47:21,187 - MemoryManager - INFO - Memory loaded.
+2025-12-16 05:47:21,188 - ToolManager - INFO - Tool registered: weather
+2025-12-16 05:47:21,188 - ToolManager - INFO - Tool registered: news
+2025-12-16 05:47:21,188 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 05:47:21,188 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 05:47:21,339 - ToolManager - INFO - Tool registered: vision
+2025-12-16 05:47:31,534 - root - INFO - User: what do you say on my screen
+2025-12-16 05:47:31,534 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:47:35,026 - MemoryManager - INFO - Memory loaded.
+2025-12-16 05:47:35,027 - ToolManager - INFO - Tool registered: weather
+2025-12-16 05:47:35,027 - ToolManager - INFO - Tool registered: news
+2025-12-16 05:47:35,027 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 05:47:35,027 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 05:47:35,171 - ToolManager - INFO - Tool registered: vision
+2025-12-16 05:47:44,392 - root - INFO - User: what do you see on my screen
+2025-12-16 05:47:44,392 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:47:47,710 - ToolManager - INFO - LLM decided this is a VISION request (Intent: I'LL ANALYZE THE INPUT TO DETERMINE IF THE USER WANTS ME TO USE THE CAMERA TO VISUALLY LOOK AT SOMETHING. PLEASE GO AHEAD AND PROVIDE THE INPUT. I'LL RESPOND WITH EITHER "YES" OR "NO".).
+2025-12-16 05:47:47,710 - ToolManager - INFO - Triggering tool: vision
+2025-12-16 05:47:47,710 - VisionTool - INFO - Opening eyes...
+2025-12-16 05:47:47,857 - CameraManager - ERROR - Could not open webcam.
+2025-12-16 05:47:47,859 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:47:55,354 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I can only respond to text-based input. How can I assist you today?
+2025-12-16 05:47:55,354 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 05:47:59,237 - EdgeTTS - INFO - Playing audio...
+2025-12-16 05:48:10,088 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765844275.mp3
+2025-12-16 05:50:04,221 - MemoryManager - INFO - Memory loaded.
+2025-12-16 05:50:04,223 - ToolManager - INFO - Tool registered: weather
+2025-12-16 05:50:04,223 - ToolManager - INFO - Tool registered: news
+2025-12-16 05:50:04,223 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 05:50:04,223 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 05:50:04,387 - ToolManager - INFO - Tool registered: vision
+2025-12-16 05:50:11,187 - root - INFO - User: read my screen
+2025-12-16 05:50:11,188 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:50:21,872 - ToolManager - INFO - LLM decided this is a SCREEN READER request (Intent: TO ANSWER THIS QUESTION, I NEED A SPECIFIC QUERY FROM THE USER TO DETERMINE IF THEY WANT ME TO READ THEIR SCREEN. PLEASE PROVIDE THE EXACT PHRASE OR SENTENCE THE USER HAS STATED, AND I WILL RESPOND WITH EITHER "YES" IF IT IMPLIES THEY WANT A SCREEN READER OR "NO" IF IT DOES NOT.
+
+IF YOU'RE LOOKING FOR A GENERAL APPROACH ON HOW TO DETERMINE THIS, I CAN OUTLINE IT AS FOLLOWS:
+
+1. **IDENTIFY KEY PHRASES**: LOOK FOR PHRASES LIKE "READ MY SCREEN," "WHAT IS ON MY SCREEN," "LOOK AT MY SCREEN," "CAPTURE MY SCREEN," OR "ANALYZE SCREEN." THESE PHRASES TYPICALLY INDICATE A DESIRE FOR SCREEN READING OR ANALYSIS.
+
+2. **CONTEXTUAL ANALYSIS**: BEYOND KEY PHRASES, CONSIDER THE CONTEXT OF THE QUERY. IF THE USER IS ASKING ABOUT CONTENT ON THEIR SCREEN, TROUBLESHOOTING AN ISSUE, OR SEEKING ASSISTANCE WITH SOMETHING DISPLAYED, IT MAY IMPLY A NEED FOR SCREEN READING.
+
+3. **DIRECTNESS OF REQUEST**: USERS WHO EXPLICITLY MENTION THEIR SCREEN OR DISPLAY IN RELATION TO READING, VIEWING, OR ANALYZING ARE MORE LIKELY TO WANT SCREEN READING SERVICES.
+
+WITHOUT A SPECIFIC USER QUERY, I CANNOT PROVIDE A DEFINITIVE "YES" OR "NO" ANSWER. HOWEVER, FOLLOWING THE GUIDELINES ABOVE CAN HELP IN MAKING THAT DETERMINATION. 
+
+IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE BASED ON THE CONTENT.).
+2025-12-16 05:50:21,872 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 05:50:21,872 - ScreenReaderTool - INFO - Capturing screen...
+2025-12-16 05:50:21,937 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_10ff33dce88e408fb94b19182c732fb3.png
+2025-12-16 05:50:21,938 - ScreenReaderTool - INFO - Analyzing screen content...
+2025-12-16 05:50:34,546 - ScreenReaderTool - INFO - Deleted screenshot: temp\screenshot_10ff33dce88e408fb94b19182c732fb3.png
+2025-12-16 05:50:34,549 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 05:50:46,229 - TTSManager - INFO - Speaking: The code on your screen appears to be for a `ToolManager` class, written in Python, which determines the intent behind a given text input, specifically checking for screen reader or vision capabilities. It uses a large language model to extract intents and logs information about its decisions, returning the appropriate tool based on the detected intent. The code is part of a project managed in a Visual Studio Code environment, related to managing an AI agent named "Ava".
+2025-12-16 05:50:46,229 - EdgeTTS - INFO - Generating TTS: The code on your screen appears to be for a `ToolM...
+2025-12-16 05:50:53,069 - EdgeTTS - INFO - Playing audio...
+2025-12-16 05:51:24,480 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765844446.mp3
+2025-12-16 05:51:47,424 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/216bab089707fb60b7f0e88e74427b55/element/f.EBBC2DEC00D5D1F497EF5582E8C53F0B.d.4D219D4A593F887F98F28893409A4191.e.13/text

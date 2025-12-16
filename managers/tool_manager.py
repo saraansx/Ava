@@ -2,6 +2,7 @@ import logging
 from tools.weather import WeatherTool
 from tools.news import NewsTool
 from tools.system_info import SystemInfoTool
+from BRAIN.screen_reader.tools.screen_reader import ScreenReaderTool
 
 class ToolManager:
     def __init__(self, llm_instance=None):
@@ -14,6 +15,11 @@ class ToolManager:
         self.register_tool(WeatherTool())
         self.register_tool(NewsTool())
         self.register_tool(SystemInfoTool())
+
+        try:
+            self.register_tool(ScreenReaderTool())
+        except Exception as e:
+            self.logger.error(f"Failed to register ScreenReaderTool: {e}")
         
         try:
             from tools.vision_tool import VisionTool
@@ -35,6 +41,13 @@ class ToolManager:
             return self.tools.get("news")
         
         if self.llm:
+
+            if hasattr(self.llm, "extract_screen_reader_intent"):
+                screen_intent = self.llm.extract_screen_reader_intent(text)
+                if screen_intent and "YES" in screen_intent:
+                    self.logger.info(f"LLM decided this is a SCREEN READER request (Intent: {screen_intent}).")
+                    return self.tools.get("screen_reader")
+
             vision_intent = self.llm.extract_vision_intent(text)
             if vision_intent and "YES" in vision_intent: 
                 self.logger.info(f"LLM decided this is a VISION request (Intent: {vision_intent}).")
@@ -80,6 +93,9 @@ class ToolManager:
                 return tool.execute(query_type=user_text)
 
             elif tool.name == "vision":
+                return tool.execute(prompt=user_text)
+
+            elif tool.name == "screen_reader":
                 return tool.execute(prompt=user_text)
         
         return None

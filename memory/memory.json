@@ -842,5 +842,29 @@
     {
         "role": "assistant",
         "content": "Yes, I can hear you."
+    },
+    {
+        "role": "user",
+        "content": "hello [System Data: Failed to capture image from camera.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: Failed to capture image from camera.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I can only respond to text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "read my screen [System Data: [Screen Reader]: The code displayed on the screen is for a `ToolManager` class, which appears to be part of a larger application. The visible section of the code is focused on determining the intent behind a given text input, specifically checking if it relates to using the screen reader or vision capabilities.\n\nThe `find_tool_for_intent` method is defined within this class, and it first converts the input `text` to lowercase. It then checks if certain keywords (\"weather,\" \"vedar,\" \"vader,\" \"news\") are present in the text to determine if it should return tools associated with \"weather\" or \"news.\"\n\nIf the `llm` (likely a large language model) attribute is available, the code further checks for specific intents related to screen reading or vision. It uses the `llm` to extract intents from the text and logs information about its decisions, returning the appropriate tool based on the detected intent.\n\nThe code is written in Python and is part of a project managed in a Visual Studio Code environment, as indicated by the interface elements visible in the screenshot. The right-hand side of the image shows an \"Open Agent Manager\" panel with sections detailing fixes implemented, code corrections, and actions required, suggesting that the application is related to managing or interacting with an AI agent named \"Ava.\" The instructions in this panel guide the user to restart the application to apply changes related to prioritizing screen reader logic and updating system awareness and code corrections.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The code on your screen appears to be for a `ToolManager` class, written in Python, which determines the intent behind a given text input, specifically checking for screen reader or vision capabilities. It uses a large language model to extract intents and logs information about its decisions, returning the appropriate tool based on the detected intent. The code is part of a project managed in a Visual Studio Code environment, related to managing an AI agent named \"Ava\"."
     }
 ]

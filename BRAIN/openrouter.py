@@ -33,7 +33,15 @@ class OpenRouterLLM:
             return "None"
 
     def extract_vision_intent(self, text):
-        prompt = f"Analyze if the user wants you to visually look at something using the CAMERA. Queries like 'what is in front of you', 'what do you see', 'what color is this', 'describe this', 'look at me' imply VISION. Queries like 'visualize a dragon', 'imagine a beach' do NOT imply vision (they are image generation). Return ONLY 'YES' if they want you to SEE with the camera, otherwise return 'NO'."
+        prompt = f"Analyze if the user wants you to visually look at something using the CAMERA. Queries like 'what is in front of you', 'what do you see', 'what color is this', 'describe this', 'look at me' imply VISION. Queries like 'visualize a dragon', 'imagine a beach' (image generation) or 'read my screen', 'what is on my screen' (screen reading) do NOT imply CAMERA vision. Return ONLY 'YES' if they want you to SEE with the camera, otherwise return 'NO'."
+        try:
+            content, _, _ = self.generate([], system_prompt=prompt)
+            return content.strip().upper()
+        except:
+            return "NO"
+
+    def extract_screen_reader_intent(self, text):
+        prompt = f"Analyze if the user explicitly wants you to READ or LOOK at their computer SCREEN/DISPLAY. Queries like 'read my screen', 'what is on my screen', 'look at my screen', 'capture my screen', 'analyze screen' imply SCREEN READER. Return ONLY 'YES' if they want SCREEN READING, otherwise return 'NO'."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
             return content.strip().upper()
