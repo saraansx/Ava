@@ -33,7 +33,7 @@ class OpenRouterLLM:
             return "None"
 
     def extract_vision_intent(self, text):
-        prompt = f"Analyze if the user wants you to visually look at something using the CAMERA. Queries like 'what is in front of you', 'what do you see', 'what color is this', 'describe this', 'look at me' imply VISION. Queries like 'visualize a dragon', 'imagine a beach' (image generation) or 'read my screen', 'what is on my screen' (screen reading) do NOT imply CAMERA vision. Return ONLY 'YES' if they want you to SEE with the camera, otherwise return 'NO'."
+        prompt = f"Analyze if the user wants you to visually look at the PHYSICAL WORLD using the CAMERA. Queries like 'how many fingers', 'what are you looking at', 'look at me', 'what do I have in my hand', 'describe the room', 'what do you see in front of you' imply VISION. Queries about the 'screen', 'monitor', 'website', 'app', 'window' imply SCREEN READER and must return 'NO'. Return 'YES' if they want you to SEE the physical world with the camera, otherwise return 'NO'."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
             return content.strip().upper()
@@ -41,7 +41,7 @@ class OpenRouterLLM:
             return "NO"
 
     def extract_screen_reader_intent(self, text):
-        prompt = f"Analyze if the user explicitly wants you to READ or LOOK at their computer SCREEN/DISPLAY. Queries like 'read my screen', 'what is on my screen', 'look at my screen', 'capture my screen', 'analyze screen' imply SCREEN READER. Return ONLY 'YES' if they want SCREEN READING, otherwise return 'NO'."
+        prompt = f"Analyze if the user explicitly wants you to capture or read their computer SCREEN, MONITOR, or DISPLAY. Keywords: 'screen', 'monitor', 'display', 'website', 'window', 'screenshot'. Queries like 'how many fingers', 'look at me', 'what is in front of you' are CAMERA/VISION requests and must return 'NO'. Return 'YES' ONLY for screen/display content."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
             return content.strip().upper()
