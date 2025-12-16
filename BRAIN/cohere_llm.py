@@ -33,14 +33,14 @@ class CohereLLM:
             return "None"
 
     def check_screen_read_intent(self, text):
-        prompt = f"Analyze the user query: '{text}'. Does the user want you to see, look at, read, describe, or analyze their screen? Even if there are typos (e.g. 'say' instead of 'see'), or if they ask 'what is on my screen', Answer YES. Answer ONLY with 'YES' or 'NO'."
+        prompt = f"Does the user want you to check/read/describe their screen? Query: '{text}'. If YES, return 'YES'. If NO, return 'NO'. (Handle Hindi queries like 'kya dikh raha hai' as YES)."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
-            cleaned_content = content.strip().upper().replace(".", "")
-            self.logger.info(f"Screen Intent Check: Input='{text}' | Raw Output='{content}' | Parsed='{cleaned_content}'")
-            return cleaned_content
+            cleaned = content.strip().upper().replace(".", "")
+            self.logger.info(f"Screen Intent: '{text}' -> '{cleaned}'")
+            return "YES" if "YES" in cleaned else "NO"
         except Exception as e:
-            self.logger.error(f"Screen Intent Check Failed: {e}")
+            self.logger.error(f"Intent Check Error: {e}")
             return "NO"
 
 

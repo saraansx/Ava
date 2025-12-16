@@ -118,10 +118,11 @@ class JarvisApp:
                     tool_result = self.tool_manager.process(text)
                     tool_content = None
                     if tool_result:
-                        text += f" [System Data: {tool_result}]"
+                        text += f" [VISUAL CONTEXT: {tool_result}]"
                         tool_content = Text("\n\nTool Output: ", style="italic dim yellow") + Text(str(tool_result), style="italic dim yellow")
-
-                    self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
+                        self.memory_manager.add_message("user", text + " (System: Respond in clear English. Describe the visual context briefly.)")
+                    else:
+                        self.memory_manager.add_message("user", text + " (System: Respond in clear English.)")
                     
                     with self.console.status("[bold magenta]Processing...[/bold magenta]", spinner="bouncingBar") as status:
                          history = self.memory_manager.get_messages()

@@ -19,12 +19,11 @@ class VLMManager:
             self.logger.error(f"Failed to capture screen: {e}")
             return None
 
-    def analyze_screen(self, prompt="Briefly list the main applications and content visible on the screen."):
+    def analyze_screen(self, prompt="Briefly list the main applications and content visible on the screen. OUTPUT IN ENGLISH LANGUAGE ONLY."):
         screenshot = self.capture_screen()
         if not screenshot:
             return "Failed to capture screen."
 
-        # Convert image to base64
         buffered = BytesIO()
         screenshot.save(buffered, format="PNG")
         img_str = base64.b64encode(buffered.getvalue()).decode("utf-8")

@@ -1250,5 +1250,165 @@
     {
         "role": "assistant",
         "content": "I don't have the capability to see or access your notepad. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you say on my [System Data: \u8be5\u56fe\u7247\u5c55\u793a\u4e86\u4e00\u4e2a\u8ba1\u7b97\u673a\u5c4f\u5e55\u4e0a\u7684\u7f16\u7a0b\u548c\u8c03\u8bd5\u73af\u5883\u3002\u5de6\u4fa7\u662f\u4e00\u4e2a\u6587\u4ef6\u6d4f\u89c8\u5668\uff0c\u663e\u793a\u4e86\u591a\u4e2a\u76ee\u5f55\u5982`env`, `LICENSE`, \u548c `requirements.txt` \u7b49\uff0c\u5e76\u4e14\u6709\u4e00\u4e2a\u540d\u4e3a `gitignore` \u7684\u6587\u4ef6\u6253\u5f00\u5728\u7f16\u8f91\u5668\u4e2d\u3002\n\n\u53f3\u4fa7\u90e8\u5206\u662f\u4ee3\u7801\u7f16\u5199\u754c\u9762\u7684\u622a\u56fe\uff0c\u663e\u793a\u4e86\u4e00\u6bb5Python\u811a\u672c\u5185\u5bb9\uff1a\n\n```\nSystem Intent Check: Input=what do you see on my\nRaw Output-YES\": 'I have implemented the fixes you requested'\n``` \n\n\u5728\u5c4f\u5e55\u5e95\u90e8\u53ef\u4ee5\u770b\u5230\u4e00\u4e2a\u5bf9\u8bdd\u6846\uff0c\u7528\u6237\u6b63\u5728\u5411Ava AI\u5728\u7ebf\u63d0\u51fa\u95ee\u9898\uff1a\u201cWhat do you say on my\u201d\u3002\u4e0b\u65b9\u662f\u7a0b\u5e8f\u8f93\u51fa\u7a97\u53e3\u663e\u793a\u4e86`main.py`\u6587\u4ef6\u7684\u8fd0\u884c\u60c5\u51b5\u3002\n\n\u6b64\u5916\uff0c\u5728\u53f3\u4e0b\u89d2\u6709\u4e00\u4e2aOpen Agent Manager\u754c\u9762\uff0c\u4e0a\u9762\u5217\u51fa\u4e86\u4e0e\u7f16\u7a0b\u76f8\u5173\u7684\u5404\u79cd\u6587\u4ef6\u548c\u8bbe\u7f6e\u3002] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a programming and debugging environment, with a file browser on the left and a code editor on the right, displaying a Python script. The script includes a system intent check and raw output. There is also a conversation box at the bottom with a user query and a program output window showing the run status of a `main.py` file."
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "Tumhen kya dikh raha hai screen mein [System Data: The image displays a computer desktop with multiple applications open, including an Integrated Development Environment (IDE) for coding and text editor windows.\n\n1. **IDE Interface**: \n   - The left side of the IDE shows a directory structure labeled \"app_log\" in bold red letters.\n   - There is also a code file named `main.py` selected under the `app_log` folder, indicating active editing or viewing.\n   \n2. **Command Line Window**:\n   - At the bottom center, there's another window that seems to be displaying terminal output with several lines of text.\n\n3. **Right Panel Text Editor**: \n   - This panel contains a log file named `log_file.txt`, showing various timestamps and messages related to actions taken by different tools such as \"OpenRouterPy\", \"screen_reader.py\", etc.\n   \n4. **Annotations**:\n   - There is an annotation box on the bottom right indicating that this screen reader setup was used for accessibility purposes.\n\n5. **User Interaction**: \n   - The user appears to be interacting with various software, indicated by multiple open windows and tabs in the taskbar at the top of the desktop.\n   \n6. **Chat Interface**:\n   - There is a chat interface on the bottom left corner showing messages exchanged between \"User\" (presumably a human) and an AI assistant named \"Ava\".\n     - The user asks for instructions about setting up a screen reader, to which Ava provides detailed responses including steps such as adding settings directly into `immlldm.py` or modifying `openRouter.py`.\n\nThe overall scene suggests a professional coding environment where accessibility tools are being used alongside traditional software development practices.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "screen Mein Kya dikkat Hai\n\n[SYSTEM REPORT: VISUAL ANALYSIS RESULT]\nDas Bild zeigt eine Schnappschuss-Datei eines Code-Editors namens PyCharm, mit dem der Benutzer wahrscheinlich Python Codes schreibt oder editiert. Die Editor-Schnittstelle umfasst verschiedene Tabellen wie \"Explorer\", \"Selection\", \"Run\" usw., und zeigt mehrere Offenheitsschaltfl\u00e4chen wie \"File\", \"Edit\", \"View\". Der Code-Editor selbst enth\u00e4lt eine Klassenverwaltung mit dem Titel \"__init__.py\" und ein Python-Skript namens \"app.py\".\n\nDie offenen Fenster zeigen eine Vielzahl von Informationen, einschlie\u00dflich eines Quellcode-Browsers-nachdem-Werkzeugs-Fensters, einem Modus-Explorer-Fenster und mehreren anderen Werkzeuge wie \"Open Agent Manager\", \"Display Screen Reader Output\" usw. Die Ausgabe-Eingabe-Streifen zeigt eine Meldung von der PyCharm-Engine \u00fcber die Anpassung des Textes.\n\nAu\u00dferdem enth\u00e4lt das Bild ein Chat-Bereich mit dem Titel \"AI Online Help\", bei dem es um Fragen und Antworten auf Python-Themen geht, insbesondere um die Verwendung von Logging-Frameworks wie `psutil`. Der Chat-Bereich zeigt Informationen wie den Benutzername, eine Eingabefeld-Texte-Einstellung und verschiedene Optionen wie \"Accept Alt+ d\", \"Reject Shift+Alt + c\" usw.\n\nZus\u00e4tzlich gibt es einige Texte \u00fcber die Aktivit\u00e4t auf der PyCharm-Schnittstelle. Es sind Informationen \u00fcber das Open Agent Manager, derzeitige Aktivit\u00e4ten auf dem Display Screen Reader Output-Fenster und verschiedene andere Notizen \u00fcber Python-Themen und Logik-Tools wie \"screen Mena Kya dikkat Hai\" und \"Visual Analysis Result\".\n\nDie gesamte Abbildung pr\u00e4sentiert einen umfassenden Blick auf die Arbeit eines Entwicklers, der sowohl Code bearbeitet als auch mit anderen Tools interagiert.\n[END SYSTEM REPORT]\n(Instruction: This data comes from YOUR eyes. Describe it to the user briefly.) (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a PyCharm code editor with various tabs and windows open, including a Python script, an \"Open Agent Manager\", and a \"Display Screen Reader Output\" window. There is also a chat section titled \"AI Online Help\" discussing Python topics. The overall scene presents a developer's workspace with multiple tools and activities."
+    },
+    {
+        "role": "user",
+        "content": "screen mein kya dikh raha hai [System Data: Die Bildaufnahme zeigt eine benutzerdefinierte IDE (Integrated Development Environment) namens \"Ava\" mit mehreren Tabs ge\u00f6ffnet, darunter das Code-Editor und ein Benutzeroberfl\u00e4che unterhalb. Im Code-Editor sind Python-Skripts sichtbar, wobei verschiedene Dateien wie 'init_py' und 'screen_reader.py' ge\u00f6ffnet sind.\n\nDer Text im Code-Editor ist haupts\u00e4chlich in Deutsch geschrieben, mit einige englische Bezeichnungen innerhalb der Skriptzeilen. Einige Skriptzeilen enthalten Python-Befehle wie 'open', 'import', 'print', 'sys', 'os' und anderePython-Syntax.\n\nDas Benutzeroberfl\u00e4che zeigt verschiedene Optionen wie \"Explorer\", \"Selection\", \"Run\" usw., sowie eine Ansicht auf die Quellcodeausgabe, die eine \u00c4nderung vom Screenreader Output zeiget. Es sind auch einige Tools oder Anweisungen im Bild enthalten, wie zum Beispiel \"open manager.py M\".\n\nDie Skriptunterlage scheint sich mit Python-Konzepts zu befassen und k\u00f6nnte Teil eines \u00dcbungskurses oder einem Arbeitsprojekts sein.\n\nDiese Abbildung enth\u00e4lt keine pers\u00f6nlichen Informationen oder Identifikatoren.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a customized IDE named \"Ava\" with multiple tabs open, including a code editor and a user interface. The code editor displays Python scripts with files like 'init_py' and 'screen_reader.py' open, containing Python commands and syntax. The user interface shows various options and a view of the screen reader output."
+    },
+    {
+        "role": "user",
+        "content": "who is Elon Musk (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla, and playing a significant role in the development of neuralink and other ventures."
+    },
+    {
+        "role": "user",
+        "content": "who are you (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I am Ava, a helpful and friendly voice AI assistant created by Saraans."
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my notepad\n\n[SYSTEM REPORT: VISUAL ANALYSIS RESULT]\nThe image depicts a screenshot of Visual Studio Code, an open-source code editor developed by Microsoft for Windows, Linux, and macOS operating systems.\nIn this specific snapshot from July 26th, users are navigating through directories such as 'app.py', 'error.log', among others related to the Python project. The terminal in view shows various logs being examined under paths like 'logs/2025-12' and interactions with code including imports of Elon Musk's bio via a Jupyter Notebook link.\nThe visual elements suggest that users are working on an educational or developmental context, likely for learning purposes based on the available information.\n[END SYSTEM REPORT]\n(Instruction: This data comes from YOUR eyes. Describe it to the user briefly.) (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a Visual Studio Code screenshot with directories like 'app.py' and 'error.log' open, and a terminal examining logs and interacting with code, including imports via a Jupyter Notebook link, suggesting a learning or developmental context."
+    },
+    {
+        "role": "user",
+        "content": "what do you think (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image appears to be a Visual Studio Code screenshot, showing a Python project with various files and directories, and a terminal displaying logs and code interactions, indicating a developmental or educational context."
+    },
+    {
+        "role": "user",
+        "content": "what do you see in my notepad\n\n[SYSTEM REPORT: VISUAL ANALYSIS RESULT]\nThe image shows a computer monitor displaying an open Notepad window with the text \"THANK YOU\" centered in white font against a plain background. The Notepad window is titled 'Untitled - Notepad'. Behind this, there's a blurred scene of a desolate and eerie environment which seems to be from some kind of video game or graphic novel illustration.\n\nThe desktop wallpaper behind these elements depicts an apocalyptic cityscape with smoke-filled skies and destroyed buildings, suggesting a post-apocalyptic setting. The overall mood is somber and dystopian.\n[END SYSTEM REPORT]\n(Instruction: This data comes from YOUR eyes. Describe it to the user briefly.) (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a Notepad window with the text \"THANK YOU\" on a plain background, against a desktop wallpaper depicting a post-apocalyptic cityscape with a somber and dystopian mood."
+    },
+    {
+        "role": "user",
+        "content": "hello hello (SYSTEM INSTRUCTION: Verify the 'SYSTEM REPORT' above. That describes what you see. Respond in strict English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, I see a Notepad window with the text \"THANK YOU\" and a post-apocalyptic desktop wallpaper. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello (System: Respond in clear English. If visual context is present, describe it.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello. I see a Notepad window with the text \"THANK YOU\" on a plain background, against a desktop wallpaper depicting a post-apocalyptic cityscape."
+    },
+    {
+        "role": "user",
+        "content": "Rohit Sharma (System: Respond in clear English. If visual context is present, describe it.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Rohit Sharma is an Indian cricketer. I don't see any relevant visual context related to him. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello (System: Respond in clear English. If visual context is present, describe it.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello. I don't see any visual context at the moment. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello hello (System: Respond in clear English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you think (System: Respond in clear English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I'm here to provide information and assist with tasks. I don't have personal thoughts or opinions. How can I help you today?"
+    },
+    {
+        "role": "user",
+        "content": "kya dikh raha hai [VISUAL CONTEXT: Das Bild zeigt eine Schnittstelle zwischen einer Code-Editor und einem Dialog, der wahrscheinlich auf einer Plattform verwendet wird, die Integrierte Sprachdienste (IS) bereitstellt. Der Code-Editor enth\u00e4lt Python-Skripts mit verschiedenen Dateiinhaltsbelegungen und Funktionen ge\u00f6ffnet, wie zum Beispiel \"init_py_functions.py\" und \"app.py\". Ein Subfenster zeigt eine Konsole-Fehlermeldung, die auf ein Problem in einem Skript hinweist.\n\nDer Dialog bereitstellt einen Text-Chat-Auftrag, der \"kya dikh raha hai?\" (Hast du etwas zu sagen?) schl\u00e4gt. Der Chat-Bot antwortet mit einer Erkl\u00e4rung von sich selbst und stellt die Frage zur\u00fcck, ob der Benutzer ein Problem oder eine Hilfe braucht.\n\nDie Plattform bietet weitere Funktionen wie eine Code-Explorer-Funktion f\u00fcr das \u00d6ffnen von Dateien aus verschiedenen Verzeichnissen, wie zum Beispiel \"assets\", \"BRAIN\" und \"core\". Es gibt auch Optionen f\u00fcr die Erstellung eines Build-Dokuments und die Konfiguration der Sprache. Die Plattform scheint mehrere Synchronisierungs-Optionen bereitzustellen.\n\nDie Oberfl\u00e4che ist in einem dunklen Modus gestaltet, wobei einige Farben wie Beleuchtungsb\u00f6gen oder Unterstreichungen auf bestimmten Elementen hervorgehebt werden. Es gibt auch eine Option zum Ausblenden oder Einblenden der Offensichtspanelle.\n\nDie Gesamtanordnung deutet darauf hin, dass die Person diese Plattform verwendet, um Probleme mit Python-Skripts zu l\u00f6sen und m\u00f6glicherweise mit einem Code-Chat-Bot Interaktionen durchzuf\u00fchren.] (System: Respond in clear English. Describe the visual context briefly.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The visual context shows a code editor with Python scripts and a console error message, alongside a chat dialog with a text-based conversation. The platform provides features like code exploration, build document creation, and language configuration, with a dark mode design and synchronization options."
+    },
+    {
+        "role": "user",
+        "content": "Elon Musk kaun hai (System: Respond in clear English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla, and playing a significant role in the development of neuralink and other ventures."
+    },
+    {
+        "role": "user",
+        "content": "hello (System: Respond in clear English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
     }
 ]
