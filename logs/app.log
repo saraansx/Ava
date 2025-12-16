@@ -2635,3 +2635,33 @@ IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE 
 2025-12-16 08:30:56,489 - ToolManager - INFO - Tool registered: weather
 2025-12-16 08:30:56,489 - ToolManager - INFO - Tool registered: news
 2025-12-16 08:30:56,489 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:46:50,423 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:46:50,424 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:46:50,424 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:46:50,424 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:46:50,424 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:47:09,456 - root - INFO - User: what do you see on my screen
+2025-12-16 08:47:09,457 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 08:47:10,432 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 08:47:13,686 - TTSManager - INFO - Speaking: I cannot see your screen. I only process text-based input. How can I assist you?
+2025-12-16 08:47:13,686 - EdgeTTS - INFO - Generating TTS: I cannot see your screen. I only process text-base...
+2025-12-16 08:47:19,255 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:47:28,638 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:47:28,638 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:47:28,638 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:47:28,638 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:47:28,638 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:47:29,752 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/bad5c9734063180112ba65fe1d9ca474/element/f.22F8BE009654560BACFCAE38EA72DB40.d.077535E3D48BEE49981D4021F350683F.e.13/text
+2025-12-16 08:47:34,130 - root - INFO - User: what do you see on my screen
+2025-12-16 08:47:34,131 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:47:38,022 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 08:47:38,093 - ScreenshotManager - INFO - Screenshot saved to C:\Users\lilvz\Downloads\Ava\temp\screen_20251216_084738.png
+2025-12-16 08:47:38,094 - ScreenshotManager - INFO - Sending visual request to OpenRouter (google/gemini-2.0-flash-exp:free)...
+2025-12-16 08:47:43,181 - ScreenshotManager - ERROR - Vision API Error: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google"}},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 08:47:43,181 - ScreenshotManager - INFO - Deleted temp screenshot: C:\Users\lilvz\Downloads\Ava\temp\screen_20251216_084738.png
+2025-12-16 08:47:43,183 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:47:51,231 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 08:47:51,232 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 08:47:56,538 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:48:09,410 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765855071.mp3
+2025-12-16 08:48:15,133 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/ed88451c208062647cab9d8eb5b50e62/element/f.854BEBF7F21561C11952F8E9013C0FAB.d.EB60C4C9AA315885FBC4274F918EEF12.e.13/text

@@ -1022,5 +1022,21 @@
     {
         "role": "assistant",
         "content": "I don't have the ability to see or access your screen. I can provide general information or discuss topics related to coding and programming. If you have any specific questions, I'd be happy to help."
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot see your screen. I only process text-based input. How can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: I had trouble analyzing the screen. Error code: 429] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
     }
 ]

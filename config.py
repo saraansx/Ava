@@ -14,4 +14,6 @@ class Config:
     
 
     # LLM Provider: "OPENROUTER", "COHERE"
-    LLM_PROVIDER = "COHERE"
+    LLM_PROVIDER = "OPENROUTER"
+    SCREEN_READER_API_KEY = os.getenv("SCREEN_READER_API_KEY")
+
