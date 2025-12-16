@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class OpenRouterLLM:
-    def __init__(self, model="qwen/qwen3-coder:free"):
+    def __init__(self, model="meta-llama/llama-3.3-70b-instruct"):
         self.logger = logging.getLogger("OpenRouterLLM")
         self.api_key = os.getenv("OPENROUTER_AI")
         self.model = model
@@ -33,11 +33,14 @@ class OpenRouterLLM:
             return "None"
 
     def check_screen_read_intent(self, text):
-        prompt = f"Using your knowledge, analyze the user query: '{text}'. Does the user explicitly want you to look at, read, analyze, describe, or use the current screen content? Return 'YES' if they do, and 'NO' if they don't."
+        prompt = f"Analyze the user query: '{text}'. Does the user want you to see, look at, read, describe, or analyze their screen? Even if there are typos (e.g. 'say' instead of 'see'), or if they ask 'what is on my screen', Answer YES. Answer ONLY with 'YES' or 'NO'."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
-            return content.strip().upper().replace(".", "")
-        except:
+            cleaned_content = content.strip().upper().replace(".", "")
+            self.logger.info(f"Screen Intent Check: Input='{text}' | Raw Output='{content}' | Parsed='{cleaned_content}'")
+            return cleaned_content
+        except Exception as e:
+            self.logger.error(f"Screen Intent Check Failed: {e}")
             return "NO"
 
 

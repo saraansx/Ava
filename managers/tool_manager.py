@@ -54,6 +54,7 @@ class ToolManager:
         tool = self.find_tool_for_intent(user_text)
         if tool:
             self.logger.info(f"Triggering tool: {tool.name}")
+            result = None
             
             if tool.name == "weather":
                 city = "Kolkata"
@@ -62,7 +63,7 @@ class ToolManager:
                     if not city or city == "None":
                         city = "Kolkata"
                 
-                return tool.execute(city)
+                result = tool.execute(city)
             
             elif tool.name == "news":
                 query = None
@@ -71,13 +72,16 @@ class ToolManager:
                     if extracted and extracted != "None":
                         query = extracted
                 
-                return tool.execute(query=query)
+                result = tool.execute(query=query)
             
             elif tool.name == "system_info":
-                return tool.execute(query_type=user_text)
+                result = tool.execute(query_type=user_text)
 
             elif tool.name == "screen_reader":
-                return tool.execute()
+                result = tool.execute()
+            
+            self.logger.info(f"Tool Output: {str(result)[:100]}...") 
+            return result
             
         
         return None

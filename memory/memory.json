@@ -1178,5 +1178,77 @@
     {
         "role": "assistant",
         "content": "The image displays a software development IDE with multiple windows and tabs open. Key elements include:\n\n1. **Left Sidebar**: A menu offering various options.  \n2. **Center**: A code editor with \"config.py\" open, showing coding operations.  \n3. **Right**: A reference panel pointing to \"screen_reader.py\".  \n4. **Top Bar**: Status bar indicating the system as \"LML Provider\" with version details.  \n5. **Bottom Left**: File property bar with details like type, size, and editing options.  \n6. **Triangle Icon (Bottom Left)**: Likely a menu or option to run/analyze code.  \n7. **Top Right**: A suggestion panel possibly showing library information.  \n\nThis setup is typical for writing, testing, and analyzing code in a development environment."
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on [System Data: The image depicts a computer desktop with multiple windows open, indicating that it is being used for various tasks simultaneously.\n\n1. **Left Side (File Explorer)**:\n   - A file explorer window labeled \"Explorer\" showing directories and files.\n     - Directories listed include: `Ava`, `_cache`, `assets`, etc., which suggest project folders related to a development or coding task.\n     - Files mentioned are various scripts (`__init__.py`, `openrouter.py`, etc.) suggesting Python programming activities.\n\n2. **Top Left (Code Editor)**:\n   - A code editor with syntax highlighting for Python files, indicating active editing of source code within an Integrated Development Environment (IDE).\n   - The tabs include names such as \"prompts.py\", \"openrouter.py\", and others.\n     - This suggests that the user is working on different scripts or modules.\n\n3. **Top Right (Terminal)**:\n   - A terminal window titled \"_prompt_system.py\" showing Python code related to system prompts, possibly for an AI assistant application.\n     - Lines of code include import statements (`from config import Config`), class definitions (`class SystemPrompts:`) with methods like `__init__`, and comments explaining the functionality.\n\n4. **Center (Browser Window)**:\n   - A browser window open at \"Google Al\", displaying a video titled \"Speed And Love\" from 2025, suggesting that the user is also engaged in media consumption or research.\n     - The timestamp shows it's playing around halfway through an episode of this series.\n\n5. **Right Side (Screen Reader)**:\n   - A screen reader tool window open with text describing a conversation between two characters about their plans for tomorrow and mentions AI, hinting at content analysis tasks related to the video being watched.\n     - The highlighted phrase \"What are you doing tomorrow?\" indicates focus on dialogue transcription.\n\nThe overall setup suggests that the user is involved in coding projects involving system prompts or an AI assistant application while also multitasking with media consumption.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Error: 429"
+    },
+    {
+        "role": "user",
+        "content": "what do you say on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what is on my screen [System Data: OpenRoute is coding a script to scrape and extract information from YouTube comments using Selenium. They are specifically targeting content with specific keywords such as \"screen,\" \"content,\" or \"system_prompt.\" The user has set up an automatic capture of any screenshots made during this process, ensuring they have captured the necessary visual data without having to manually do so after each session.\n\nThe code is written in Python and utilizes libraries like Selenium for web scraping. They are working on a script that will analyze YouTube videos based on specific keywords or phrases within their comments section. The ultimate goal of OpenRoute's work here appears to be to collect user-generated content, particularly text-based feedback from viewers' comments after watching the video.\n\nOpenRoute has been actively engaging with Python coding and utilizing various resources like online tutorials (as indicated by links in the code editor) for learning and enhancing their programming skills. They are working on a project that involves extracting valuable insights or data through automated script execution, likely to support further analysis, content categorization, sentiment analysis, etc.\n\nThe user has also made sure they can capture any screenshots during this process using OpenRoute's automation feature, which is crucial for documenting the progress and outcomes of their coding endeavors. This approach ensures that no manual intervention post-session is required, streamlining the workflow considerably.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The screen shows a Python script using Selenium for web scraping, specifically targeting YouTube comments with keywords like \"screen,\" \"content,\" or \"system_prompt.\" The goal is to collect user-generated content and feedback from viewers' comments."
+    },
+    {
+        "role": "user",
+        "content": "now what do you say (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "now what do you see on my screen [System Data: The image is a screenshot of someone's computer desktop displaying various software interfaces and browser windows open in different tabs, suggesting that this person may be working remotely or multitasking between several projects.\n<start of description>\nA cluttered workspace with multiple applications open including Visual Studio Code (VSCode) on the left side showing file directories such as 'applog', a Python script editor window above it displaying code snippets and comments. A browser is also visible, opened to what appears to be an AI language tool interface for writing assistance.\nThe center of] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The screen shows a cluttered workspace with multiple applications open, including Visual Studio Code, a Python script editor, and a browser with an AI language tool interface for writing assistance."
+    },
+    {
+        "role": "user",
+        "content": "now what do you see on my browser [System Data: Das Bild zeigt eine Computermonitor-Screenshot mit mehreren offenen Fenstern und Tabs, die verschiedene Themen um Code-Editors wie PyCharm oder VSCode enthalten. Der Hauptinhalt des Monitors scheint ein Videospieler zu sein, das eine Serie namens \"Speed and Love\" (2023) abspielt.\n\n## Details auf dem Bild:\n1. **Fenster und Tabs**:\n   - Links oben ist ein Men\u00fc mit Optionen wie 'File', 'Edit', usw.\n   - Eine Seite zum Code-Editor PyCharm wird ge\u00f6ffnet, die mehrere Dateien oder Skripts enth\u00e4lt: \"hit_py\", \"app.log\", etc.\n\n2. **Videoplayer**:\n   - Der Vordergrund zeigt eine Videoscene mit einem Person in einer Helmat.\n   - Im unteren Bild sind einige Kommentare und Interaktionen sichtbar, wie 'Like', 'Comment' oder 'Share'-Optionen.\n   \n3. **Text-Editor**:\n   - Rechts oben ist ein Texteditor mit Code-Skripts ge\u00f6ffnet.\n\n4. **OpenAI-Manager**:\n   - Ein Fenster zeigt Informationen \u00fcber den OpenAI-Manager, wie zum Beispiel \"Minicom-py_ScreenReader\" und Details \u00fcber die Verwendung von \"OpenRouterML\".\n\n5. **Kommunikationen**: Es sind einige Kommunikationen sichtbar in der unteren rechten Ecke.\n\n## Schritt durch Schritt-Bewertung:\n1. Die Bildstellung zeigt eine standardm\u00e4\u00dfige Arbeitssituation eines Benutzers, der mit Code-Editoren und Videos umgeht.\n2. Ein Hinweis auf die Verwendung von AI-Ressourcen ist erkennbar im OpenAI-Manager-Fenster.\n\n## Schluss:\nDas Bild bietet einen Blick in die t\u00e4gliche Arbeit des Benutzers, kombiniert aus Programmieren mit der Beobachtung und Analyse von Videos.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The screen shows a computer monitor with multiple open windows and tabs, including a video player playing \"Speed and Love\" (2023), a code editor with files like \"hit_py\" and \"app.log\", a text editor with code scripts, and an OpenAI Manager window with information about \"Minicom-py_ScreenReader\" and \"OpenRouterML\"."
+    },
+    {
+        "role": "user",
+        "content": "read the text which I highlighted [System Data: In this image, we observe a workspace featuring various windows and tabs open simultaneously within an integrated development environment (IDE). These are commonly used for programming or software development tasks.\n\nAt first glance, there's one prominent window in focus which displays text content related to \"Speed and Love\" from 2025. This appears to be part of the code editor interface showing a piece of written material alongside some annotations.\n\nAdjacent to this main frame is another panel displaying what looks like an AI-driven screen reader output detailing its interactions with various programs, such as \"OpenRouterLM,\" and mentions about implementing a dual-layer fix for a specific issue. The conversation includes references to keywords related to screens, monitors, and potential fixes or improvements in the device's functionality.\n\nLastly, there is also another window that seems like an exploration tool showcasing links associated with coding tasks, including code examples from external resources.\n] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The text you highlighted describes a workspace with multiple windows and tabs open, including a code editor with text content related to \"Speed and Love\", an AI-driven screen reader output discussing interactions with \"OpenRouterLM\", and an exploration tool showcasing coding task links and code examples."
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my notepad [System Data: \u8fd9\u662f\u4e00\u5f20\u663e\u793a\u8ba1\u7b97\u673a\u5c4f\u5e55\u7684\u7167\u7247\uff0c\u7167\u7247\u4e0a\u6709\u591a\u4e2a\u6253\u5f00\u7684\u7a97\u53e3\u3002\u4e3b\u8981\u7126\u70b9\u662f\u4e00\u4e2a\u8f83\u5927\u7684\u767d\u8272\u77e9\u5f62\u6846\u8986\u76d6\u4e86\u5927\u90e8\u5206\u5c4f\u5e55\u7a7a\u95f4\uff0c\u5e76\u4e14\u4e0a\u9762\u5199\u7740\u201c\u8c22\u8c22\u201d\u3002\u8fd9\u4e2a\u767d\u8272\u77e9\u5f62\u6846\u4f4d\u4e8e\u4e00\u4e2a\u4ee3\u7801\u7f16\u8f91\u5668\u4e4b\u4e0a\uff0c\u5728\u4ee3\u7801\u7f16\u8f91\u5668\u4e2d\u53ef\u4ee5\u770b\u5230\u6587\u672c\u884c\u548c\u4e00\u4e9b\u6ce8\u91ca\u3002\n\n\u5468\u56f4\u7684\u73af\u5883\u770b\u8d77\u6765\u50cf\u662f\u4e00\u4e2a\u7f16\u7a0b\u5f00\u53d1\u7684\u5de5\u4f5c\u533a\u6216IDE\uff08\u96c6\u6210\u5f00\u53d1\u73af\u5883\uff09\u3002\u5728\u5de6\u4e0a\u89d2\uff0c\u6709\u4e00\u4e2a\u540d\u4e3aExplorer\u7684\u7a97\u53e3\u6253\u5f00\u7740\u51e0\u4e2a\u6587\u4ef6\u5939\u3002\u8fd9\u4e9b\u6587\u4ef6\u5939\u5305\u62ecassets\u3001BRAIN\u7b49\uff0c\u5e76\u4e14\u6709\u591a\u4e2a\u5b50\u6587\u4ef6\u5939\u548c\u6587\u4ef6\u540d\u663e\u793a\u51fa\u6765\uff0c\u5982BRAIN\u3001core\u3001functions\u7b49\u7b49\u3002\u8fd8\u6709\u5176\u4ed6\u4e00\u4e9b\u4ee3\u7801\u76f8\u5173\u7684\u5de5\u5177\u548c\u8d44\u6e90\u88ab\u5217\u4e3e\u51fa\u6765\u3002\n\n\u5c4f\u5e55\u53f3\u4fa7\u662f\u53e6\u4e00\u4e2a\u7a97\u53e3\uff0c\u4e0a\u9762\u6709\u4e00\u4e9b\u5173\u4e8e\u65e5\u5fd7\u7ba1\u7406\u548c\u7cfb\u7edf\u4fe1\u606f\u7684\u6587\u672c\u5185\u5bb9\u3002\u8fd9\u4e2a\u7a97\u53e3\u770b\u8d77\u6765\u50cf\u662f\u4e00\u4e2a\u65e5\u5fd7\u67e5\u770b\u5668\u6216\u7ba1\u7406\u7cfb\u7edf\u754c\u9762\u7684\u4e00\u90e8\u5206\u3002\u5728\u53f3\u4e0b\u89d2\u6709\u4e00\u4e2a\u5c0f\u7a97\u683c\uff0c\u663e\u793a\u4e86\u53e6\u4e00\u6bb5\u4ee3\u7801\u6216\u6ce8\u91ca\u7684\u6587\u5b57\uff0c\u5e76\u4e14\u63d0\u5230\u4e86\u4e00\u4e9b\u4e0eOpenRouter-LLM\u76f8\u5173\u7684\u6587\u6863\u548c\u8d44\u6e90\u3002\n\n\u6574\u4f53\u73af\u5883\u6697\u793a\u8fd9\u662f\u4e00\u4e2a\u8f6f\u4ef6\u5f00\u53d1\u8005\u7684\u684c\u9762\u8bbe\u7f6e\uff0c\u5728\u8fdb\u884c\u67d0\u4e9b\u9879\u76ee\u7684\u5f00\u53d1\u6216\u8005\u8c03\u8bd5\u5de5\u4f5c\u3002] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your notepad. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
     }
 ]

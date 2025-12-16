@@ -19,7 +19,7 @@ class VLMManager:
             self.logger.error(f"Failed to capture screen: {e}")
             return None
 
-    def analyze_screen(self, prompt="Describe what is visible on this screen in detail."):
+    def analyze_screen(self, prompt="Briefly list the main applications and content visible on the screen."):
         screenshot = self.capture_screen()
         if not screenshot:
             return "Failed to capture screen."
