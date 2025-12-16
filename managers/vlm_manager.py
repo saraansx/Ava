@@ -13,7 +13,6 @@ class VLMManager:
 
     def capture_screen(self):
         try:
-            # Capture the entire screen
             screenshot = ImageGrab.grab()
             return screenshot
         except Exception as e:
