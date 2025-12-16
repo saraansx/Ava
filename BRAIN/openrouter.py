@@ -32,25 +32,13 @@ class OpenRouterLLM:
         except:
             return "None"
 
-    def classify_visual_intent(self, text):
-        prompt = f"""
-        Classify the user's intent into one of three categories:
-        1. 'SCREEN': If the user explicitly asks to read, look at, or capture the computer SCREEN, MONITOR, DISPLAY, WEBSITE, or APP. (e.g., 'read my screen', 'what is on the monitor', 'analyze this website').
-        2. 'CAMERA': If the user asks to look at the PHYSICAL WORLD, physical objects, themselves, or the environment using the webcam. (e.g., 'how many fingers', 'look at me', 'what do I have in my hand', 'describe the room', 'what do you see').
-        3. 'NONE': If the user is asking for image generation (e.g., 'imagine a dragon'), general knowledge, or anything else not involving seeing real-time visual data.
-
-        User Query: "{text}"
-        
-        Return ONLY one word: 'SCREEN', 'CAMERA', or 'NONE'.
-        """
+    def extract_screen_reader_intent(self, text):
+        prompt = f"Analyze if the user explicitly wants you to capture or read their computer SCREEN, MONITOR, or DISPLAY. Keywords: 'screen', 'monitor', 'display', 'website', 'window', 'screenshot'. Queries like 'how many fingers', 'look at me', 'what is in front of you' are CAMERA/VISION requests and must return 'NO'. Return 'YES' ONLY for screen/display content."
         try:
             content, _, _ = self.generate([], system_prompt=prompt)
-            classification = content.strip().upper()
-            if "SCREEN" in classification: return "SCREEN"
-            if "CAMERA" in classification: return "CAMERA"
-            return "NONE"
+            return content.strip().upper()
         except:
-            return "NONE"
+            return "NO"
 
     def get_model_context_limit(self, model_name):
         return 128000

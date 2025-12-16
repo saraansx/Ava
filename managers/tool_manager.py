@@ -28,14 +28,6 @@ class ToolManager:
         except Exception as e:
             self.logger.error(f"Failed to register Screen Reader Tool ({Config.VISION_MODE}): {e}")
         
-        try:
-            from tools.vision_tool import VisionTool
-        
-            VisionTool.name = "vision" 
-            self.register_tool(VisionTool())
-        except Exception as e:
-            self.logger.error(f"Failed to register VisionTool: {e}")
-
     def register_tool(self, tool):
         self.tools[tool.name] = tool
         self.logger.info(f"Tool registered: {tool.name}")
@@ -48,15 +40,11 @@ class ToolManager:
             return self.tools.get("news")
         
         if self.llm:
-
-            if hasattr(self.llm, "classify_visual_intent"):
-                intent = self.llm.classify_visual_intent(text)
-                self.logger.info(f"LLM Classification: {intent}")
-                
-                if intent == "SCREEN":
+            if hasattr(self.llm, "extract_screen_reader_intent"):
+                screen_intent = self.llm.extract_screen_reader_intent(text)
+                if screen_intent and "YES" in screen_intent:
+                    self.logger.info(f"LLM decided this is a SCREEN READER request.")
                     return self.tools.get("screen_reader")
-                elif intent == "CAMERA":
-                    return self.tools.get("vision")
         
         system_keywords = [
             "system", "spec", "specs", "processor", "cpu", 
@@ -97,8 +85,6 @@ class ToolManager:
             elif tool.name == "system_info":
                 return tool.execute(query_type=user_text)
 
-            elif tool.name == "vision":
-                return tool.execute(prompt=user_text)
 
             elif tool.name == "screen_reader":
                 return tool.execute(prompt=user_text)

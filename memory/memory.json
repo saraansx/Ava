@@ -866,5 +866,13 @@
     {
         "role": "assistant",
         "content": "The code on your screen appears to be for a `ToolManager` class, written in Python, which determines the intent behind a given text input, specifically checking for screen reader or vision capabilities. It uses a large language model to extract intents and logs information about its decisions, returning the appropriate tool based on the detected intent. The code is part of a project managed in a Visual Studio Code environment, related to managing an AI agent named \"Ava\"."
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: [Screen Reader (Local)]:  The image shows a computer monitor displaying a program with a user interface that includes text fields, command-line elements, and a chat window. It appears to be a screenshot of someone using a software application, possibly for programming or data analysis, given the presence of commands and files in the terminal.\n\nThe chat window has messages that seem to be part of a conversation between two users, discussing topics such as \"the future\" and \"AI.\" One user mentions \"AII\" and suggests there's no limit to what AI can do, while the other responds with a more cautionary view, suggesting that there might be ethical concerns or limitations.\n\nThe overall setting suggests someone is working on a project related to AI and discussing its potential impacts and considerations with another person. The screenshot captures a moment of collaboration or discussion between users in a collaborative environment. ] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image on your screen shows a computer monitor displaying a program with a user interface, including text fields, command-line elements, and a chat window. The chat window contains a conversation between two users discussing AI, its potential, and ethical considerations. The setting suggests a collaborative environment where users are working on an AI-related project."
     }
 ]
