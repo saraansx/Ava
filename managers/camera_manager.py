@@ -13,14 +13,18 @@ class CameraManager:
     def capture_image(self):
         """Captures a single image from the webcam and saves it to a temp file."""
         try:
-            cap = cv2.VideoCapture(0)
+            self.logger.info("Attempting to open camera at index 0 (CAP_DSHOW)...")
+            cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
             
             if not cap.isOpened():
-                self.logger.error("Could not open webcam.")
-                return None
+                self.logger.warning("Index 0 failed. Trying index 1...")
+                cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+                if not cap.isOpened():
+                     self.logger.error("Could not open any webcam (tried index 0 and 1).")
+                     return None
 
-
-            time.sleep(1)
+            for _ in range(10):
+                cap.read()
             
             ret, frame = cap.read()
             cap.release()

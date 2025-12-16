@@ -42,16 +42,14 @@ class ToolManager:
         
         if self.llm:
 
-            if hasattr(self.llm, "extract_screen_reader_intent"):
-                screen_intent = self.llm.extract_screen_reader_intent(text)
-                if screen_intent and "YES" in screen_intent:
-                    self.logger.info(f"LLM decided this is a SCREEN READER request (Intent: {screen_intent}).")
+            if hasattr(self.llm, "classify_visual_intent"):
+                intent = self.llm.classify_visual_intent(text)
+                self.logger.info(f"LLM Classification: {intent}")
+                
+                if intent == "SCREEN":
                     return self.tools.get("screen_reader")
-
-            vision_intent = self.llm.extract_vision_intent(text)
-            if vision_intent and "YES" in vision_intent: 
-                self.logger.info(f"LLM decided this is a VISION request (Intent: {vision_intent}).")
-                return self.tools.get("vision")
+                elif intent == "CAMERA":
+                    return self.tools.get("vision")
         
         system_keywords = [
             "system", "spec", "specs", "processor", "cpu", 
