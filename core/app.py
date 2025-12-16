@@ -160,15 +160,16 @@ class JarvisApp:
                             width=80
                         )
 
+                    import threading
+                    tts_thread = threading.Thread(target=self.tts_manager.speak, args=(response,))
+                    tts_thread.start()
+
                     with Live(Align.left(create_panel(panel_content)), console=self.console, refresh_per_second=15, auto_refresh=True) as live:
                         for word in response.split(" "):
                             panel_content.append(word + " ")
                             live.update(Align.left(create_panel(panel_content)))
-                            time.sleep(0.04)
                     
-                    with self.console.status("Vocalizing...", spinner="dots"):
-                        self.tts_manager.speak(response)
-                        self.tts_manager.wait()  
+                    tts_thread.join()  
                     
             except KeyboardInterrupt:
                 break

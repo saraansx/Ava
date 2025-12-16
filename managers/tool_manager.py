@@ -31,11 +31,16 @@ class ToolManager:
         if "news" in text:
             return self.tools.get("news")
         
-        if self.llm:
-            screen_intent = self.llm.check_screen_read_intent(text)
-            if "YES" in screen_intent:
-                self.logger.info("LLM detected screen reading intent.")
-                return self.tools.get("screen_reader")
+        screen_keywords = [
+            "on my screen", "read my screen", "see my screen", "look at my screen", "describe my screen",
+            "kya dikh raha hai", "screen par kya hai", "screen dekho", "reading screen",
+            "what do you see", "what is visible", "check my screen", "analyze screen",
+            "screen mein kya", "mere screen"
+        ]
+        
+        if any(keyword in text for keyword in screen_keywords):
+             self.logger.info("Manual Keyword detected screen reading intent.")
+             return self.tools.get("screen_reader")
         
         system_keywords = [
             "system", "spec", "specs", "processor", "cpu", 
@@ -78,7 +83,7 @@ class ToolManager:
                 result = tool.execute(query_type=user_text)
 
             elif tool.name == "screen_reader":
-                result = tool.execute()
+                result = tool.execute(prompt=user_text)
             
             self.logger.info(f"Tool Output: {str(result)[:100]}...") 
             return result

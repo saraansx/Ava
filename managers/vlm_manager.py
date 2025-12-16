@@ -19,7 +19,14 @@ class VLMManager:
             self.logger.error(f"Failed to capture screen: {e}")
             return None
 
-    def analyze_screen(self, prompt="Briefly list the main applications and content visible on the screen. OUTPUT IN ENGLISH LANGUAGE ONLY."):
+    def analyze_screen(self, user_query=None):
+        base_prompt = "Briefly list the main applications and content visible on the screen."
+        
+        if user_query:
+
+            final_prompt = f"User Question: '{user_query}'. Answer this question based on the screen content. Be extremely concise. OUTPUT IN ENGLISH ONLY."
+        else:
+             final_prompt = f"{base_prompt} OUTPUT IN ENGLISH ONLY."
         screenshot = self.capture_screen()
         if not screenshot:
             return "Failed to capture screen."
@@ -30,7 +37,7 @@ class VLMManager:
 
         payload = {
             "model": self.model,
-            "prompt": prompt,
+            "prompt": final_prompt,
             "images": [img_str],
             "stream": False
         }

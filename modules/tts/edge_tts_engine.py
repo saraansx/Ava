@@ -22,16 +22,16 @@ class EdgeTTS:
             
             audio_file = os.path.abspath(audio_file)
             
-            args = [
-                "edge-tts",
-                "--voice", voice,
-                "--text", text,
-                "--write-media", audio_file
-            ]
-            
             self.logger.info(f"Generating TTS: {text[:50]}...")
             
-            subprocess.run(args, check=True)
+            import edge_tts
+            import asyncio
+            
+            async def _gen():
+                comm = edge_tts.Communicate(text, voice)
+                await comm.save(audio_file)
+            
+            asyncio.run(_gen())
 
             if os.path.exists(audio_file):
                 self.logger.info("Playing audio...")
