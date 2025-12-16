@@ -2687,3 +2687,61 @@ IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE 
 2025-12-16 18:11:29,269 - EdgeTTS - INFO - Generating TTS: I don't have a screen to see. I'm a text-based ass...
 2025-12-16 18:11:36,491 - EdgeTTS - INFO - Playing audio...
 2025-12-16 18:11:47,942 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\Ava\temp\tts_1765888889.mp3
+2025-12-16 18:20:46,498 - MemoryManager - INFO - Memory loaded.
+2025-12-16 18:20:46,498 - ToolManager - INFO - Tool registered: weather
+2025-12-16 18:20:46,498 - ToolManager - INFO - Tool registered: news
+2025-12-16 18:20:46,498 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 18:20:46,514 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 18:21:13,660 - root - INFO - User: what do you see on my screen
+2025-12-16 18:21:13,660 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 18:21:13,660 - ScreenReader - INFO - Executing Screen Reader...
+2025-12-16 18:21:13,742 - ScreenshotManager - INFO - Screenshot captured and saved to temp\screenshot_20251216_182113.png
+2025-12-16 18:21:13,742 - ScreenReader - INFO - Attempting screen analysis with model: google/gemini-2.0-flash-exp:free
+2025-12-16 18:21:19,294 - ScreenReader - WARNING - Model google/gemini-2.0-flash-exp:free rate limited (429). Trying next model...
+2025-12-16 18:21:20,294 - ScreenReader - INFO - Attempting screen analysis with model: google/gemini-flash-1.5-8b
+2025-12-16 18:21:20,888 - ScreenReader - ERROR - Error with model google/gemini-flash-1.5-8b: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:21:20,888 - ScreenReader - INFO - Attempting screen analysis with model: meta-llama/llama-3.2-90b-vision-instruct:free
+2025-12-16 18:21:21,574 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-90b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:21:21,574 - ScreenReader - INFO - Attempting screen analysis with model: meta-llama/llama-3.2-11b-vision-instruct:free
+2025-12-16 18:21:22,116 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-11b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:21:22,117 - ScreenshotManager - INFO - Deleted screenshot: temp\screenshot_20251216_182113.png
+2025-12-16 18:21:22,120 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 18:21:31,495 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 18:21:31,495 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 18:21:36,697 - EdgeTTS - INFO - Playing audio...
+2025-12-16 18:21:49,100 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765889491.mp3
+2025-12-16 18:22:05,841 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-16 18:25:44,305 - MemoryManager - INFO - Memory loaded.
+2025-12-16 18:25:44,305 - ToolManager - INFO - Tool registered: weather
+2025-12-16 18:25:44,305 - ToolManager - INFO - Tool registered: news
+2025-12-16 18:25:44,305 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 18:25:44,319 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 18:25:54,425 - root - INFO - User: what do you feel my pain
+2025-12-16 18:25:54,428 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 18:25:57,693 - MemoryManager - INFO - Memory loaded.
+2025-12-16 18:25:57,693 - ToolManager - INFO - Tool registered: weather
+2025-12-16 18:25:57,693 - ToolManager - INFO - Tool registered: news
+2025-12-16 18:25:57,693 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 18:25:57,704 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 18:26:05,231 - root - INFO - User: what do we see on my screen
+2025-12-16 18:26:05,232 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 18:26:06,812 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 18:26:06,812 - ScreenReader - INFO - Executing Screen Reader...
+2025-12-16 18:26:06,888 - ScreenshotManager - INFO - Screenshot captured and saved to temp\screenshot_20251216_182606.png
+2025-12-16 18:26:06,888 - ScreenReader - INFO - Attempting screen analysis with model: llava-hf/llava-1.5-7b-hf
+2025-12-16 18:26:07,852 - ScreenReader - ERROR - Error with model llava-hf/llava-1.5-7b-hf: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:07,852 - ScreenReader - INFO - Attempting screen analysis with model: google/gemini-2.0-flash-exp:free
+2025-12-16 18:26:12,468 - ScreenReader - WARNING - Model google/gemini-2.0-flash-exp:free rate limited (429). Trying next model...
+2025-12-16 18:26:13,468 - ScreenReader - INFO - Attempting screen analysis with model: google/gemini-flash-1.5-8b
+2025-12-16 18:26:14,137 - ScreenReader - ERROR - Error with model google/gemini-flash-1.5-8b: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:14,137 - ScreenReader - INFO - Attempting screen analysis with model: meta-llama/llama-3.2-90b-vision-instruct:free
+2025-12-16 18:26:14,782 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-90b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:14,782 - ScreenReader - INFO - Attempting screen analysis with model: meta-llama/llama-3.2-11b-vision-instruct:free
+2025-12-16 18:26:15,230 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-11b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:15,231 - ScreenshotManager - INFO - Deleted screenshot: temp\screenshot_20251216_182606.png
+2025-12-16 18:26:15,232 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 18:26:19,812 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 18:26:19,812 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 18:26:22,038 - EdgeTTS - INFO - Playing audio...
+2025-12-16 18:26:34,441 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765889779.mp3
+2025-12-16 18:26:40,998 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))

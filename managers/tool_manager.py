@@ -16,8 +16,7 @@ class ToolManager:
         self.register_tool(NewsTool())
         self.register_tool(SystemInfoTool())
 
-        from Functions.Screen_Reader.screen_reader import ScreenReader
-        self.register_tool(ScreenReader())
+        # Screen Reader removed per user request
         
     def register_tool(self, tool):
         self.tools[tool.name] = tool
@@ -44,11 +43,6 @@ class ToolManager:
             else:
                  return self.tools.get("system_info")
         
-        screen_keywords = ["read", "screen", "screenshot", "capture", "look at", "see", "vision", "display"]
-        if any(k in text for k in screen_keywords):
-             if "read" in text or "look" in text or "see" in text or "describe" in text or "what" in text:
-                 return self.tools.get("screen_reader")
-
         return None
 
     def process(self, user_text):
@@ -76,8 +70,5 @@ class ToolManager:
             
             elif tool.name == "system_info":
                 return tool.execute(query_type=user_text)
-
-            elif tool.name == "screen_reader":
-                return tool.execute(user_query=user_text)
         
         return None

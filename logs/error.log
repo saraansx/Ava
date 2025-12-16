@@ -60,3 +60,12 @@
 
 2025-12-16 08:47:43,181 - ScreenshotManager - ERROR - Vision API Error: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google"}},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
 2025-12-16 18:11:20,334 - ScreenReader - ERROR - Error reading screen: 429 Client Error: Too Many Requests for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:21:20,888 - ScreenReader - ERROR - Error with model google/gemini-flash-1.5-8b: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:21:21,574 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-90b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:21:22,116 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-11b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:22:05,841 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-16 18:26:07,852 - ScreenReader - ERROR - Error with model llava-hf/llava-1.5-7b-hf: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:14,137 - ScreenReader - ERROR - Error with model google/gemini-flash-1.5-8b: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:14,782 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-90b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:15,230 - ScreenReader - ERROR - Error with model meta-llama/llama-3.2-11b-vision-instruct:free: 404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+2025-12-16 18:26:40,998 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
