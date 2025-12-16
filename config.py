@@ -12,5 +12,6 @@ class Config:
     OPEN_WEATHER_API_KEY = os.getenv("OPEN_WEATHER_API_KEY")
     NEWS_API_KEY = os.getenv("NEWS_API")
     
-    # Vision Mode: "LOCAL" (Ollama) or "API" (OpenRouter)
-    VISION_MODE = "LOCAL"
+
+    # LLM Provider: "OPENROUTER", "COHERE"
+    LLM_PROVIDER = "COHERE"

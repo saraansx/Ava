@@ -32,13 +32,7 @@ class OpenRouterLLM:
         except:
             return "None"
 
-    def extract_screen_reader_intent(self, text):
-        prompt = f"Analyze if the user explicitly wants you to capture or read their computer SCREEN, MONITOR, or DISPLAY. Keywords: 'screen', 'monitor', 'display', 'website', 'window', 'screenshot'. Queries like 'how many fingers', 'look at me', 'what is in front of you' are CAMERA/VISION requests and must return 'NO'. Return 'YES' ONLY for screen/display content."
-        try:
-            content, _, _ = self.generate([], system_prompt=prompt)
-            return content.strip().upper()
-        except:
-            return "NO"
+
 
     def get_model_context_limit(self, model_name):
         return 128000

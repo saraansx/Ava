@@ -874,5 +874,153 @@
     {
         "role": "assistant",
         "content": "The image on your screen shows a computer monitor displaying a program with a user interface, including text fields, command-line elements, and a chat window. The chat window contains a conversation between two users discussing AI, its potential, and ethical considerations. The setting suggests a collaborative environment where users are working on an AI-related project."
+    },
+    {
+        "role": "user",
+        "content": "do you hear me [System Data: [Screen Reader (Local)]:  The image you've provided shows a computer screen displaying an open project in a code editor with multiple programming languages represented, including what appears to be HTML, CSS, and JavaScript. There is also a message or comment on the right side of the screen that says \"You heard the request\", but it's not clear if this was intended as an actual message or just part of the code or interface. It seems like someone might be working on a web development project or debugging some code, given the structure and syntax of the text displayed. If you have a specific question about the content of the screen or the context in which it's being used, feel free to ask! ] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you."
+    },
+    {
+        "role": "user",
+        "content": "Awaaz a raha hai kya mera [System Data: [Screen Reader (Local)]:  The image shows a computer screen with a desktop environment displaying what appears to be a programming code editor or interface. There are three monitors side by side, each showing a different aspect of the application:\n\n1. On the left monitor: There is a dark-themed user interface with a list of items or files in the left sidebar, and it seems like an Integrated Development Environment (IDE) for coding. The content suggests that it might be related to JavaScript or another web development technology, given the references to \"routes\" and possibly some sort of configuration or structure within the application.\n\n2. In the middle monitor: There is a text editor with various lines of code or markup, which are likely part of a project in progress or being debugged. The syntax and context suggest it could be related to HTML or XML files that define routes for an application's navigation structure.\n\n3. On the right monitor: Another text editor is open but the content is partially obscured by the other two monitors, making it difficult to discern its purpose or contents clearly. It appears to be part of the project as well.\n\nThe overall setup suggests that someone might be working on web development projects, possibly building a website or web application, and is using multiple screens to multitask efficiently. ] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes, I can hear you."
+    },
+    {
+        "role": "user",
+        "content": "Elon Musk kaun hai [System Data: [Screen Reader (Local)]:  The image you've shared appears to be a screenshot of a computer screen displaying an open-source code editor with various programming languages and syntax highlighted. It shows four different views:\n\n1. A code editor window at the top with HTML, CSS, and JavaScript code, which seems to be related to creating a chat application or a messaging interface.\n2. Below that, there is a terminal or command line interface running a Node.js server, likely to serve the web page displayed in the browser.\n3. A GitHub repository explorer window showing files and directories within a project.\n4. A browser window at the bottom displaying what seems to be a chat interface with text messages.\n\nThe text \"Eloon Musk kaun hai\" is overlaid on the screenshot, which translates to \"Who is Elon Musk?\" in English. This text seems to be added for the purpose of this image, possibly as part of an educational or instructional context related to programming and web development. ] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Elon Musk is a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla."
+    },
+    {
+        "role": "user",
+        "content": "do you see on my screen explain it (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "An internal error occurred with my local brain."
+    },
+    {
+        "role": "user",
+        "content": "do you stay in my screen explanation (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I can only respond to text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "4793 (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I can only respond to text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot see your screen. I only process text-based input. How can I help you?"
+    },
+    {
+        "role": "user",
+        "content": "what do you understand it (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the ability to see or access your screen. I can only process text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: [Screen Reader (Local)]:  The image shows a computer monitor displaying multiple screens with different content. On the left side, there's a coding environment with various text editors open, showing code in languages like Python and HTML. In the center, there's a screen that appears to be a chat window with messages in colorful fonts, possibly indicating some form of communication or collaboration. On the right side, there are two more screens: one has a presentation slide with code examples, and another shows what looks like a terminal or command line interface with various commands or outputs, which could be related to computer programming or system administration tasks. The overall theme suggests that someone is working on a coding project or managing systems using the command line. ] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a computer monitor with multiple screens: a coding environment with Python and HTML code on the left, a chat window with colorful messages in the center, and presentation slides with code examples along with a terminal interface showing commands or outputs on the right. The overall theme suggests someone is working on a coding project or managing systems through command line tasks."
+    },
+    {
+        "role": "user",
+        "content": "is there any licence file check on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot see your screen to check for any license file. I only process text-based input. How can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "what do you think (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "what do you see what do you think (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the ability to see or access your screen. I can only process text-based input. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: [Screen Reader (Local)]:  The image shows a computer monitor displaying several open windows with various types of software. The left window appears to be a web browser, possibly displaying a webpage with some sort of content or error message, as indicated by the text \"404 Error\". The right two windows are open command-line interfaces (CLI) that seem to be running scripts or commands, given the output and syntax in the windows. It looks like someone is working on tasks related to software development, programming, or system administration. There's also a chat application open in the bottom left corner of the screen, suggesting that the user might be communicating with others while working on these tasks. ] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "The image shows a computer monitor with several open windows, including a web browser displaying a 404 Error, two command-line interfaces running scripts or commands, and a chat application in the bottom left corner. This suggests someone is working on software development, programming, or system administration tasks while communicating with others."
+    },
+    {
+        "role": "user",
+        "content": "Lifestyle (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "PVC any licence type (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "user",
+        "content": "do you see any licence file (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your files. I only process text-based input. How can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "do you see any licence file on my screen [System Data: [Screen Reader (Local)]:  I don't have the ability to view specific files in an image, but based on your description of the image showing computer screens with code open, it is possible that there could be a \"license\" file among the open documents. License files are commonly used in software development to outline the terms and conditions for using certain software, often containing information about copyrights, permissions, and limitations on use. They can be found within software projects or as standalone files. To confirm if you have a license file, you would need to check the contents of your project or your computer's file system directly. ] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to view specific files on your screen. However, based on the description, it's possible that a license file could be among the open documents, often used in software development to outline terms and conditions. To confirm, you would need to check your project or file system directly."
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I cannot see your screen. I only process text-based input. How can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: [Screen Reader]: I can't access your screen or view any visual content. However, I can provide general information or discuss topics related to the code snippet you've described. The image appears to show a coding environment with a Python script, possibly related to an AI or machine learning project. If you have any specific questions about the code or its functionality, I'd be happy to help.] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the ability to see or access your screen. I can provide general information or discuss topics related to coding and programming. If you have any specific questions, I'd be happy to help."
     }
 ]

@@ -4,7 +4,6 @@ import time
 from managers.stt_manager import STTManager
 from managers.tts_manager import TTSManager
 from BRAIN.openrouter import OpenRouterLLM
-from BRAIN.ollama_llm import OllamaLLM
 from BRAIN.cohere_llm import CohereLLM
 from config import Config
 from rich.console import Console
@@ -32,9 +31,13 @@ class JarvisApp:
         self.tts_manager = TTSManager()
         self.memory_manager = MemoryManager()
         
-        self.llm = OpenRouterLLM()
-        #self.llm = CohereLLM()
-        #self.llm = OllamaLLM()
+        if Config.LLM_PROVIDER == "OPENROUTER":
+            self.llm = OpenRouterLLM()
+        elif Config.LLM_PROVIDER == "COHERE":
+            self.llm = CohereLLM()
+        else:
+             # Default to OpenRouter if unknown
+            self.llm = OpenRouterLLM()
             
         self.tool_manager = ToolManager(llm_instance=self.llm)
 
@@ -70,78 +73,9 @@ class JarvisApp:
         error_handler.setFormatter(formatter)
         logger.addHandler(error_handler)
 
-    def start_background_loop(self, gui):
-        """
-        Runs the main loop in a background thread, interacting with the GUI.
-        """
-        activation_sound = os.path.join("assets", "ASSETS_SOUNDS_activation_sound.wav")
-        if os.path.exists(activation_sound):
-            playsound(activation_sound)
-        else:
-             self.tts_manager.speak("Ava is online.")
-             self.tts_manager.wait()
-        
-        gui.add_log("System initialized. Listening...", "info")
-
-        while True:
-            try:
-                text = self.stt_manager.listen()
-                
-                if text:
-                    self.tts_manager.stop()
-                    
-                    if self.tts_manager.last_spoken and text.strip().lower() == self.tts_manager.last_spoken.strip().lower():
-                        logging.info("Ignored self-hearing echo")
-                        continue
-
-                    logging.info(f"User: {text}")
-                    gui.update_user_text(text)
-                    gui.add_log(f"Detected: {text}", "info")
-                    
-                    # Exit commands
-                    if "exit" in text.lower() or "quit" in text.lower():
-                         gui.add_log("Shutdown initiated.", "info")
-                         self.tts_manager.speak("Shutting down in 5 seconds.")
-                         time.sleep(5)
-                         deactivation_sound = os.path.join("assets", "ASSETS_SOUNDS_deactivation_sound.wav")
-                         if os.path.exists(deactivation_sound):
-                             playsound(deactivation_sound)
-                         os._exit(0)
-                    
-                    # Tools
-                    tool_result = self.tool_manager.process(text)
-                    if tool_result:
-                        gui.add_log(f"Tool Used: {tool_result}", "tool")
-                        text += f" [System Data: {tool_result}]"
-
-                    self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
-                    
-                    gui.update_ava_text("Thinking...")
-                    history = self.memory_manager.get_messages()
-                    response, usage, model_name = self.llm.generate(history, system_prompt=SystemPrompts.AVA_BEHAVIOR)
-                    
-                    self.memory_manager.add_message("assistant", response)
-                    
-                    gui.update_ava_text(response)
-                    
-                    if usage:
-                        total = usage.get('total', usage.get('total_tokens', 0))
-                        gui.add_log(f"Model: {model_name} | Tokens: {total}", "model")
-                    else:
-                        gui.add_log(f"Model: {model_name}", "model")
-
-                    self.tts_manager.speak(response)
-                    self.tts_manager.wait()
-                    
-            except KeyboardInterrupt:
-                break
-            except Exception as e:
-                gui.add_log(f"Error: {e}", "info")
-                logging.error(f"Runtime Error: {e}")
-                time.sleep(1)
-
     def run(self):
         self.console.print("\n[bold cyan]Ava AI Online[/bold cyan]\n", justify="center")
+        
         activation_sound = os.path.join("assets", "ASSETS_SOUNDS_activation_sound.wav")
         if os.path.exists(activation_sound):
             playsound(activation_sound)
@@ -182,9 +116,10 @@ class JarvisApp:
                          break
                     
                     tool_result = self.tool_manager.process(text)
+                    tool_content = None
                     if tool_result:
                         text += f" [System Data: {tool_result}]"
-                        # tool_content = Text("\n\nTool Output: ", style="italic dim yellow") + Text(str(tool_result), style="italic dim yellow")
+                        tool_content = Text("\n\nTool Output: ", style="italic dim yellow") + Text(str(tool_result), style="italic dim yellow")
 
                     self.memory_manager.add_message("user", text + " (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)")
                     
@@ -194,19 +129,26 @@ class JarvisApp:
                     
                     self.memory_manager.add_message("assistant", response)
                     
+    
                     if usage:
                         total = usage.get('total', usage.get('total_tokens', 0))
                         limit = self.llm.get_model_context_limit(model_name)
                         left = limit - total
+                        
+    
                         short_model = model_name.split('/')[-1] if '/' in model_name else model_name
+                        
                         subtitle_text = f"[dim]{short_model} • U:{total} L:{left}[/dim]"
                     else:
                         subtitle_text = f"[dim]{model_name or 'Unknown'}[/dim]"
 
                     from rich.live import Live
-                    content_text = Text(response, style="cyan")
-                    panel = Panel(
-                            content_text,
+                    
+                    panel_content = Text("", style="cyan")
+                    
+                    def create_panel(text_content):
+                        return Panel(
+                            text_content,
                             title="[bold cyan]Ava[/bold cyan]",
                             title_align="left",
                             subtitle=subtitle_text,
@@ -215,8 +157,13 @@ class JarvisApp:
                             box=box.ROUNDED,
                             padding=(1, 2),
                             width=80
-                    )
-                    self.console.print(panel)
+                        )
+
+                    with Live(Align.left(create_panel(panel_content)), console=self.console, refresh_per_second=15, auto_refresh=True) as live:
+                        for word in response.split(" "):
+                            panel_content.append(word + " ")
+                            live.update(Align.left(create_panel(panel_content)))
+                            time.sleep(0.04)
                     
                     with self.console.status("Vocalizing...", spinner="dots"):
                         self.tts_manager.speak(response)

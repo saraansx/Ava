@@ -2317,3 +2317,321 @@ IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE 
 2025-12-16 07:46:14,638 - ToolManager - INFO - Tool registered: system_info
 2025-12-16 07:46:14,638 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
 2025-12-16 07:46:14,638 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 07:50:08,997 - MemoryManager - INFO - Memory loaded.
+2025-12-16 07:50:08,998 - ToolManager - INFO - Tool registered: weather
+2025-12-16 07:50:08,998 - ToolManager - INFO - Tool registered: news
+2025-12-16 07:50:08,998 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 07:50:08,998 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 07:50:08,998 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 07:50:20,319 - root - INFO - User: do you hear me
+2025-12-16 07:50:20,319 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 07:50:27,357 - ToolManager - INFO - LLM decided this is a SCREEN READER request.
+2025-12-16 07:50:27,357 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 07:50:27,357 - ScreenReaderLocalTool - INFO - Local Screen Reader (Ollama - llava:latest)...
+2025-12-16 07:50:27,433 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_b87d875eefa44d5e90a79e577381bbf3.png
+2025-12-16 07:50:27,434 - ScreenReaderLocalTool - INFO - Sending visual query to Ollama (llava:latest)...
+2025-12-16 07:50:36,197 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 07:50:40,397 - TTSManager - INFO - Speaking: Yes, I can hear you.
+2025-12-16 07:50:40,397 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you....
+2025-12-16 07:50:43,057 - EdgeTTS - INFO - Playing audio...
+2025-12-16 07:50:46,313 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765851640.mp3
+2025-12-16 07:50:52,004 - root - INFO - User: Awaaz a raha hai kya mera
+2025-12-16 07:50:52,004 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 07:51:03,609 - ToolManager - INFO - LLM decided this is a SCREEN READER request.
+2025-12-16 07:51:03,609 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 07:51:03,610 - ScreenReaderLocalTool - INFO - Local Screen Reader (Ollama - llava:latest)...
+2025-12-16 07:51:03,686 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_605601792aa44783a5c11325151f16da.png
+2025-12-16 07:51:03,687 - ScreenReaderLocalTool - INFO - Sending visual query to Ollama (llava:latest)...
+2025-12-16 07:51:09,981 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 07:51:15,955 - TTSManager - INFO - Speaking: Yes, I can hear you.
+2025-12-16 07:51:15,955 - EdgeTTS - INFO - Generating TTS: Yes, I can hear you....
+2025-12-16 07:51:18,390 - EdgeTTS - INFO - Playing audio...
+2025-12-16 07:51:21,818 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765851675.mp3
+2025-12-16 07:51:24,317 - root - INFO - User: Elon Musk kaun hai
+2025-12-16 07:51:24,318 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 07:51:39,732 - ToolManager - INFO - LLM decided this is a SCREEN READER request.
+2025-12-16 07:51:39,732 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 07:51:39,732 - ScreenReaderLocalTool - INFO - Local Screen Reader (Ollama - llava:latest)...
+2025-12-16 07:51:39,800 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_4eb76e06897a4550bfd92fafefff1237.png
+2025-12-16 07:51:39,801 - ScreenReaderLocalTool - INFO - Sending visual query to Ollama (llava:latest)...
+2025-12-16 07:51:45,139 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 07:51:51,533 - TTSManager - INFO - Speaking: Elon Musk is a business magnate and entrepreneur, known for founding companies like SpaceX and Tesla.
+2025-12-16 07:51:51,533 - EdgeTTS - INFO - Generating TTS: Elon Musk is a business magnate and entrepreneur, ...
+2025-12-16 07:51:56,430 - EdgeTTS - INFO - Playing audio...
+2025-12-16 07:52:03,974 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765851711.mp3
+2025-12-16 07:52:13,686 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3d19d6b45dd8f73682388650a2ad7a92/element/f.D5FF703D2C457ACD99633F4ACE077123.d.D75112F3445C6809EA90AE489271D799.e.16/text
+2025-12-16 07:57:10,370 - MemoryManager - INFO - Memory loaded.
+2025-12-16 07:57:10,371 - ToolManager - INFO - Tool registered: weather
+2025-12-16 07:57:10,371 - ToolManager - INFO - Tool registered: news
+2025-12-16 07:57:10,371 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 07:57:10,371 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 07:57:10,371 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 07:57:40,546 - root - INFO - User: do you see on my screen explain it
+2025-12-16 07:57:40,549 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 07:58:10,653 - OllamaLLM - ERROR - Ollama Exception: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)
+2025-12-16 07:58:11,102 - TTSManager - INFO - Speaking: An internal error occurred with my local brain.
+2025-12-16 07:58:11,107 - EdgeTTS - INFO - Generating TTS: An internal error occurred with my local brain....
+2025-12-16 07:58:14,328 - EdgeTTS - INFO - Playing audio...
+2025-12-16 07:58:18,365 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765852091.mp3
+2025-12-16 07:59:55,554 - MemoryManager - INFO - Memory loaded.
+2025-12-16 07:59:55,554 - ToolManager - INFO - Tool registered: weather
+2025-12-16 07:59:55,554 - ToolManager - INFO - Tool registered: news
+2025-12-16 07:59:55,554 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 07:59:55,554 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 07:59:55,554 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:00:11,445 - root - INFO - User: do you stay in my screen explanation
+2025-12-16 08:00:11,447 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:00:31,430 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I can only respond to text-based input. How can I assist you today?
+2025-12-16 08:00:31,430 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 08:00:33,296 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:00:44,167 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765852231.mp3
+2025-12-16 08:01:14,666 - root - ERROR - Runtime Error: Message: tab crashed
+  (Session info: chrome=143.0.7499.109)
+
+2025-12-16 08:04:34,858 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:04:34,858 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:04:34,858 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:04:34,859 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:04:34,859 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:04:34,859 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:04:45,560 - root - INFO - User: 4793
+2025-12-16 08:04:45,562 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:04:53,383 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:04:53,383 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:04:53,383 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:04:53,383 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:04:53,383 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:04:53,383 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:05:01,567 - root - INFO - User: what do you see on my screen
+2025-12-16 08:05:01,569 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:05:21,255 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I can only respond to text-based input. How can I assist you today?
+2025-12-16 08:05:21,255 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 08:05:23,105 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:05:33,694 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765852521.mp3
+2025-12-16 08:05:42,302 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3ae4d2be6e0154fe347b881d2f4588d6/element/f.6591D6E422945221B466034069C6CA7A.d.5F992726650953DB2F182F1B01AA5822.e.16/text
+2025-12-16 08:06:38,158 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:06:38,158 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:06:38,158 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:06:38,158 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:06:38,158 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:06:38,158 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:06:52,102 - root - INFO - User: what do you see on my screen
+2025-12-16 08:06:52,103 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:06:53,211 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:07:04,855 - TTSManager - INFO - Speaking: I cannot see your screen. I only process text-based input. How can I help you?
+2025-12-16 08:07:04,855 - EdgeTTS - INFO - Generating TTS: I cannot see your screen. I only process text-base...
+2025-12-16 08:07:08,638 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:07:17,009 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765852624.mp3
+2025-12-16 08:07:56,311 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:07:56,311 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:07:56,311 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:07:56,311 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:07:56,311 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:07:56,311 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:08:26,784 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:08:26,785 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:08:26,785 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:08:26,785 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:08:26,785 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:08:26,785 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:08:47,087 - root - INFO - User: what do you understand it
+2025-12-16 08:08:47,089 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:08:50,676 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:08:50,676 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:08:50,676 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:08:50,676 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:08:50,676 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:08:50,676 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:09:03,984 - root - INFO - User: what do you see on my screen
+2025-12-16 08:09:03,985 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:09:05,075 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:09:17,685 - TTSManager - INFO - Speaking: I don't have the ability to see or access your screen. I can only process text-based input. How can I assist you today?
+2025-12-16 08:09:17,685 - EdgeTTS - INFO - Generating TTS: I don't have the ability to see or access your scr...
+2025-12-16 08:09:21,527 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:09:31,801 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765852757.mp3
+2025-12-16 08:09:34,601 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/265ef50ebaac1d2015df88a55388a592/element/f.C99B7A06E9FC5CD04DB6FB998A0CFF63.d.1EE42D35CA92FA2355F751DB58ACFEBA.e.15/text
+2025-12-16 08:10:52,520 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:10:52,520 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:10:52,520 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:10:52,520 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:10:52,520 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:10:52,520 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:12:06,866 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:12:06,867 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:12:06,867 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:12:06,867 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:12:06,867 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:12:06,867 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:12:40,884 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:12:40,884 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:12:40,884 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:12:40,884 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:12:40,884 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:12:40,884 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:12:46,909 - root - INFO - User: what do you see on my screen
+2025-12-16 08:12:46,909 - OllamaLLM - INFO - Checking screen intent for: 'what do you see on my screen'
+2025-12-16 08:12:47,942 - OllamaLLM - INFO - Screen Intent Raw Output: YES
+2025-12-16 08:12:47,942 - ToolManager - INFO - LLM decided this is a SCREEN READER request.
+2025-12-16 08:12:47,942 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 08:12:47,942 - ScreenReaderLocalTool - INFO - Local Screen Reader (Ollama - llava:latest)...
+2025-12-16 08:12:48,037 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_a8590a05cf144cbfafbb1996af11d02d.png
+2025-12-16 08:12:48,038 - ScreenReaderLocalTool - INFO - Sending visual query to Ollama (llava:latest)...
+2025-12-16 08:12:56,244 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:13:24,881 - TTSManager - INFO - Speaking: The image shows a computer monitor with multiple screens: a coding environment with Python and HTML code on the left, a chat window with colorful messages in the center, and presentation slides with code examples along with a terminal interface showing commands or outputs on the right. The overall theme suggests someone is working on a coding project or managing systems through command line tasks.
+2025-12-16 08:13:24,881 - EdgeTTS - INFO - Generating TTS: The image shows a computer monitor with multiple s...
+2025-12-16 08:13:32,254 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:13:57,328 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765853004.mp3
+2025-12-16 08:14:07,238 - root - INFO - User: is there any licence file check on my screen
+2025-12-16 08:14:07,238 - OllamaLLM - INFO - Checking screen intent for: 'is there any licence file check on my screen'
+2025-12-16 08:14:08,192 - OllamaLLM - INFO - Screen Intent Raw Output: NO
+2025-12-16 08:14:08,199 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:14:21,119 - TTSManager - INFO - Speaking: I cannot see your screen to check for any license file. I only process text-based input. How can I assist you?
+2025-12-16 08:14:21,119 - EdgeTTS - INFO - Generating TTS: I cannot see your screen to check for any license ...
+2025-12-16 08:14:25,554 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:14:35,706 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765853061.mp3
+2025-12-16 08:14:40,769 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/877d256313043c0235b4f67686a259a8/element/f.21FB176BBB2A8C083D2FF83272377089.d.2EA9492A626118874704CCB9C47C8B51.e.6/text
+2025-12-16 08:14:48,779 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:14:48,780 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:14:48,780 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:14:48,780 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:14:48,780 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:14:48,781 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:15:05,818 - root - INFO - User: what do you think
+2025-12-16 08:15:05,820 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:15:09,272 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:15:09,272 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:15:09,272 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:15:09,272 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:15:09,272 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:15:09,273 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:15:22,457 - root - INFO - User: what do you see what do you think
+2025-12-16 08:15:22,458 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:15:23,567 - OllamaLLM - INFO - Sending request to Ollama (qwen3-coder:latest)...
+2025-12-16 08:15:36,683 - TTSManager - INFO - Speaking: I don't have the ability to see or access your screen. I can only process text-based input. How can I assist you today?
+2025-12-16 08:15:36,683 - EdgeTTS - INFO - Generating TTS: I don't have the ability to see or access your scr...
+2025-12-16 08:15:38,454 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:16:06,383 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:16:06,383 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:16:06,383 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:16:06,383 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:16:06,383 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:16:06,383 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:16:16,298 - root - INFO - User: what do you see on my screen
+2025-12-16 08:16:16,299 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:16:27,874 - ToolManager - INFO - LLM decided this is a SCREEN READER request.
+2025-12-16 08:16:27,874 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 08:16:27,874 - ScreenReaderLocalTool - INFO - Local Screen Reader (Ollama - llava:latest)...
+2025-12-16 08:16:27,960 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_f99914e89f9f440ea30c4cd65ac0e8a5.png
+2025-12-16 08:16:27,961 - ScreenReaderLocalTool - INFO - Sending visual query to Ollama (llava:latest)...
+2025-12-16 08:16:36,193 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:16:51,646 - TTSManager - INFO - Speaking: The image shows a computer monitor with several open windows, including a web browser displaying a 404 Error, two command-line interfaces running scripts or commands, and a chat application in the bottom left corner. This suggests someone is working on software development, programming, or system administration tasks while communicating with others.
+2025-12-16 08:16:51,647 - EdgeTTS - INFO - Generating TTS: The image shows a computer monitor with several op...
+2025-12-16 08:16:58,212 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:17:21,138 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765853211.mp3
+2025-12-16 08:17:36,667 - root - INFO - User: Lifestyle
+2025-12-16 08:17:36,670 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:17:38,746 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:17:38,746 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:17:38,746 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:17:38,746 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:17:38,746 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:17:38,746 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:17:47,336 - root - INFO - User: PVC any licence type
+2025-12-16 08:17:47,340 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:17:50,541 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:17:50,541 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:17:50,541 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:17:50,541 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:17:50,541 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:17:50,541 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:17:59,332 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:17:59,332 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:17:59,332 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:17:59,332 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:17:59,332 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 08:17:59,332 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:18:05,566 - root - INFO - User: do you see any licence file
+2025-12-16 08:18:05,567 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:18:07,983 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:18:14,301 - TTSManager - INFO - Speaking: I don't have the capability to see or access your files. I only process text-based input. How can I assist you?
+2025-12-16 08:18:14,301 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 08:18:18,146 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:18:28,402 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765853294.mp3
+2025-12-16 08:18:34,891 - root - INFO - User: do you see any licence file on my screen
+2025-12-16 08:18:34,892 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:18:49,055 - ToolManager - INFO - LLM decided this is a SCREEN READER request.
+2025-12-16 08:18:49,055 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 08:18:49,055 - ScreenReaderLocalTool - INFO - Local Screen Reader (Ollama - llava:latest)...
+2025-12-16 08:18:49,135 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_686fa4657f0548649f58d0aad000983b.png
+2025-12-16 08:18:49,136 - ScreenReaderLocalTool - INFO - Sending visual query to Ollama (llava:latest)...
+2025-12-16 08:18:53,078 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:18:59,582 - TTSManager - INFO - Speaking: I don't have the capability to view specific files on your screen. However, based on the description, it's possible that a license file could be among the open documents, often used in software development to outline terms and conditions. To confirm, you would need to check your project or file system directly.
+2025-12-16 08:18:59,583 - EdgeTTS - INFO - Generating TTS: I don't have the capability to view specific files...
+2025-12-16 08:19:04,586 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:19:25,508 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765853339.mp3
+2025-12-16 08:21:23,074 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:21:23,074 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:21:23,074 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:21:23,074 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:21:23,074 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:21:23,074 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:23:22,852 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:23:22,853 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:23:22,853 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:23:22,853 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:23:22,853 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:23:22,853 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:25:21,058 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:25:21,058 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:25:21,058 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:25:21,058 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:25:21,058 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:25:21,058 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:27:10,588 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:27:10,588 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:27:10,588 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:27:10,589 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:27:10,589 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:27:10,589 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:27:39,301 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:27:39,301 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:27:39,301 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:27:39,301 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:27:39,301 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:27:39,301 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:27:49,286 - root - INFO - User: what do you see on my screen
+2025-12-16 08:27:49,287 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 08:27:50,138 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 08:27:53,974 - TTSManager - INFO - Speaking: I cannot see your screen. I only process text-based input. How can I assist you?
+2025-12-16 08:27:53,974 - EdgeTTS - INFO - Generating TTS: I cannot see your screen. I only process text-base...
+2025-12-16 08:27:59,706 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:28:08,298 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765853873.mp3
+2025-12-16 08:28:14,196 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-16 08:28:21,353 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:28:21,353 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:28:21,353 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:28:21,353 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:28:21,353 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 08:28:21,353 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 08:28:27,305 - root - INFO - User: what do you see on my screen
+2025-12-16 08:28:27,305 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:28:29,154 - ToolManager - INFO - LLM decided this is a SCREEN READER request.
+2025-12-16 08:28:29,154 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 08:28:29,154 - ScreenReaderTool - INFO - Capturing screen...
+2025-12-16 08:28:29,225 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_03f451beb57a4a0194c232e83a9b750c.png
+2025-12-16 08:28:29,225 - ScreenReaderTool - INFO - Analyzing screen content...
+2025-12-16 08:28:35,125 - ScreenReaderTool - INFO - Deleted screenshot: temp\screenshot_03f451beb57a4a0194c232e83a9b750c.png
+2025-12-16 08:28:35,128 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 08:28:40,721 - TTSManager - INFO - Speaking: I don't have the ability to see or access your screen. I can provide general information or discuss topics related to coding and programming. If you have any specific questions, I'd be happy to help.
+2025-12-16 08:28:40,721 - EdgeTTS - INFO - Generating TTS: I don't have the ability to see or access your scr...
+2025-12-16 08:28:45,667 - EdgeTTS - INFO - Playing audio...
+2025-12-16 08:29:00,422 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765853920.mp3
+2025-12-16 08:29:10,850 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/47687358693b77bda4837cfb749802f2/element/f.12974270E9B779255357CA6F634957B5.d.DC1224B5A983C92B6FF3A61F7A9A063B.e.13/text
+2025-12-16 08:30:02,002 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:30:02,003 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:30:02,003 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:30:02,003 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 08:30:56,489 - MemoryManager - INFO - Memory loaded.
+2025-12-16 08:30:56,489 - ToolManager - INFO - Tool registered: weather
+2025-12-16 08:30:56,489 - ToolManager - INFO - Tool registered: news
+2025-12-16 08:30:56,489 - ToolManager - INFO - Tool registered: system_info
