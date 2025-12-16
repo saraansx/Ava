@@ -2270,3 +2270,12 @@ IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE 
 2025-12-16 05:50:53,069 - EdgeTTS - INFO - Playing audio...
 2025-12-16 05:51:24,480 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765844446.mp3
 2025-12-16 05:51:47,424 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/216bab089707fb60b7f0e88e74427b55/element/f.EBBC2DEC00D5D1F497EF5582E8C53F0B.d.4D219D4A593F887F98F28893409A4191.e.13/text
+2025-12-16 06:44:06,107 - MemoryManager - INFO - Memory loaded.
+2025-12-16 06:44:06,107 - ToolManager - INFO - Tool registered: weather
+2025-12-16 06:44:06,107 - ToolManager - INFO - Tool registered: news
+2025-12-16 06:44:06,107 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 06:44:06,108 - ToolManager - INFO - Vision Mode: API (OpenRouter)
+2025-12-16 06:44:06,108 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 06:44:06,278 - ToolManager - INFO - Tool registered: vision
+2025-12-16 06:44:14,594 - root - INFO - User: what do you think about
+2025-12-16 06:44:14,594 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...

@@ -1,8 +1,10 @@
 import logging
+from config import Config
 from tools.weather import WeatherTool
 from tools.news import NewsTool
 from tools.system_info import SystemInfoTool
 from BRAIN.screen_reader.tools.screen_reader import ScreenReaderTool
+from BRAIN.screen_reader.tools.screen_reader_local import ScreenReaderLocalTool
 
 class ToolManager:
     def __init__(self, llm_instance=None):
@@ -17,9 +19,14 @@ class ToolManager:
         self.register_tool(SystemInfoTool())
 
         try:
-            self.register_tool(ScreenReaderTool())
+            if Config.VISION_MODE == "LOCAL":
+                self.logger.info("Vision Mode: LOCAL (Ollama)")
+                self.register_tool(ScreenReaderLocalTool())
+            else:
+                self.logger.info("Vision Mode: API (OpenRouter)")
+                self.register_tool(ScreenReaderTool())
         except Exception as e:
-            self.logger.error(f"Failed to register ScreenReaderTool: {e}")
+            self.logger.error(f"Failed to register Screen Reader Tool ({Config.VISION_MODE}): {e}")
         
         try:
             from tools.vision_tool import VisionTool
