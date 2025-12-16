@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class OpenRouterLLM:
-    def __init__(self, model="meta-llama/llama-3.3-70b-instruct"):
+    def __init__(self, model="qwen/qwen3-coder:free"):
         self.logger = logging.getLogger("OpenRouterLLM")
         self.api_key = os.getenv("OPENROUTER_AI")
         self.model = model

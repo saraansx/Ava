@@ -1074,5 +1074,85 @@
     {
         "role": "assistant",
         "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the ability to see or access your screen. I only process text-based input. How can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: Error from Vision API: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Google\"}},\"user_id\":\"user_36s60LKSTOxYusZcQaFAO79M0Kz\"}] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: Error from Vision API (meta-llama/llama-3.2-90b-vision-instruct:free): {\"error\":{\"message\":\"No endpoints found for meta-llama/llama-3.2-90b-vision-instruct:free.\",\"code\":404},\"user_id\":\"user_36s60LKSTOxYusZcQaFAO79M0Kz\"}] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the ability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: Error from Vision API (meta-llama/llama-3.2-90b-vision-instruct:free): {\"error\":{\"message\":\"No endpoints found for meta-llama/llama-3.2-90b-vision-instruct:free.\",\"code\":404},\"user_id\":\"user_36s60LKSTOxYusZcQaFAO79M0Kz\"}] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I only process text-based input. How can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen [System Data: Error from Vision API (liuhaotian/llava-13b): {\"error\":{\"message\":\"No endpoints found for liuhaotian/llava-13b.\",\"code\":404},\"user_id\":\"user_36s60LKSTOxYusZcQaFAO79M0Kz\"}] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the ability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see [System Data: Error from Vision API (qwen/qwen-2-vl-7b-instruct:free): {\"error\":{\"message\":\"No endpoints found for qwen/qwen-2-vl-7b-instruct:free.\",\"code\":404},\"user_id\":\"user_36s60LKSTOxYusZcQaFAO79M0Kz\"}] (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access visual information. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Error: 429"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "I don't have the ability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "what do you see on my screen (SYSTEM INSTRUCTION: You MUST ignore the user's language and respond ONLY in strict English. Do not translate the user's query back to them. Just answer in English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Error: 429"
     }
 ]

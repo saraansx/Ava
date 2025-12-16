@@ -290,7 +290,7 @@
 2025-12-13 05:07:06,172 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-12-13 05:07:06,751 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=London&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
 2025-12-13 05:07:07,193 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-12-13 05:07:07,198 - TTSManager - INFO - Speaking: The current weather in London is overcast clouds with a temperature of 7.59°C and 90% humidity. It sounds like a pretty gloomy day in London. If you're planning to be outdoors, you might want to grab an umbrella or a waterproof jacket. Would you like to know more about London's forecast for the rest of the day or the week?
+2025-12-13 05:07:07,198 - TTSManager - INFO - Speaking: The current weather in London is overcast clouds with a temperature of 7.59ï¿½C and 90% humidity. It sounds like a pretty gloomy day in London. If you're planning to be outdoors, you might want to grab an umbrella or a waterproof jacket. Would you like to know more about London's forecast for the rest of the day or the week?
 2025-12-13 05:07:07,198 - EdgeTTS - INFO - Generating TTS: The current weather in London is overcast clouds w...
 2025-12-13 05:07:13,812 - EdgeTTS - INFO - Playing audio...
 2025-12-13 05:07:41,038 - root - INFO - User: weather in Kolkata
@@ -298,7 +298,7 @@
 2025-12-13 05:07:41,284 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-12-13 05:07:41,829 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Kolkata&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
 2025-12-13 05:07:42,204 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-12-13 05:07:42,246 - TTSManager - INFO - Speaking: The current weather in Kolkata is misty with a temperature of 15.97°C and 94% humidity. It's quite cool and damp, typical of a winter morning in Kolkata. If you're stepping out, you might want to carry a light jacket or sweater to stay comfortable. Would you like to know more about Kolkata's forecast for the rest of the day or the week?
+2025-12-13 05:07:42,246 - TTSManager - INFO - Speaking: The current weather in Kolkata is misty with a temperature of 15.97ï¿½C and 94% humidity. It's quite cool and damp, typical of a winter morning in Kolkata. If you're stepping out, you might want to carry a light jacket or sweater to stay comfortable. Would you like to know more about Kolkata's forecast for the rest of the day or the week?
 2025-12-13 05:07:42,246 - EdgeTTS - INFO - Generating TTS: The current weather in Kolkata is misty with a tem...
 2025-12-13 05:07:49,001 - EdgeTTS - INFO - Playing audio...
 2025-12-13 05:08:19,978 - root - INFO - User: do you know what is my favourite colour
@@ -331,7 +331,7 @@
 2025-12-13 05:27:51,643 - ToolManager - INFO - Triggering tool: news
 2025-12-13 05:27:52,243 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?apiKey=ad012be8844644fc8ce53b08178169c4&language=en&pageSize=5&q=apple&sortBy=publishedAt "HTTP/1.1 200 OK"
 2025-12-13 05:27:53,032 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-12-13 05:27:53,043 - TTSManager - INFO - Speaking: It seems like the news results aren't specifically about Apple. However, I did find one article that mentions Apple: "‘F1: the Movie’ Races Onto Apple TV on Friday". This suggests that a new movie about Formula 1 is being released on Apple TV. If you're looking for news about Apple, such as updates on their products or services, I'd be happy to try and find more relevant information for you. Would you like me to try again?
+2025-12-13 05:27:53,043 - TTSManager - INFO - Speaking: It seems like the news results aren't specifically about Apple. However, I did find one article that mentions Apple: "ï¿½F1: the Movieï¿½ Races Onto Apple TV on Friday". This suggests that a new movie about Formula 1 is being released on Apple TV. If you're looking for news about Apple, such as updates on their products or services, I'd be happy to try and find more relevant information for you. Would you like me to try again?
 2025-12-13 05:27:53,043 - EdgeTTS - INFO - Generating TTS: It seems like the news results aren't specifically...
 2025-12-13 05:28:00,743 - EdgeTTS - INFO - Playing audio...
 2025-12-13 05:28:59,187 - MemoryManager - INFO - Memory loaded.
@@ -510,7 +510,7 @@ These headlines seem to be focused on designing and engineering, with topics ran
 2025-12-13 06:14:00,488 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-12-13 06:14:01,067 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
 2025-12-13 06:14:01,548 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-12-13 06:14:01,598 - TTSManager - INFO - Speaking: The current weather in Delhi is foggy with a temperature of 11.05°C and 87% humidity. It's quite chilly and misty there. Would you like to know more about the forecast or any other weather-related information?
+2025-12-13 06:14:01,598 - TTSManager - INFO - Speaking: The current weather in Delhi is foggy with a temperature of 11.05ï¿½C and 87% humidity. It's quite chilly and misty there. Would you like to know more about the forecast or any other weather-related information?
 2025-12-13 06:14:01,598 - EdgeTTS - INFO - Generating TTS: The current weather in Delhi is foggy with a tempe...
 2025-12-13 06:14:06,061 - EdgeTTS - INFO - Playing audio...
 2025-12-13 06:14:30,613 - root - INFO - User: what is the weather
@@ -518,7 +518,7 @@ These headlines seem to be focused on designing and engineering, with topics ran
 2025-12-13 06:14:30,935 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-12-13 06:14:31,509 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=Delhi&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
 2025-12-13 06:14:31,945 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-12-13 06:14:31,948 - TTSManager - INFO - Speaking: The weather in Delhi is foggy, with a temperature of 11.05°C and 87% humidity.
+2025-12-13 06:14:31,948 - TTSManager - INFO - Speaking: The weather in Delhi is foggy, with a temperature of 11.05ï¿½C and 87% humidity.
 2025-12-13 06:14:31,948 - EdgeTTS - INFO - Generating TTS: The weather in Delhi is foggy, with a temperature ...
 2025-12-13 06:14:34,954 - EdgeTTS - INFO - Playing audio...
 2025-12-13 06:14:51,567 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/529ffaf4a004d6f6142fecb94b19afb5/element/f.83013356EAF25A43074F316025B3411C.d.A58F44B0FC9D7B4AEAF04F61FA91D0C3.e.15/text
@@ -530,7 +530,7 @@ These headlines seem to be focused on designing and engineering, with topics ran
 2025-12-13 06:20:05,103 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-12-13 06:20:05,560 - httpx - INFO - HTTP Request: GET http://api.openweathermap.org/data/2.5/weather?q=London&appid=ea02c7088b689205d9912444c21c5c6a&units=metric "HTTP/1.1 200 OK"
 2025-12-13 06:20:06,088 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2025-12-13 06:20:06,152 - TTSManager - INFO - Speaking: The current weather in London is overcast clouds with a temperature of 7.46°C and 90% humidity. It's quite gloomy and damp there.
+2025-12-13 06:20:06,152 - TTSManager - INFO - Speaking: The current weather in London is overcast clouds with a temperature of 7.46ï¿½C and 90% humidity. It's quite gloomy and damp there.
 2025-12-13 06:20:06,152 - EdgeTTS - INFO - Generating TTS: The current weather in London is overcast clouds w...
 2025-12-13 06:20:10,149 - EdgeTTS - INFO - Playing audio...
 2025-12-13 06:20:28,426 - root - INFO - User: do you hear me
@@ -2745,3 +2745,210 @@ IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE 
 2025-12-16 18:26:22,038 - EdgeTTS - INFO - Playing audio...
 2025-12-16 18:26:34,441 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765889779.mp3
 2025-12-16 18:26:40,998 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-16 19:21:18,751 - MemoryManager - INFO - Memory loaded.
+2025-12-16 19:21:18,751 - ToolManager - INFO - Tool registered: weather
+2025-12-16 19:21:18,751 - ToolManager - INFO - Tool registered: news
+2025-12-16 19:21:18,751 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 19:21:18,751 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 19:21:24,738 - root - INFO - User: what do you see on my screen
+2025-12-16 19:21:24,738 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:21:27,002 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:21:35,062 - TTSManager - INFO - Speaking: I don't have the ability to see or access your screen. I only process text-based input. How can I assist you?
+2025-12-16 19:21:35,062 - EdgeTTS - INFO - Generating TTS: I don't have the ability to see or access your scr...
+2025-12-16 19:21:39,663 - EdgeTTS - INFO - Playing audio...
+2025-12-16 19:21:49,322 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765893095.mp3
+2025-12-16 19:22:08,772 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7ffb6e563c438c1db3e2fe31a22b326f/element/f.8E3824F697DC1638331654F56F6F5C5C.d.9CC95BDA029F9C2E2A43DD984A13140A.e.13/text
+2025-12-16 19:25:20,981 - MemoryManager - INFO - Memory loaded.
+2025-12-16 19:25:20,981 - ToolManager - INFO - Tool registered: weather
+2025-12-16 19:25:20,981 - ToolManager - INFO - Tool registered: news
+2025-12-16 19:25:20,981 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 19:25:20,981 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 19:25:27,770 - root - INFO - User: what do you see on my screen
+2025-12-16 19:25:27,770 - ToolManager - INFO - Checking screen intent for: what do you see on my screen
+2025-12-16 19:25:27,770 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:25:29,331 - ToolManager - INFO - Screen intent result: true
+2025-12-16 19:25:29,331 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 19:25:29,331 - ScreenReader - INFO - Taking screenshot...
+2025-12-16 19:25:29,372 - ScreenReader - INFO - Screenshot taken. Analyzing with google/gemini-2.0-flash-exp:free...
+2025-12-16 19:25:34,368 - ScreenReader - WARNING - Vision API Failed (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google"}},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:25:34,372 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:25:41,386 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 19:25:41,386 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 19:25:53,615 - EdgeTTS - INFO - Playing audio...
+2025-12-16 19:26:06,011 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765893341.mp3
+2025-12-16 19:26:12,306 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/010a6dcbb1cda66fde23fc8f4202ef4d/element/f.A7FBBB3C2583A26C634EA7100ADE983C.d.161350F5DC145D4E8688C6932706154E.e.6/text
+2025-12-16 19:27:39,040 - MemoryManager - INFO - Memory loaded.
+2025-12-16 19:27:39,040 - ToolManager - INFO - Tool registered: weather
+2025-12-16 19:27:39,041 - ToolManager - INFO - Tool registered: news
+2025-12-16 19:27:39,041 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 19:27:39,041 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 19:27:49,328 - root - INFO - User: what do you see on my screen
+2025-12-16 19:27:49,329 - ToolManager - INFO - Checking screen intent for: what do you see on my screen
+2025-12-16 19:27:49,329 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:27:50,775 - ToolManager - INFO - Screen intent result: true
+2025-12-16 19:27:50,775 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 19:27:50,775 - ScreenReader - INFO - Taking screenshot...
+2025-12-16 19:27:50,817 - ScreenReader - INFO - Screenshot taken. Starting analysis...
+2025-12-16 19:27:50,817 - ScreenReader - INFO - Trying vision model: google/gemini-2.0-flash-exp:free...
+2025-12-16 19:27:55,814 - ScreenReader - WARNING - Vision API Failed with google/gemini-2.0-flash-exp:free (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google"}},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:27:55,814 - ScreenReader - INFO - Trying vision model: qwen/qwen-2-vl-7b-instruct:free...
+2025-12-16 19:27:56,401 - ScreenReader - WARNING - Vision API Failed with qwen/qwen-2-vl-7b-instruct:free (404): {"error":{"message":"No endpoints found for qwen/qwen-2-vl-7b-instruct:free.","code":404},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:27:56,401 - ScreenReader - INFO - Trying vision model: meta-llama/llama-3.2-90b-vision-instruct:free...
+2025-12-16 19:27:56,957 - ScreenReader - WARNING - Vision API Failed with meta-llama/llama-3.2-90b-vision-instruct:free (404): {"error":{"message":"No endpoints found for meta-llama/llama-3.2-90b-vision-instruct:free.","code":404},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:27:56,960 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:28:10,541 - TTSManager - INFO - Speaking: I don't have the ability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 19:28:10,542 - EdgeTTS - INFO - Generating TTS: I don't have the ability to see or access your scr...
+2025-12-16 19:28:14,645 - EdgeTTS - INFO - Playing audio...
+2025-12-16 19:28:26,828 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765893490.mp3
+2025-12-16 19:28:33,386 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/1fc092a4b819ca777f42d1dff83abe6d/element/f.DBF1021CA712B2FDD340DD63540D120D.d.48904018433A46DBBFBD2EF53ED16EA3.e.6/text
+2025-12-16 19:31:22,524 - MemoryManager - INFO - Memory loaded.
+2025-12-16 19:31:22,524 - ToolManager - INFO - Tool registered: weather
+2025-12-16 19:31:22,524 - ToolManager - INFO - Tool registered: news
+2025-12-16 19:31:22,524 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 19:31:22,525 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 19:31:30,099 - root - INFO - User: what do you see on
+2025-12-16 19:31:30,099 - ToolManager - INFO - Checking screen intent for: what do you see on
+2025-12-16 19:31:30,099 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:31:31,996 - ToolManager - INFO - Screen intent result: true
+2025-12-16 19:31:31,996 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 19:31:31,996 - ScreenReader - INFO - Requesting screenshot from manager...
+2025-12-16 19:31:32,039 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_1765893691.jpg
+2025-12-16 19:31:32,041 - ScreenReader - INFO - Screenshot processed. Starting analysis...
+2025-12-16 19:31:32,041 - ScreenReader - INFO - Trying vision model: google/gemini-2.0-flash-exp:free...
+2025-12-16 19:31:36,677 - MemoryManager - INFO - Memory loaded.
+2025-12-16 19:31:36,677 - ToolManager - INFO - Tool registered: weather
+2025-12-16 19:31:36,677 - ToolManager - INFO - Tool registered: news
+2025-12-16 19:31:36,677 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 19:31:36,677 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 19:31:43,347 - root - INFO - User: what do you see on my screen
+2025-12-16 19:31:43,347 - ToolManager - INFO - Checking screen intent for: what do you see on my screen
+2025-12-16 19:31:43,347 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:31:44,684 - ToolManager - INFO - Screen intent result: true
+2025-12-16 19:31:44,684 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 19:31:44,684 - ScreenReader - INFO - Requesting screenshot from manager...
+2025-12-16 19:31:44,718 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_1765893704.jpg
+2025-12-16 19:31:44,719 - ScreenReader - INFO - Screenshot processed. Starting analysis...
+2025-12-16 19:31:44,719 - ScreenReader - INFO - Trying vision model: google/gemini-2.0-flash-exp:free...
+2025-12-16 19:31:48,987 - ScreenReader - WARNING - Vision API Failed with google/gemini-2.0-flash-exp:free (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google"}},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:31:48,987 - ScreenReader - INFO - Trying vision model: qwen/qwen-2-vl-7b-instruct:free...
+2025-12-16 19:31:49,575 - ScreenReader - WARNING - Vision API Failed with qwen/qwen-2-vl-7b-instruct:free (404): {"error":{"message":"No endpoints found for qwen/qwen-2-vl-7b-instruct:free.","code":404},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:31:49,576 - ScreenReader - INFO - Trying vision model: meta-llama/llama-3.2-90b-vision-instruct:free...
+2025-12-16 19:31:50,145 - ScreenReader - WARNING - Vision API Failed with meta-llama/llama-3.2-90b-vision-instruct:free (404): {"error":{"message":"No endpoints found for meta-llama/llama-3.2-90b-vision-instruct:free.","code":404},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:31:50,145 - ScreenshotManager - INFO - Deleted screenshot: temp\screenshot_1765893704.jpg
+2025-12-16 19:31:50,148 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:31:59,297 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I only process text-based input. How can I assist you?
+2025-12-16 19:31:59,297 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 19:32:07,915 - EdgeTTS - INFO - Playing audio...
+2025-12-16 19:32:17,838 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765893719.mp3
+2025-12-16 19:32:33,561 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-16 19:37:58,989 - MemoryManager - INFO - Memory loaded.
+2025-12-16 19:37:58,990 - ToolManager - INFO - Tool registered: weather
+2025-12-16 19:37:58,990 - ToolManager - INFO - Tool registered: news
+2025-12-16 19:37:58,990 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 19:37:58,990 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 19:38:11,754 - root - INFO - User: what do you see on my screen
+2025-12-16 19:38:11,755 - ToolManager - INFO - Checking screen intent for: what do you see on my screen
+2025-12-16 19:38:11,755 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:38:13,342 - ToolManager - INFO - Screen intent result: true
+2025-12-16 19:38:13,343 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 19:38:13,343 - ScreenReader - INFO - Requesting screenshot from manager...
+2025-12-16 19:38:13,379 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_1765894093.jpg
+2025-12-16 19:38:13,380 - ScreenReader - INFO - Screenshot processed. Starting analysis...
+2025-12-16 19:38:13,380 - ScreenReader - INFO - Trying vision model: liuhaotian/llava-13b...
+2025-12-16 19:38:14,263 - ScreenReader - WARNING - Vision API Failed with liuhaotian/llava-13b (404): {"error":{"message":"No endpoints found for liuhaotian/llava-13b.","code":404},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:38:14,263 - ScreenshotManager - INFO - Deleted screenshot: temp\screenshot_1765894093.jpg
+2025-12-16 19:38:14,267 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:38:22,194 - TTSManager - INFO - Speaking: I don't have the ability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 19:38:22,195 - EdgeTTS - INFO - Generating TTS: I don't have the ability to see or access your scr...
+2025-12-16 19:38:26,247 - EdgeTTS - INFO - Playing audio...
+2025-12-16 19:38:38,400 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765894102.mp3
+2025-12-16 19:39:29,324 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/acf03b700a20aaa6256c431b9dc53915/element/f.BE806515E690C9225D0D6D987B8C7AC4.d.D4D068678F2DF7ED128ACC2BB14F6A75.e.10/text
+2025-12-16 19:44:06,262 - MemoryManager - INFO - Memory loaded.
+2025-12-16 19:44:06,262 - ToolManager - INFO - Tool registered: weather
+2025-12-16 19:44:06,262 - ToolManager - INFO - Tool registered: news
+2025-12-16 19:44:06,262 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 19:44:06,262 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 19:44:12,860 - root - INFO - User: what do you see
+2025-12-16 19:44:12,860 - ToolManager - INFO - Checking screen intent for: what do you see
+2025-12-16 19:44:12,860 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:44:15,408 - ToolManager - INFO - Screen intent result: true
+2025-12-16 19:44:15,408 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 19:44:15,408 - ScreenReader - INFO - Requesting screenshot from manager...
+2025-12-16 19:44:15,445 - ScreenshotManager - INFO - Screenshot saved to temp\screenshot_1765894455.jpg
+2025-12-16 19:44:15,447 - ScreenReader - INFO - Screenshot processed. Starting analysis...
+2025-12-16 19:44:15,447 - ScreenReader - INFO - Trying vision model: google/gemini-2.0-flash-exp:free...
+2025-12-16 19:44:20,335 - ScreenReader - WARNING - Vision API Failed with google/gemini-2.0-flash-exp:free (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"google/gemini-2.0-flash-exp:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Google"}},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:44:20,335 - ScreenReader - INFO - Trying vision model: google/gemini-2.0-flash-thinking-exp:free...
+2025-12-16 19:44:20,989 - ScreenReader - WARNING - Vision API Failed with google/gemini-2.0-flash-thinking-exp:free (400): {"error":{"message":"google/gemini-2.0-flash-thinking-exp:free is not a valid model ID","code":400},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:44:20,989 - ScreenReader - INFO - Trying vision model: google/gemini-2.0-pro-exp-02-05:free...
+2025-12-16 19:44:21,594 - ScreenReader - WARNING - Vision API Failed with google/gemini-2.0-pro-exp-02-05:free (400): {"error":{"message":"google/gemini-2.0-pro-exp-02-05:free is not a valid model ID","code":400},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:44:21,595 - ScreenReader - INFO - Trying vision model: qwen/qwen-2-vl-7b-instruct:free...
+2025-12-16 19:44:22,144 - ScreenReader - WARNING - Vision API Failed with qwen/qwen-2-vl-7b-instruct:free (404): {"error":{"message":"No endpoints found for qwen/qwen-2-vl-7b-instruct:free.","code":404},"user_id":"user_36s60LKSTOxYusZcQaFAO79M0Kz"}
+2025-12-16 19:44:22,145 - ScreenshotManager - INFO - Deleted screenshot: temp\screenshot_1765894455.jpg
+2025-12-16 19:44:22,147 - OpenRouterLLM - INFO - Sending request to OpenRouter (meta-llama/llama-3.3-70b-instruct)...
+2025-12-16 19:44:31,454 - TTSManager - INFO - Speaking: I don't have the capability to see or access visual information. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you?
+2025-12-16 19:44:31,454 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access visua...
+2025-12-16 19:44:37,844 - EdgeTTS - ERROR - TTS Error: Command '['edge-tts', '--voice', 'en-IE-EmilyNeural', '--text', "I don't have the capability to see or access visual information. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you?", '--write-media', 'C:\\Users\\lilvz\\Downloads\\Ava\\temp\\tts_1765894471.mp3']' returned non-zero exit status 3221225786.
+                                                        2025-12-16 20:05:22,062 - MemoryManager - INFO - Memory loaded.
+2025-12-16 20:05:22,063 - ToolManager - INFO - Tool registered: weather
+2025-12-16 20:05:22,063 - ToolManager - INFO - Tool registered: news
+2025-12-16 20:05:22,063 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 20:05:22,063 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 20:05:29,387 - root - INFO - User: what do you see on my screen
+2025-12-16 20:05:29,387 - ToolManager - INFO - Checking screen intent for: what do you see on my screen
+2025-12-16 20:05:29,388 - root - ERROR - Runtime Error: 'OpenRouterLLM' object has no attribute 'extract_screen_intent'
+2025-12-16 20:06:33,426 - MemoryManager - INFO - Memory loaded.
+2025-12-16 20:06:33,427 - ToolManager - INFO - Tool registered: weather
+2025-12-16 20:06:33,427 - ToolManager - INFO - Tool registered: news
+2025-12-16 20:06:33,427 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 20:06:33,427 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 20:06:44,034 - root - INFO - User: what do you see on my screen
+2025-12-16 20:06:44,034 - ToolManager - INFO - Checking screen intent for: what do you see on my screen
+2025-12-16 20:06:44,034 - OpenRouterLLM - INFO - Sending request to OpenRouter (qwen/qwen3-coder:free)...
+2025-12-16 20:06:51,393 - OpenRouterLLM - WARNING - OpenRouter Failed (500): {"error":{"message":"Internal Server Error","code":500}}
+2025-12-16 20:06:51,393 - ToolManager - INFO - Screen intent result: error: 500
+2025-12-16 20:06:51,397 - OpenRouterLLM - INFO - Sending request to OpenRouter (qwen/qwen3-coder:free)...
+2025-12-16 20:06:54,455 - OpenRouterLLM - WARNING - OpenRouter Failed (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice"}},"user_id":"user_36s3H7MSRHzYCb3DiZl6X8jUumQ"}
+2025-12-16 20:06:54,542 - TTSManager - INFO - Speaking: Error: 429
+2025-12-16 20:06:54,542 - EdgeTTS - INFO - Generating TTS: Error: 429...
+2025-12-16 20:06:57,226 - EdgeTTS - INFO - Playing audio...
+2025-12-16 20:07:00,814 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765895814.mp3
+2025-12-16 20:07:50,838 - MemoryManager - INFO - Memory loaded.
+2025-12-16 20:07:50,838 - ToolManager - INFO - Tool registered: weather
+2025-12-16 20:07:50,838 - ToolManager - INFO - Tool registered: news
+2025-12-16 20:07:50,838 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 20:07:50,838 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 20:08:06,485 - root - INFO - User: what do you see on my screen
+2025-12-16 20:08:06,485 - ToolManager - INFO - Checking screen intent for: what do you see on my screen
+2025-12-16 20:08:06,485 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 20:08:07,277 - ToolManager - INFO - Screen intent result: false
+2025-12-16 20:08:07,279 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 20:08:11,594 - TTSManager - INFO - Speaking: I don't have the capability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 20:08:11,594 - EdgeTTS - INFO - Generating TTS: I don't have the capability to see or access your ...
+2025-12-16 20:08:13,420 - EdgeTTS - INFO - Playing audio...
+2025-12-16 20:08:25,814 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765895891.mp3
+2025-12-16 20:08:30,310 - root - ERROR - Runtime Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-12-16 20:47:04,379 - MemoryManager - INFO - Memory loaded.
+2025-12-16 20:47:04,379 - ToolManager - INFO - Tool registered: weather
+2025-12-16 20:47:04,379 - ToolManager - INFO - Tool registered: news
+2025-12-16 20:47:04,379 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 20:47:04,380 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 20:47:19,376 - root - INFO - User: what what do you see on my screen
+2025-12-16 20:47:19,379 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 20:47:23,713 - TTSManager - INFO - Speaking: I don't have the ability to see or access your screen. I'm a text-based assistant, and I can only respond to input I receive. How can I assist you today?
+2025-12-16 20:47:23,713 - EdgeTTS - INFO - Generating TTS: I don't have the ability to see or access your scr...
+2025-12-16 20:47:29,296 - EdgeTTS - INFO - Playing audio...
+2025-12-16 20:47:41,491 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765898243.mp3
+2025-12-16 20:47:42,719 - MemoryManager - INFO - Memory loaded.
+2025-12-16 20:47:42,719 - ToolManager - INFO - Tool registered: weather
+2025-12-16 20:47:42,719 - ToolManager - INFO - Tool registered: news
+2025-12-16 20:47:42,719 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 20:47:42,719 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 20:47:51,489 - root - INFO - User: what do you see on my screen
+2025-12-16 20:47:51,493 - OpenRouterLLM - INFO - Sending request to OpenRouter (qwen/qwen3-coder:free)...
+2025-12-16 20:47:55,126 - OpenRouterLLM - WARNING - OpenRouter Failed (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_36s3H7MSRHzYCb3DiZl6X8jUumQ"}
+2025-12-16 20:47:55,212 - TTSManager - INFO - Speaking: Error: 429
+2025-12-16 20:47:55,212 - EdgeTTS - INFO - Generating TTS: Error: 429...
+2025-12-16 20:47:58,405 - EdgeTTS - INFO - Playing audio...
+2025-12-16 20:48:01,983 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765898275.mp3
+2025-12-16 20:48:16,032 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/275a7002005f7e0a1770293529b5adc5/element/f.CAAD3D711742B80C8E503BA77CEDC21E.d.3F41B4D09ECB55976D71B93564B7BF73.e.6/text
