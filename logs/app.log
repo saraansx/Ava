@@ -2298,3 +2298,22 @@ IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE 
 2025-12-16 06:55:05,300 - EdgeTTS - INFO - Generating TTS: The image on your screen shows a computer monitor ...
 2025-12-16 06:55:14,178 - EdgeTTS - INFO - Playing audio...
 2025-12-16 06:55:40,391 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765848305.mp3
+2025-12-16 07:10:13,647 - MemoryManager - INFO - Memory loaded.
+2025-12-16 07:10:13,647 - ToolManager - INFO - Tool registered: weather
+2025-12-16 07:10:13,647 - ToolManager - INFO - Tool registered: news
+2025-12-16 07:10:13,647 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 07:10:13,647 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 07:10:13,647 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 07:10:38,682 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/58e3f87a338391857853610d5e798100/element/f.AA4E748AF38980B729EB16D670755B75.d.61AF74AD05A95A43A93D7A33A57A0844.e.6/text
+2025-12-16 07:13:36,126 - MemoryManager - INFO - Memory loaded.
+2025-12-16 07:13:36,126 - ToolManager - INFO - Tool registered: weather
+2025-12-16 07:13:36,126 - ToolManager - INFO - Tool registered: news
+2025-12-16 07:13:36,126 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 07:13:36,126 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 07:13:36,126 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 07:46:14,637 - MemoryManager - INFO - Memory loaded.
+2025-12-16 07:46:14,638 - ToolManager - INFO - Tool registered: weather
+2025-12-16 07:46:14,638 - ToolManager - INFO - Tool registered: news
+2025-12-16 07:46:14,638 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 07:46:14,638 - ToolManager - INFO - Vision Mode: LOCAL (Ollama)
+2025-12-16 07:46:14,638 - ToolManager - INFO - Tool registered: screen_reader
