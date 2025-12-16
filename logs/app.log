@@ -2952,3 +2952,61 @@ IF YOU PROVIDE THE USER'S QUESTION OR STATEMENT, I CAN GIVE A SPECIFIC RESPONSE 
 2025-12-16 20:47:58,405 - EdgeTTS - INFO - Playing audio...
 2025-12-16 20:48:01,983 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765898275.mp3
 2025-12-16 20:48:16,032 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/275a7002005f7e0a1770293529b5adc5/element/f.CAAD3D711742B80C8E503BA77CEDC21E.d.3F41B4D09ECB55976D71B93564B7BF73.e.6/text
+2025-12-16 21:42:11,294 - MemoryManager - INFO - Memory loaded.
+2025-12-16 21:42:11,294 - ToolManager - INFO - Tool registered: weather
+2025-12-16 21:42:11,294 - ToolManager - INFO - Tool registered: news
+2025-12-16 21:42:11,294 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 21:42:11,294 - VLMManager - INFO - VLMManager initialized with model: minicpm-v
+2025-12-16 21:42:11,294 - ScreenReaderTool - INFO - ScreenReaderTool initialized
+2025-12-16 21:42:11,294 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 21:42:19,201 - root - INFO - User: read my screen
+2025-12-16 21:42:19,202 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 21:42:19,202 - ScreenReaderTool - INFO - Executing screen reader...
+2025-12-16 21:42:19,202 - VLMManager - INFO - Starting screen reading workflow...
+2025-12-16 21:42:19,279 - VLMManager - INFO - Screenshot captured: temp\screenshot_20251216_214219.png
+2025-12-16 21:42:19,284 - VLMManager - INFO - Sending screenshot to VLM model: minicpm-v
+2025-12-16 21:42:40,416 - VLMManager - INFO - VLM analysis completed successfully
+2025-12-16 21:42:40,416 - VLMManager - INFO - Cleaned up screenshot: temp\screenshot_20251216_214219.png
+2025-12-16 21:42:40,419 - OpenRouterLLM - INFO - Sending request to OpenRouter (qwen/qwen3-coder:free)...
+2025-12-16 21:42:44,492 - OpenRouterLLM - WARNING - OpenRouter Failed (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Venice"}},"user_id":"user_36s3H7MSRHzYCb3DiZl6X8jUumQ"}
+2025-12-16 21:42:44,579 - TTSManager - INFO - Speaking: Error: 429
+2025-12-16 21:42:44,579 - EdgeTTS - INFO - Generating TTS: Error: 429...
+2025-12-16 21:42:47,427 - EdgeTTS - INFO - Playing audio...
+2025-12-16 21:42:51,425 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765901564.mp3
+2025-12-16 21:43:10,148 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/3fb8b009cc8606b47153f2bf09605759/element/f.A0ADB4C4A9D4E535EA0F89D325A2AA6D.d.9D47D26EE22CD2642657904335FA23BF.e.16/text
+2025-12-16 21:52:01,214 - MemoryManager - INFO - Memory loaded.
+2025-12-16 21:52:01,215 - ToolManager - INFO - Tool registered: weather
+2025-12-16 21:52:01,215 - ToolManager - INFO - Tool registered: news
+2025-12-16 21:52:01,215 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 21:52:01,215 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 21:52:09,881 - root - INFO - User: what is on my screen
+2025-12-16 21:52:09,882 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 21:52:09,958 - VLMManager - INFO - Sending screen to minicpm-v for analysis...
+2025-12-16 21:52:24,845 - OpenRouterLLM - INFO - Sending request to OpenRouter (qwen/qwen3-coder:free)...
+2025-12-16 21:52:28,531 - OpenRouterLLM - WARNING - OpenRouter Failed (429): {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations","provider_name":"Chutes"}},"user_id":"user_36s3H7MSRHzYCb3DiZl6X8jUumQ"}
+2025-12-16 21:52:28,621 - TTSManager - INFO - Speaking: Error: 429
+2025-12-16 21:52:28,621 - EdgeTTS - INFO - Generating TTS: Error: 429...
+2025-12-16 21:52:32,428 - EdgeTTS - INFO - Playing audio...
+2025-12-16 21:52:36,476 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765902148.mp3
+2025-12-16 21:52:43,668 - MemoryManager - INFO - Memory loaded.
+2025-12-16 21:52:43,668 - ToolManager - INFO - Tool registered: weather
+2025-12-16 21:52:43,668 - ToolManager - INFO - Tool registered: news
+2025-12-16 21:52:43,668 - ToolManager - INFO - Tool registered: system_info
+2025-12-16 21:52:43,668 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-16 21:52:58,347 - root - INFO - User: what is on my screen
+2025-12-16 21:52:58,347 - ToolManager - INFO - Triggering tool: screen_reader
+2025-12-16 21:52:58,422 - VLMManager - INFO - Sending screen to minicpm-v for analysis...
+2025-12-16 21:53:05,515 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-16 21:53:16,993 - TTSManager - INFO - Speaking: The image displays a software development IDE with multiple windows and tabs open. Key elements include:
+
+1. **Left Sidebar**: A menu offering various options.  
+2. **Center**: A code editor with "config.py" open, showing coding operations.  
+3. **Right**: A reference panel pointing to "screen_reader.py".  
+4. **Top Bar**: Status bar indicating the system as "LML Provider" with version details.  
+5. **Bottom Left**: File property bar with details like type, size, and editing options.  
+6. **Triangle Icon (Bottom Left)**: Likely a menu or option to run/analyze code.  
+7. **Top Right**: A suggestion panel possibly showing library information.  
+
+This setup is typical for writing, testing, and analyzing code in a development environment.
+2025-12-16 21:53:16,993 - EdgeTTS - INFO - Generating TTS: The image displays a software development IDE with...
+2025-12-16 21:53:36,847 - EdgeTTS - INFO - Playing audio...

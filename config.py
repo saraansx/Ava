@@ -14,5 +14,5 @@ class Config:
     
 
     # LLM Provider: "OPENROUTER", "COHERE"
-    LLM_PROVIDER = "OPENROUTER"
+    LLM_PROVIDER = "COHERE"
 

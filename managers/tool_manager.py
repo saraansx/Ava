@@ -3,6 +3,8 @@ from config import Config
 from tools.weather import WeatherTool
 from tools.news import NewsTool
 from tools.system_info import SystemInfoTool
+from Functions.screen.screen_reader import ScreenReaderTool
+
 
 class ToolManager:
     def __init__(self, llm_instance=None):
@@ -15,8 +17,8 @@ class ToolManager:
         self.register_tool(WeatherTool())
         self.register_tool(NewsTool())
         self.register_tool(SystemInfoTool())
+        self.register_tool(ScreenReaderTool())
 
-        # Screen Reader removed per user request
         
     def register_tool(self, tool):
         self.tools[tool.name] = tool
@@ -30,7 +32,10 @@ class ToolManager:
             return self.tools.get("news")
         
         if self.llm:
-             pass
+            screen_intent = self.llm.check_screen_read_intent(text)
+            if "YES" in screen_intent:
+                self.logger.info("LLM detected screen reading intent.")
+                return self.tools.get("screen_reader")
         
         system_keywords = [
             "system", "spec", "specs", "processor", "cpu", 
@@ -70,5 +75,9 @@ class ToolManager:
             
             elif tool.name == "system_info":
                 return tool.execute(query_type=user_text)
+
+            elif tool.name == "screen_reader":
+                return tool.execute()
+            
         
         return None

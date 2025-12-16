@@ -32,6 +32,14 @@ class OpenRouterLLM:
         except:
             return "None"
 
+    def check_screen_read_intent(self, text):
+        prompt = f"Using your knowledge, analyze the user query: '{text}'. Does the user explicitly want you to look at, read, analyze, describe, or use the current screen content? Return 'YES' if they do, and 'NO' if they don't."
+        try:
+            content, _, _ = self.generate([], system_prompt=prompt)
+            return content.strip().upper().replace(".", "")
+        except:
+            return "NO"
+
 
 
     def get_model_context_limit(self, model_name):
