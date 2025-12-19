@@ -1578,5 +1578,21 @@
     {
         "role": "assistant",
         "content": "The visual context shows an open Notepad document on your screen with the text \"Hello\". The surrounding environment includes software like Visual Studio Code and a Screen Reader tool."
+    },
+    {
+        "role": "user",
+        "content": "hello hello (System: Respond in clear English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
+    },
+    {
+        "role": "user",
+        "content": "hello hello (System: Respond in clear English.)"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello, how can I assist you today?"
     }
 ]

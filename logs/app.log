@@ -3605,3 +3605,26 @@ THEREFORE, THE ANSWER TO WHETHER THE USER WANTS YOU TO CHECK/READ/DESCRIBE THEIR
 2025-12-17 00:17:53,665 - EdgeTTS - INFO - Generating TTS: The visual context shows an open Notepad document ...
 2025-12-17 00:17:57,163 - EdgeTTS - INFO - Playing audio...
 2025-12-17 00:18:10,607 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1765910873.mp3
+2025-12-19 06:35:41,537 - MemoryManager - INFO - Memory loaded.
+2025-12-19 06:35:41,538 - ToolManager - INFO - Tool registered: weather
+2025-12-19 06:35:41,538 - ToolManager - INFO - Tool registered: news
+2025-12-19 06:35:41,538 - ToolManager - INFO - Tool registered: system_info
+2025-12-19 06:35:41,538 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-19 06:37:05,090 - root - INFO - User: hello hello
+2025-12-19 06:37:05,094 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-19 06:37:09,249 - TTSManager - INFO - Speaking: Hello, how can I assist you today?
+2025-12-19 06:37:09,249 - EdgeTTS - INFO - Generating TTS: Hello, how can I assist you today?...
+2025-12-19 06:37:12,045 - EdgeTTS - INFO - Playing audio...
+2025-12-19 06:37:15,562 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1766106429.mp3
+2025-12-19 06:37:25,702 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/442a778437a640d1157ec97587149672/element/f.A8310982E23D7B8F6211D3C199B1B3E7.d.86EBAF168AA924C3A430475592EF20C5.e.14/text
+2025-12-19 06:38:12,469 - MemoryManager - INFO - Memory loaded.
+2025-12-19 06:38:12,469 - ToolManager - INFO - Tool registered: weather
+2025-12-19 06:38:12,469 - ToolManager - INFO - Tool registered: news
+2025-12-19 06:38:12,469 - ToolManager - INFO - Tool registered: system_info
+2025-12-19 06:38:12,469 - ToolManager - INFO - Tool registered: screen_reader
+2025-12-19 06:38:22,235 - root - INFO - User: hello hello
+2025-12-19 06:38:22,238 - CohereLLM - INFO - Sending request to Cohere (command-a-03-2025)...
+2025-12-19 06:38:26,154 - TTSManager - INFO - Speaking: Hello, how can I assist you today?
+2025-12-19 06:38:26,154 - EdgeTTS - INFO - Generating TTS: Hello, how can I assist you today?...
+2025-12-19 06:38:27,976 - EdgeTTS - INFO - Playing audio...
+2025-12-19 06:38:31,451 - EdgeTTS - INFO - Deleted temp file: C:\Users\lilvz\Downloads\Ava\temp\tts_1766106506.mp3
